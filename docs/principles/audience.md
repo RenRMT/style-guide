@@ -2,7 +2,7 @@
 title: Audience
 layout: default
 parent: Design principles
-nav_order: 2
+nav_order: 5
 ---
 
 We design our visuals for humanitarian partners, but not all partners are the same. Understanding their needs ensures our products are accessible, relevant, and actionable.

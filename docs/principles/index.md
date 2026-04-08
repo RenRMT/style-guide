@@ -4,22 +4,20 @@ layout: default
 nav_order: 2
 ---
 
-Our design principles ensure that maps, charts, and other visuals communicate clear, accurate, and actionable insights to our partners. These principles guide both the creation of visual products and the collaboration between programmes team and the info team. 
+Not all data visualisations work in the same way. Sometimes they show a single, straightforward message; other times they help explain more complex ideas. The most important rule in data visualisation is that the effort needed to understand the visualisation should match the importance and complexity of the message. A visualisation should be as easy to read as possible, but not so simple that it loses meaning.
 
-# Purpose
+This means that if your message is complex, you can allow some complexity in the visualisation but should remove anything unnecessary that makes it harder to understand. If your message is simple, keep the visualisation simple too.
 
-- Our visualisations are convincing. Maps and charts do more than display data: they communicate meaningful insights. 
-- Our visualisations are concise. Maps and charts include all required information to make a convincing point, without distractions or clutter.
-- Our visualisations are correct. Maps and charts are free of errors and omissions. They do not mislead readers, intentionally or un-intentionally.
-- Our visualisations are consistent. Maps and charts adhere to the same standards and principles: across all products and contexts.
+# Design principles
 
-# Audience
+When thinking about data visualisation quality, it can be helpful to consider four different categories. These categories make it easier to analyse why a visualisation may not be working well and how it can be improved.
+- Purpose: does it communicate a meaningful message or finding?
+- Structure: does it represent the data accurately and avoid misleading the viewer?
+- Presentation: is it easy to understand, with unnecessary complexity removed?
+- Style: is it visually consistent, carefully designed, and professionally presented?
 
-- We create maps and charts to inform our audience of humanitarian partners. 
-- We know our audience is well-informed but relies on us to support them with additional insights. 
-- We assume they have sufficient knowledge of the field and context they operate in, but we should not make them work to understand our analysis. 
-- Our products are accessible to any partner who is interested.
+These four qualities can serve as guiding principles for evaluating and creating effective data visualisations. They are explained further below, with some examples of both ends of the spectrum for each category.
 
-# Practice
 
-- No visuals without data: we only create graphics and maps based on actual data. We do not recreate existing visualisations.
+# References
+Wilke, C.O. (2019) Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. O’Reilly Media.

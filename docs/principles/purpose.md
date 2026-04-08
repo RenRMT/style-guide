@@ -4,19 +4,22 @@ layout: default
 parent: Design principles
 nav_order: 1
 ---
+# Purpose
 
-- **Our visualisations are convincing.**  
-  Maps and charts do more than display data—they communicate meaningful insights that support operational understanding and decision‑making. A convincing visual highlights the key message clearly and immediately, without requiring the audience to infer the main point.  
-  **Example:** Instead of a neutral title like “Reported incidents by month,” use “Access incidents increased sharply in Q3, driven by checkpoints in the northern corridor.”
+A visualisation that has **purpose** makes a clear point and contributes meaningfully to the story. It should highlight something that is not immediately obvious and that matters to the reader. It adds value because it supports the reasoning, interpretation, or decision making of the audience.
 
-- **Our visualisations are concise.**  
-  All required information is present, but nothing more. Concise visuals reduce cognitive load and help the reader focus on what matters. Avoid decorative elements, unnecessary colours, or overly detailed legends.  
-  **Example:** Remove administrative boundaries that are not referenced in the analysis; limit gridlines to the minimum needed.
+## Examples of visuals with purpose
 
-- **Our visualisations are correct.**  
-  Visuals must be free of error, avoid misleading impressions, and faithfully represent the underlying data. This includes correct scales, consistent categories, appropriate map projections, and clearly labelled values.  
-  **Example:** Use rates or normalised values (per population or per site) when mapping areas of unequal size to avoid misinterpretation.
+- A visualisation that states the main message clearly, for example by using the title to express the key insight. 
+- A chart that draws attention to a key trend or contrast. For example, by highlighting a surprising pattern with an annotation.
+- A visualisation that is well connected to the text, answers a clear question, and reveals something that cannot be seen directly from the raw data.
+- A map that reveals a spatial pattern or relationship that would not be visible in a non-spatial data visualisation.
 
-- **Our visualisations are consistent.**  
-  Consistency across products builds trust and improves readability. All visuals follow the same design standards: colour palettes, fonts, layer ordering, symbol meanings, administrative boundaries, and terminology.  
-  Consistent design ensures that a partner reading one product can easily interpret another.
+## Visuals with purpose issues
+
+A visualisation has purpose issues when it does not make a clear point, offers no meaningful or worthwhile insight or has no connection to the surrounding text. It can look fine and be technically correct, but it does not add value, support the argument, or answer a relevant question.
+
+- A chart that shows every possible metric or number, resulting in a visualisation without a clear message.
+- A pie chart that is added because “pie charts look nice,” but it shows information that could just as well be explained in the text.
+- A map that displays all administrative regions without explaining why they matter or how they relate to the narrative. 
+- A map with more legend categories than actual data points, making it unhelpful and confusing.
