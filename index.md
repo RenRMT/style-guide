@@ -7,4 +7,4 @@ nav_order: 1
 
 This is a test website for the style guide.
 
-Go to the [colour_palette](https://renrmt.github.io/colour_palette).
+Go to the [colour palettes](https://rendata.nl/color-picker/).
