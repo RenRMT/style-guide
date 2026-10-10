@@ -1,0 +1,21 @@
+{%- comment -%}
+Diverging ramp: left ramp dark to light, neutral centre, right ramp light to dark.
+  left, right: ramp names, e.g. "Baltic", "Cherry"
+  steps: comma-separated steps used on each side, light to dark, e.g. "2,4,6"
+{%- endcomment -%}
+{%- assign left = site.data.palette.ramps[include.left] -%}
+{%- assign right = site.data.palette.ramps[include.right] -%}
+{%- assign picks = include.steps | split: "," -%}
+{%- assign reversed = picks | reverse -%}
+{%- assign centre = site.data.palette.centre -%}
+<div class="swatches swatches--ramp">
+{%- for s in reversed -%}
+{%- assign i = s | plus: -1 -%}{%- assign c = left[i] -%}
+<div class="swatch" style="background:{{ c.hex }};color:{{ c.ink }}"><span class="swatch__name">{{ c.name }}</span><code class="swatch__hex">{{ c.hex }}</code></div>
+{%- endfor -%}
+<div class="swatch swatch--centre" style="background:{{ centre.hex }};color:{{ centre.ink }}"><span class="swatch__name">{{ centre.name }}</span><code class="swatch__hex">{{ centre.hex }}</code></div>
+{%- for s in picks -%}
+{%- assign i = s | plus: -1 -%}{%- assign c = right[i] -%}
+<div class="swatch" style="background:{{ c.hex }};color:{{ c.ink }}"><span class="swatch__name">{{ c.name }}</span><code class="swatch__hex">{{ c.hex }}</code></div>
+{%- endfor -%}
+</div>

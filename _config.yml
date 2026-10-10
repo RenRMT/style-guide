@@ -1,13 +1,17 @@
 # Config file with settings that affect the whole site.
 #
 title: Data visualisation style guide
-description: Standards, guidance and template for data visualisations
+description: Practical rules for charts, maps and colour, with the theory behind them and a template for building your own guide.
 theme: just-the-docs
-baseurl: "/styleguide" 
+color_scheme: ren
+baseurl: "/styleguide"
 url: "https://rendata.nl"
 repository: RenRMT/style_guide
+permalink: pretty # docs/colour/sequential.md -> /docs/colour/sequential/
 aux_links:
-  Github repo: https://github.com/RenRMT/style_guide
+  Colour picker: https://rendata.nl/color-picker/
+  rendata.nl: https://rendata.nl
+  GitHub: https://github.com/RenRMT/style_guide
 
 # paths to logo & favicon
 #logo: "/path/to/logo.png"
@@ -20,13 +24,32 @@ nav_enabled: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-
-footer_content: 'Placeholder footer content. Lorem ipsum dolor sit amet.'
+# Footer text lives in _includes/footer_custom.html
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
+# Callouts: {: .rule } above a paragraph. Colours are remapped to the Ren ramps in _sass/color_schemes/ren.scss
+callouts:
+  rule:
+    title: Rule
+    color: green
+  avoid:
+    title: Avoid
+    color: red
+  adapt:
+    title: Make it your own
+    color: yellow
+  why:
+    title: Why
+    color: blue
+
+# Source material and tooling stay out of the published site
+exclude:
+  - resources/
+  - tools/
+  - README.md
 
 defaults:
   - scope:

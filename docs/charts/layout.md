@@ -1,22 +1,52 @@
 ---
-title: Chart layout specification
+title: Chart layout
 parent: Charts
 nav_order: 1
 ---
-1.	Figure number (optional): use figure number if the chart is referred to in the text. This makes the link between the text and the figure more clear
-2.	Title: title is mandatory in every case. The title should answer the “why” question: why are we showing readers this chart? What is the point we want to make
-3.	Subtitle: descriptive: what are the data points, time period, categories displayed
-4.	Legend:
-5.	Y-axis title: mandatory if units are not included in (sub)title. Preferred location: above y-axis, horizontal. Secondary location: left of y-axis, vertical (if title is very long)
-6.	Y-axis values: Mandatory if chart elements cannot be labelled directly, otherwise optional. 
-7.	Gridlines
-8.	Direct labels / annotation:
-9.	X-axis: use outside tick marks to separate categories if necessary
-10.	X-axis title: Mandatory if x-axis units are not included in (sub) title. centred, horizontal 
-11.	X-axis values: mandatory if chart elements cannot be labelled directly, otherwise optional.
-12.	Source / note
-13.	Logo: mandatory, follow brand guidelines (don’t stretch etc.) Must be placed bottom right. If not possible for whatever reason: top right (?)
 
-![](../../../assets/examples/chart_example.png)
+# Chart layout
 
-![](../../../assets/examples/chart_example_2.png)
+Every chart uses the same template. Elements marked **required** always appear. Include the others only when they help.
+
+<div class="figure">
+<img src="{{ '/assets/examples/chart-anatomy.svg' | relative_url }}" alt="Annotated example chart with twelve numbered layout elements">
+</div>
+
+| # | Element | | Guidance |
+|:-:|:--|:--|:--|
+| 1 | Figure number | optional | Use when the text refers to the chart. |
+| 2 | **Title** | required | The main message, stated as a takeaway. One line if possible. |
+| 3 | **Subtitle** | required | What is shown: measure, units, categories, period and place. |
+| 4 | Legend | if needed | Only when the categories can't be labelled directly. Place it above the plot, left-aligned, in data order. |
+| 5 | Axis title | if needed | Only when the units aren't in the subtitle. Put the y-axis title horizontally above the axis, or vertically to its left only if it's long. Centre the x-axis title below the axis. |
+| 6 | Gridlines | optional | Light (Platinum) and horizontal only. They help when values aren't labelled directly. |
+| 7 | Data labels and annotations | preferred | Label the data instead of the axis. Put labels outside the bars where they fit. Use annotations or shading to point out key values and events. |
+| 8 | Axis values | if needed | Only when the data isn't labelled directly. Use no axis line on the value axis, and a Steel baseline at zero. |
+| 9 | X-axis title | if needed | Only when the units aren't in the title or subtitle. |
+| 10 | **Source** | required | Always. Give the organisation and dataset, then the year. |
+| 11 | Note | optional | Explain choices and data limitations, such as "Excludes unverified reports." |
+| 12 | **Logo** | required for published visuals | Bottom right. Follow the brand guidelines: don't stretch or recolour it. |
+
+## Text
+
+- Use sentence case and left alignment for the title, subtitle, source and note.
+- Write titles in plain words. Don't use acronyms unless every reader knows them.
+- For sizes and weights, see [Typography](../../typography/#sizes-and-weights).
+
+## Spacing
+
+- **Bars:** make each bar 67% of its slot and leave 33% as gap. In Excel, that's a gap width of 50%.
+- **Clustered bars:** bars within a cluster touch or nearly touch, and the gap between clusters is about half a bar wide.
+- **Margins:** leave equal space on all sides, and align everything to the left edge of the title.
+
+## Long category labels
+
+If the labels don't fit, try these in order:
+
+1. Switch to a horizontal bar chart, if the data allows.
+2. Label every second or third value: dates, for example.
+3. Abbreviate ("Jan", "'25"), and explain the abbreviations in a note if needed.
+4. Rotate the labels. This is a last resort.
+
+{: .adapt }
+To make your own template, keep the numbered list and change only the positions and the logo rules to fit your brand. Build it once as a real chart template (an Excel `.crtx` file, a ggplot theme or a Plotly template) so that nobody has to apply it by hand.

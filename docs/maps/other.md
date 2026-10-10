@@ -1,22 +1,29 @@
 ---
-title: Other map types
+title: Other maps
 parent: Maps
 nav_order: 5
 ---
-# Flow maps
 
-Flow maps show movement between places. They are ideal when the goal is to highlight the direction and volume of flows such as migration, trade, or transport. For flow maps, the main challenge is avoiding visual clutter. If too many lines cross each other, the map becomes difficult to read. In these cases, simplifying routes or grouping flows can make the information clearer.
+# Other map types
 
-Examples
+## Reference map
 
-- Displaying displacement flows from origin to destination areas, with line thickness representing the number of people moving. 
-- Illustrating supply routes or humanitarian corridors to show how access changes when roads are closed or unsafe. 
+A reference map shows no data, only geography: coverage area, admin areas, towns, borders, roads. Use it to orient readers or to show a route or border crossing.
 
-# Isoline maps
+- **Avoid** when you need to show variable data such as incidents. Use a thematic map instead.
+- Show the minimum, usually one admin level.
+- Highlight areas in Primary Teal.
 
-Isoline maps are not commonly used for mapping conflict dynamics or humanitarian access. 
-They are best when you want to represent a continuous surface, such as temperature, elevation, or levels of pollution. They help readers understand how conditions change gradually across space. When creating isoline maps, it is important to make sure the data changes smoothly across the area and that there are enough measurement points to create a reliable surface. If the data is too limited or varies sharply, the map may give a false impression.
+## Flow map
 
-- Showing estimated travel time to the nearest health facility during periods of insecurity, with isolines displaying how movement difficulty changes across the terrain. 
-- Mapping interpolated survey results that show gradual changes in perceived safety across a region. 
-- Visualising environmental conditions such as dust concentration or temperature variations that affect humanitarian access.
+A flow map shows movement between places: displacement, supply routes, trade. Line width shows volume, and arrows show direction.
+
+- The main risk is clutter. When lines cross too often, simplify the routes, merge flows or show only the largest ones.
+- Scale line width to the volume, and include a width legend.
+
+## Isoline map
+
+An isoline map draws lines of equal value across a continuous surface, such as travel time to the nearest clinic, temperature or interpolated survey results.
+
+- Use it only when the phenomenon really changes smoothly across space, and when there are enough measurement points.
+- With sparse or sharply varying data, an isoline map looks precise when it isn't. Use points or areas instead.

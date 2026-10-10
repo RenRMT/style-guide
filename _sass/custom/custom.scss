@@ -1,0 +1,87 @@
+// Accents borrowed from the Getij theme on rendata.nl: coral markers, teal brand.
+$accent: #ff9779;
+$accent-ink: #191919;
+$muted: #5c6b68;
+$line-strong: #adcfc9;
+
+::selection { background: $accent; color: $accent-ink; }
+
+a:not([class]) { text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:not([class]):hover { text-decoration-color: $accent; text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+
+.site-title { color: $link-color; font-weight: 700; letter-spacing: -0.01em; }
+
+.main-content {
+  h1 { letter-spacing: -0.02em; }
+  h2 { display: flex; align-items: center; gap: 0.6rem; }
+  h2::before { content: ""; width: 10px; height: 10px; border-radius: 2px; background: $accent; flex: none; }
+  ul li::marker { color: $link-color; }
+  .lead { font-size: 1.125rem; color: $muted; }
+  th { color: $body-heading-color; }
+  img { border-radius: 6px; }
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  font-weight: 600;
+  color: $link-color;
+  box-shadow: inset 3px 0 0 $accent;
+}
+
+// Colour swatches (see _includes/swatches.html, ramp.html, diverging.html)
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+  gap: 0.5rem;
+  margin: 0.75rem 0 1.5rem;
+}
+.swatches--ramp { grid-template-columns: repeat(auto-fit, minmax(4.5rem, 1fr)); gap: 0; }
+.swatches--ramp .swatch { border-radius: 0; }
+.swatches--ramp .swatch:first-child { border-radius: 6px 0 0 6px; }
+.swatches--ramp .swatch:last-child { border-radius: 0 6px 6px 0; }
+.swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 4.5rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+.swatch__name { font-weight: 600; }
+.swatch__hex { background: none !important; color: inherit !important; padding: 0 !important; font-size: 0.7rem; }
+.swatch--centre { box-shadow: inset 0 0 0 1px $border-color; }
+
+// "Do / avoid" pairs
+.rules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.rules > div { background: #fff; border: 1px solid $border-color; border-radius: 6px; padding: 0.75rem 1rem; }
+.rules h4 { margin-top: 0 !important; }
+.rules ul { margin-bottom: 0; }
+
+// Big number example
+.ban {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 13rem;
+  margin: 0.5rem 1rem 1rem 0;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-top: 4px solid $link-color;
+  border-radius: 6px;
+  vertical-align: top;
+}
+.ban__label { font-size: 0.875rem; color: $muted; }
+.ban__value { font-size: 2.5rem; font-weight: 700; line-height: 1.1; color: $body-heading-color; font-variant-numeric: tabular-nums; }
+.ban__context { font-size: 0.875rem; }
+
+.figure { background: #fff; border: 1px solid $border-color; border-radius: 6px; padding: 1rem; margin: 1rem 0 1.5rem; }
+.figure img { margin: 0 auto; }

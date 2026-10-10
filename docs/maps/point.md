@@ -4,37 +4,71 @@ parent: Maps
 nav_order: 4
 ---
 
-# Point based maps
+# Point maps
 
-Point-based maps are used to show information at specific locations. This type of map is useful when the exact position of events or values matters and when the data represent discrete occurrences rather than continuous surfaces.
-Dot density, proportional symbol, and diagram maps are all point based techniques, but each serves a different purpose.
+Use point maps when the exact position of discrete events or values matters, not for continuous surfaces.
 
-- Dot density maps show the distribution of many individual events or items by placing dots inside an area, with each dot representing a fixed amount. 
-- Proportional symbol maps use the size of a symbol to show how large a value is, making them suitable for absolute quantities. 
-- Diagram maps attach small charts such as pie charts or bar graphs to locations when several variables need to be shown at the same point. 
+## Choosing a visual variable
 
-When designing these maps, it is important to choose visual elements carefully. Dot density maps must make clear that dots are randomly placed within an area unless exact coordinates are available. Proportional symbol maps often need transparent symbols so that overlapping values remain visible. Diagram maps should only include a few variables to avoid overwhelming the reader. All point based maps rely on visual cues such as size, colour, shape, and position. Size is the most effective way to show quantitative differences, while colour and shape help distinguish categories. These techniques should not be used for continuous phenomena or when too many variables would make interpretation difficult.
+| To show… | Use |
+|:--|:--|
+| Quantities | **Size** |
+| Categories | **Colour** (or a small number of shapes) |
+| Intensity or density | Transparency, clustering or binning |
 
-## Examples:
+{: .rule }
+Use one primary variable. Use colour *or* size for meaning, and use other variables only to make the map legible. Combine size and colour only when both are equally important.
 
-- Dot density maps can show the spread of individual conflict events, such as each dot representing a recorded security incident to reveal clusters of violence.
-- Proportional symbol maps can display absolute numbers, for example the number of displaced people at each site or the number of conflict related fatalities in each locality.
-- Diagram maps can attach small charts to locations, such as a pie chart showing the mix of conflict event types in each district.
+## Dot map
 
-## Checklist for using visual variable types
+**Up to about 50 dots.** Each dot is one event. Use it when the precise location matters, such as distance to a town, border or route.
 
-1.	Determine the purpose.
-    * Showing quantities -> size
-    * Showing categories -> colour or shape
-    * Showing intensity or density -> transparency, clustering, or binning
-2.	Limit the number of meanings carrying variables.
-    * Use one primary variable; apply others only for legibility.
-3.	Address overplotting.
-    * Use transparency.
-    * Apply cluster markers or hex/grid binning.
-    * Jitter points when exact positions are not critical.
-4.	Consider how people perceive symbols
-    * Limit to a small number of recognisable shapes.
-    * Make sure size differences are clearly visible.
-5.	Test across zoom levels.
-    * Check that symbols stay clear and meaningful when zoomed in or out.
+- **Avoid** with too many points, or when you need to show amounts or types (use proportional circles or colour).
+- Choose a dot size that stays visible without merging.
+- Don't use a legend, because the title explains what a dot is.
+- Avoid insets on dot maps.
+- For *dot density* maps, where each dot is a fixed amount placed at random within an area, state clearly that dots aren't exact locations.
+
+## Circles by colour
+
+**Up to 4 classes, plus "Other".** Each circle is one event, coloured by type: actor, kind of incident.
+
+- **Avoid** with too many points, or when amount matters more than type.
+- Follow the [contrasting order](../../colour/categorical/#two-orders), with Steel for "Other".
+- Use transparency where points overlap.
+
+## Proportional circles
+
+**No fixed maximum.** Circle size shows an amount at a location. This is how to show counts where points overlap: group them into one circle.
+
+- **Avoid** when the range of values is too small, such as only 1 and 2.
+- **Scale by area, not radius.**
+- Always include a size legend, because readers judge sizes poorly.
+- Use transparency, or draw the larger circles first, so that smaller ones stay visible.
+
+## Circles by size and colour
+
+**At most 6 legend entries.** Use it when type and amount are equally important, and no simpler map (or pair of maps) works.
+
+- Works best when comparing two classes, such as two actors.
+- **Avoid** if the legend would need more than about 6–8 entries, or if the map also needs roads, lakes and areas of control.
+- Make sure the size steps are clearly different.
+
+## Annotated map
+
+**Up to 7 callouts, of at most 40 words each.** Text boxes give context for selected points. Use it when readers need to know why particular points matter.
+
+- **Avoid** with many callouts or a complicated legend.
+- Write in headline style: short, and with the most important words first.
+- Give the boxes slight transparency, and keep their leader lines short.
+
+## Overplotting
+
+When points pile up, try these in order:
+
+1. Transparency
+2. Jittering, if exact positions aren't critical
+3. Cluster markers, for interactive maps
+4. Switching to a [hexbin map](../area/#hexbin-map)
+
+Test interactive maps at several zoom levels, and check that the symbols stay clear and meaningful at each one.

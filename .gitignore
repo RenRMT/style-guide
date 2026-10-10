@@ -10,3 +10,6 @@ vendor/
 
 # ignore drafts and notes folder
 drafts/
+
+# source documents (internal, contain personal details); the guide is built from them, not with them
+resources/

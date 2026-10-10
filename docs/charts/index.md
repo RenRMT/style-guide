@@ -1,49 +1,72 @@
 ---
 title: Charts
-nav_order: 7
+nav_order: 6
+has_children: true
 ---
-Charts are the appropriate data visualisation type when you need to visualise the relationship between two or more variables. The type of chart depends on the type of pattern you wish to display: comparison, composition, relationship (correlation) or distribution. The different types of charts are further explained below. Regardless of the chart type chosen, there are a number of elements that should be present in any chart. Manadatory chart layout elements are outlined below.
 
-# Choosing a chart type
+# Charts
 
-If you want to visualise...
+Use a chart when you need to show the relationship between two or more variables. Pick the simplest chart type that supports your point, and lay it out with the [chart template](layout/).
 
-- A change over time or trend, which is:
-  - Continuous (daily, weekly, etc.) -> line chart
-    - and emphasizes volume or totals -> area chart
-    - and shows changing composition over time -> stacked area chart
-  - Discrete (years, quarters, categories) -> column chart
-    - and shows changing composition over time -> stacked column chart
+## Choosing a chart type
 
-- A comparison between categories, which are:
-  - Ordered -> column chart
-    - and across 2 dimensions -> grouped (clustered) column chart
-    - with many series that would overlap -> small multiples column chart
-  - Not ordered -> horizontal bar chart
-    - and across 2 dimensions -> grouped (clustered) bar chart
-    - with many series that would overlap -> small multiples bar chart
+| You want to show… | And the data is… | Use |
+|:--|:--|:--|
+| **Change over time** | continuous (daily, weekly) | [Line chart](time/#line-chart) |
+| | continuous, and the totals matter | [Area chart](time/#area-chart-and-stacked-area-chart) |
+| | continuous, with changing composition | [Stacked area chart](time/#area-chart-and-stacked-area-chart) |
+| | discrete (years, quarters) | [Column chart](comparison/#column-chart) |
+| | discrete, with changing composition | [Stacked column chart](composition/#stacked-bar-and-column-chart) |
+| **Comparison** between categories | unordered | [Horizontal bar chart](comparison/#horizontal-bar-chart) (the default) |
+| | ordered (age groups, months) | [Column chart](comparison/#column-chart) |
+| | across two dimensions | [Clustered bar or column chart](comparison/#clustered-bar-chart) |
+| | many categories, or values close together | [Lollipop or dot chart](comparison/#lollipop-and-dot-chart) |
+| | many series that would overlap | Small multiples |
+| **Composition** (part-to-whole) | 2–5 parts | [Pie or donut chart](composition/#pie-and-donut-chart) |
+| | more parts, or compared across categories | [Stacked bar chart](composition/#stacked-bar-and-column-chart) |
+| | hierarchical | [Treemap](composition/#treemap) |
+| **Distribution** | frequency | [Histogram](distribution/) |
+| | spread, median, outliers | [Box plot](distribution/) |
+| | shape | [Density or violin plot](distribution/) |
+| **Relationship** | two numeric variables | [Scatter plot](relationship/) |
+| | three numeric variables | [Bubble chart](relationship/) |
+| | categorical × numeric | Heatmap |
+| **Flow** | quantities moving between stages | Sankey diagram |
+| **A single number** | | [Big number](big-numbers/) |
 
-- A composition or part-to-whole, with:
-  - 2–5 segments -> pie chart or donut chart
-  - More than 5 segments -> stacked bar chart
-  - Hierarchical or multi-level data -> treemap
+{: .rule }
+When in doubt, use a horizontal bar chart. It handles long labels, reads naturally from top to bottom, and is the chart type people misread least.
 
-- A distribution of values, focusing on:
-  - Frequency distribution -> histogram
-  - Spread, median, outliers -> box plot
-  - Shape or density -> KDE plot or violin plot
+## Limits at a glance
 
-- A relationships or correlation, between:
-  - Two variables -> scatterplot
-  - Three variables -> bubble chart
-  - Mixed categorical + numerical -> heatmap
+| Chart | Maximum |
+|:--|:--|
+| Horizontal bar | 15 bars |
+| Column | 24 columns |
+| Clustered bar or column | 18 bars in total |
+| Stacked bar or column | 7 bars, each with at most 5 segments |
+| Lollipop or dot | 15 categories |
+| Line, area | 4 lines or series |
+| Pie, donut | 6 slices (2–5 is better) |
+| Treemap | 10 rectangles |
+| Scatter, bubble | 4 colour categories |
 
-- Flows or movement:
-  - Flow of quantities between stages -> Sankey diagram
+If you go over a limit, group categories into "Other", use small multiples, or switch to another chart type.
 
-# References
-Atlassian (n.d.) How to choose the right data visualization. Available at: https://www.atlassian.com/data/charts/how-to-choose-data-visualization 
-Datawrapper (2025) A friendly guide to choosing a chart type. Available at: https://www.datawrapper.de/blog/chart-types-guide
-GeeksforGeeks (2025) Choosing the Right Chart Type: A Technical Guide. Available at: https://www.geeksforgeeks.org/data-visualization/choosing-the-right-chart-type-a-technical-guide/
-Highcharts (n.d.) Chartchooser. Available at: https://www.highcharts.com/chartchooser/ 
-The Data Visualisation Catalogue (n.d.) The Data Visualisation Catalogue. Available at: https://datavizcatalogue.com/
+## Rules for every chart
+
+{: .rule }
+Remove the clutter. Charts have no outline, no borders around bars or slices, no 3D effects, no shadows and no background fill.
+
+{: .rule }
+Label directly. Put labels on or next to the data, and use a legend only when direct labels don't fit. Once every value is labelled, drop the value axis and gridlines.
+
+{: .rule }
+Order categories meaningfully: by value, in their natural order, or with the key category first. Never sort alphabetically unless readers need to look items up.
+
+{: .rule }
+Highlight with grey. To make one category the story, colour it Teal and everything else Steel.
+
+---
+
+Chart chooser sources: Atlassian, Datawrapper (2025), Highcharts Chartchooser and the Data Visualisation Catalogue. See [references](../background/references/).

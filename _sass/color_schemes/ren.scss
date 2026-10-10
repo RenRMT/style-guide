@@ -1,0 +1,45 @@
+// Ren: teal & coral, matching the Getij theme on rendata.nl (assets/css/getij.css, light mode).
+// Imported after color_schemes/light, so plain assignments override its !default values.
+
+$color-scheme: light;
+
+$body-font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", roboto, arial, sans-serif;
+$mono-font-family: "IBM Plex Mono", ui-monospace, menlo, consolas, monospace;
+
+// Page
+$body-background-color: #f9f9f9;
+$sidebar-color: #eef4f2;
+$border-color: #d6e7e4;
+$body-heading-color: #191919;
+$body-text-color: #191919;
+$link-color: #1c6758;
+$nav-child-link-color: #5c6b68;
+$search-result-preview-color: #5c6b68;
+$base-button-color: #eef4f2;
+$btn-primary-color: #1c6758;
+$code-background-color: #ebf3f1;
+$table-background-color: #ffffff;
+$search-background-color: #ffffff;
+$feedback-color: #e0ecea;
+
+// Hues used by callouts and labels, remapped to the Ren data ramps.
+$green-000: #85b8ad;  // Teal 4
+$green-100: #338877;
+$green-200: #296d5f;
+$green-300: #1c6758;  // Primary Teal
+$blue-000: #809dc3;   // Baltic 4
+$blue-100: #2b5b9b;
+$blue-200: #22497c;
+$blue-300: #1a375d;
+$yellow-000: #ffac94; // Coral 5
+$yellow-100: #ff9779;
+$yellow-200: #cc7961;
+$yellow-300: #995b49;
+$red-000: #d78a94;    // Cherry 4
+$red-100: #bc3c4c;
+$red-200: #96303d;
+$red-300: #71242e;
+$purple-000: #1c6758;
+$purple-100: #1c6758;
+$purple-200: #296d5f;
+$purple-300: #1f5247;

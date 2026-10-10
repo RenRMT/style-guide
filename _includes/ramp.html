@@ -1,0 +1,19 @@
+{%- comment -%}
+Sequential ramp from _data/palette.json, light to dark.
+  colour: ramp name, e.g. "Teal"
+  steps:  optional comma-separated step numbers, e.g. "2,4,6"; all steps when omitted
+{%- endcomment -%}
+{%- assign ramp = site.data.palette.ramps[include.colour] -%}
+<div class="swatches swatches--ramp">
+{%- if include.steps -%}
+{%- assign picks = include.steps | split: "," -%}
+{%- for s in picks -%}
+{%- assign i = s | plus: -1 -%}{%- assign c = ramp[i] -%}
+<div class="swatch" style="background:{{ c.hex }};color:{{ c.ink }}"><span class="swatch__name">{{ c.name }}</span><code class="swatch__hex">{{ c.hex }}</code></div>
+{%- endfor -%}
+{%- else -%}
+{%- for c in ramp -%}
+<div class="swatch" style="background:{{ c.hex }};color:{{ c.ink }}"><span class="swatch__name">{{ c.name }}</span><code class="swatch__hex">{{ c.hex }}</code></div>
+{%- endfor -%}
+{%- endif -%}
+</div>

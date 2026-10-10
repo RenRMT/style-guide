@@ -1,0 +1,13 @@
+{%- comment -%}
+Fixed swatch row from _data/palette.json.
+  group: key in palette.groups, e.g. "contrasting-order"
+  limit: optional, show only the first n colours
+  numbered: optional, any value prefixes each name with its position
+{%- endcomment -%}
+{%- assign colours = site.data.palette.groups[include.group] -%}
+{%- if include.limit -%}{%- assign colours = colours | slice: 0, include.limit -%}{%- endif -%}
+<div class="swatches">
+{%- for c in colours -%}
+<div class="swatch" style="background:{{ c.hex }};color:{{ c.ink }}"><span class="swatch__name">{% if include.numbered %}{{ forloop.index }}. {% endif %}{{ c.name }}</span><code class="swatch__hex">{{ c.hex }}</code></div>
+{%- endfor -%}
+</div>

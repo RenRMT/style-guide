@@ -1,0 +1,625 @@
+{
+  "groups": {
+    "corporate-brand": [
+      {
+        "name": "Primary Teal",
+        "hex": "#1C6758",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Dark Teal",
+        "hex": "#335252",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#191919",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Light Grey",
+        "hex": "#F3F3F3",
+        "ink": "#191919"
+      }
+    ],
+    "neutral-shades": [
+      {
+        "name": "Platinum",
+        "hex": "#ECECEC",
+        "ink": "#191919"
+      },
+      {
+        "name": "Steel",
+        "hex": "#B8B8B8",
+        "ink": "#191919"
+      }
+    ],
+    "contrasting-order": [
+      {
+        "name": "Teal",
+        "hex": "#338877",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Jasmine",
+        "hex": "#FFDD77",
+        "ink": "#191919"
+      },
+      {
+        "name": "Baltic",
+        "hex": "#2B5B9B",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Coral",
+        "hex": "#FF9779",
+        "ink": "#191919"
+      },
+      {
+        "name": "Sky",
+        "hex": "#88CCFF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Cherry",
+        "hex": "#BC3C4C",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Blush",
+        "hex": "#FFBBDD",
+        "ink": "#191919"
+      },
+      {
+        "name": "Violet",
+        "hex": "#8833AA",
+        "ink": "#FFFFFF"
+      }
+    ],
+    "rainbow-order": [
+      {
+        "name": "Violet",
+        "hex": "#8833AA",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Baltic",
+        "hex": "#2B5B9B",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Sky",
+        "hex": "#88CCFF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Teal",
+        "hex": "#338877",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Jasmine",
+        "hex": "#FFDD77",
+        "ink": "#191919"
+      },
+      {
+        "name": "Blush",
+        "hex": "#FFBBDD",
+        "ink": "#191919"
+      },
+      {
+        "name": "Coral",
+        "hex": "#FF9779",
+        "ink": "#191919"
+      },
+      {
+        "name": "Cherry",
+        "hex": "#BC3C4C",
+        "ink": "#FFFFFF"
+      }
+    ]
+  },
+  "ramps": {
+    "Teal": [
+      {
+        "name": "Teal 1",
+        "hex": "#EBF3F1",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Teal 2",
+        "hex": "#D6E7E4",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Teal 3",
+        "hex": "#ADCFC9",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Teal 4",
+        "hex": "#85B8AD",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Teal 5",
+        "hex": "#5CA092",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Teal 6",
+        "hex": "#338877",
+        "ink": "#FFFFFF",
+        "step": "6"
+      },
+      {
+        "name": "Teal 7",
+        "hex": "#296D5F",
+        "ink": "#FFFFFF",
+        "step": "7"
+      },
+      {
+        "name": "Teal 8",
+        "hex": "#1F5247",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Teal 9",
+        "hex": "#143630",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Teal 10",
+        "hex": "#0A1B18",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Jasmine": [
+      {
+        "name": "Jasmine 1",
+        "hex": "#FFFCF1",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Jasmine 2",
+        "hex": "#FFF8E4",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Jasmine 3",
+        "hex": "#FFF1C9",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Jasmine 4",
+        "hex": "#FFEBAD",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Jasmine 5",
+        "hex": "#FFE492",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Jasmine 6",
+        "hex": "#FFDD77",
+        "ink": "#191919",
+        "step": "6"
+      },
+      {
+        "name": "Jasmine 7",
+        "hex": "#CCB15F",
+        "ink": "#191919",
+        "step": "7"
+      },
+      {
+        "name": "Jasmine 8",
+        "hex": "#998547",
+        "ink": "#191919",
+        "step": "8"
+      },
+      {
+        "name": "Jasmine 9",
+        "hex": "#665830",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Jasmine 10",
+        "hex": "#332C18",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Baltic": [
+      {
+        "name": "Baltic 1",
+        "hex": "#EAEFF5",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Baltic 2",
+        "hex": "#D5DEEB",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Baltic 3",
+        "hex": "#AABDD7",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Baltic 4",
+        "hex": "#809DC3",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Baltic 5",
+        "hex": "#557CAF",
+        "ink": "#FFFFFF",
+        "step": "5"
+      },
+      {
+        "name": "Baltic 6",
+        "hex": "#2B5B9B",
+        "ink": "#FFFFFF",
+        "step": "6"
+      },
+      {
+        "name": "Baltic 7",
+        "hex": "#22497C",
+        "ink": "#FFFFFF",
+        "step": "7"
+      },
+      {
+        "name": "Baltic 8",
+        "hex": "#1A375D",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Baltic 9",
+        "hex": "#11243E",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Baltic 10",
+        "hex": "#09121F",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Coral": [
+      {
+        "name": "Coral 1",
+        "hex": "#FFF5F2",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Coral 2",
+        "hex": "#FFEAE4",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Coral 3",
+        "hex": "#FFD5C9",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Coral 4",
+        "hex": "#FFC1AF",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Coral 5",
+        "hex": "#FFAC94",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Coral 6",
+        "hex": "#FF9779",
+        "ink": "#191919",
+        "step": "6"
+      },
+      {
+        "name": "Coral 7",
+        "hex": "#CC7961",
+        "ink": "#191919",
+        "step": "7"
+      },
+      {
+        "name": "Coral 8",
+        "hex": "#995B49",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Coral 9",
+        "hex": "#663C30",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Coral 10",
+        "hex": "#331E18",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Sky": [
+      {
+        "name": "Sky 1",
+        "hex": "#F3FAFF",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Sky 2",
+        "hex": "#E7F5FF",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Sky 3",
+        "hex": "#CFEBFF",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Sky 4",
+        "hex": "#B8E0FF",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Sky 5",
+        "hex": "#A0D6FF",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Sky 6",
+        "hex": "#88CCFF",
+        "ink": "#191919",
+        "step": "6"
+      },
+      {
+        "name": "Sky 7",
+        "hex": "#6DA3CC",
+        "ink": "#191919",
+        "step": "7"
+      },
+      {
+        "name": "Sky 8",
+        "hex": "#527A99",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Sky 9",
+        "hex": "#365266",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Sky 10",
+        "hex": "#1B2933",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Cherry": [
+      {
+        "name": "Cherry 1",
+        "hex": "#F8ECED",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Cherry 2",
+        "hex": "#F2D8DB",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Cherry 3",
+        "hex": "#E4B1B7",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Cherry 4",
+        "hex": "#D78A94",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Cherry 5",
+        "hex": "#C96370",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Cherry 6",
+        "hex": "#BC3C4C",
+        "ink": "#FFFFFF",
+        "step": "6"
+      },
+      {
+        "name": "Cherry 7",
+        "hex": "#96303D",
+        "ink": "#FFFFFF",
+        "step": "7"
+      },
+      {
+        "name": "Cherry 8",
+        "hex": "#71242E",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Cherry 9",
+        "hex": "#4B181E",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Cherry 10",
+        "hex": "#260C0F",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Blush": [
+      {
+        "name": "Blush 1",
+        "hex": "#FFF8FC",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Blush 2",
+        "hex": "#FFF1F8",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Blush 3",
+        "hex": "#FFE4F1",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Blush 4",
+        "hex": "#FFD6EB",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Blush 5",
+        "hex": "#FFC9E4",
+        "ink": "#191919",
+        "step": "5"
+      },
+      {
+        "name": "Blush 6",
+        "hex": "#FFBBDD",
+        "ink": "#191919",
+        "step": "6"
+      },
+      {
+        "name": "Blush 7",
+        "hex": "#CC96B1",
+        "ink": "#191919",
+        "step": "7"
+      },
+      {
+        "name": "Blush 8",
+        "hex": "#997085",
+        "ink": "#191919",
+        "step": "8"
+      },
+      {
+        "name": "Blush 9",
+        "hex": "#664B58",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Blush 10",
+        "hex": "#33252C",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ],
+    "Violet": [
+      {
+        "name": "Violet 1",
+        "hex": "#F3EBF7",
+        "ink": "#191919",
+        "step": "1"
+      },
+      {
+        "name": "Violet 2",
+        "hex": "#E7D6EE",
+        "ink": "#191919",
+        "step": "2"
+      },
+      {
+        "name": "Violet 3",
+        "hex": "#CFADDD",
+        "ink": "#191919",
+        "step": "3"
+      },
+      {
+        "name": "Violet 4",
+        "hex": "#B885CC",
+        "ink": "#191919",
+        "step": "4"
+      },
+      {
+        "name": "Violet 5",
+        "hex": "#A05CBB",
+        "ink": "#FFFFFF",
+        "step": "5"
+      },
+      {
+        "name": "Violet 6",
+        "hex": "#8833AA",
+        "ink": "#FFFFFF",
+        "step": "6"
+      },
+      {
+        "name": "Violet 7",
+        "hex": "#6D2988",
+        "ink": "#FFFFFF",
+        "step": "7"
+      },
+      {
+        "name": "Violet 8",
+        "hex": "#521F66",
+        "ink": "#FFFFFF",
+        "step": "8"
+      },
+      {
+        "name": "Violet 9",
+        "hex": "#361444",
+        "ink": "#FFFFFF",
+        "step": "9"
+      },
+      {
+        "name": "Violet 10",
+        "hex": "#1B0A22",
+        "ink": "#FFFFFF",
+        "step": "10"
+      }
+    ]
+  },
+  "centre": {
+    "name": "Neutral",
+    "hex": "#F9F9F9",
+    "ink": "#191919"
+  }
+}

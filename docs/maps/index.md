@@ -1,20 +1,42 @@
 ---
 title: Maps
-nav_order: 8
+nav_order: 7
+has_children: true
 ---
-# General Principles & Guidelines
-1. Map only when geography matters: not all data with a spatial component should be mapped. Before creating a map, ask: Does location really matter for the story being told? Many comparisons (differences between areas, time trends, variable relationships) may be communicated more clearly with charts or tables. 
-2. A map must enhance the data story: Because creating a high quality map requires effort, ensure that mapping adds real value and clarity to your narrative rather than being used just because it is possible.
-3. Principles of design matter, but rules can be flexible: Map design follows principles and best practices, but not all rules are rigid. Skilled designers can adapt or bend rules when justified—so long as the data is portrayed truthfully. 
-4. Understand map vocabulary and elements: Effective mapping requires understanding fundamental map components such as basemaps, layers, and how spatial data is structured (raster vs vector).
-5. Choose the right map type and data format: Different types of map data (e.g., vector vs raster) come with different strengths—vector data allows infinitely crisp zooming, while raster is limited to its original image resolution. 
 
+# Maps
 
-# References
-Brewer, C.A., 1994. Color Use Guidelines for Mapping and Visualization.
-Brewer, C.A. & ColorBrewer Team, n.d. ColorBrewer 2.0. Available at: https://www.colorbrewer2.org
-Dougherty, J. & Ilyankou, I. (2021) Hands On Data Visualization: Interactive Storytelling from Spreadsheets to Code. O’Reilly Media
-Monmonier, M., 2018. How to Lie with Maps. 3rd ed. Chicago: University of Chicago Press.
-Slocum, T.A., McMaster, R.B., Kessler, F.C. & Howard, H.H., 2009. Thematic Cartography and Geovisualization. 3rd ed. Upper Saddle River, NJ: Pearson.
-ESRI, n.d. Cartography Blog. Available at: https://www.esri.com/arcgis-blog/category/cartography/
-United States Geological Survey (USGS), n.d. National Map Guidelines. Available at: https://www.usgs.gov/usgs-maps
+{: .rule }
+Map only when geography matters. Ask whether location matters to the story, or whether it's just available. Differences between areas, trends over time and relationships between variables are often clearer as a [chart](../charts/). A good map takes a lot of effort, so make sure it's worth it.
+
+## Choosing a map type
+
+| You want to show… | Use | Page |
+|:--|:--|:--|
+| Geography only (coverage, admin areas, roads), with no variable data | Reference map | [Other maps](other/#reference-map) |
+| Rates, percentages or intensity per administrative area | Choropleth (coloured areas) | [Area maps](area/#choropleth-map) |
+| The density of many points, when exact locations matter less | Hexbin map | [Area maps](area/#hexbin-map) |
+| Types or categories per area, such as control or access | Chorochromatic / areas of control | [Area maps](area/#chorochromatic-and-areas-of-control-maps) |
+| The exact location of individual events | Dot map | [Point maps](point/#dot-map) |
+| Events by type | Circles by colour | [Point maps](point/#circles-by-colour) |
+| Amounts at locations, including overlapping points | Proportional circles | [Point maps](point/#proportional-circles) |
+| Both type and amount | Circles by size and colour | [Point maps](point/#circles-by-size-and-colour) |
+| Context for a few selected points | Annotated (callout) map | [Point maps](point/#annotated-map) |
+| Movement between places | Flow map | [Other maps](other/#flow-map) |
+| A continuous surface, such as travel time or temperature | Isoline map | [Other maps](other/#isoline-map) |
+
+## Rules for every map
+
+{: .rule }
+Choose the simplest basemap that supports the message. The basemap is context, and must never compete with the data. See [Basemaps and symbols](basemap/).
+
+{: .rule }
+Show one message per map. If the map gets cluttered, split it into several maps or small multiples.
+
+{: .rule }
+Check legibility at the final size. A map that works full-screen may be unreadable at A4 or on a phone.
+
+{: .rule }
+Prefer the title to a legend. If the title and subtitle can explain every symbol, leave the legend out.
+
+Principles can bend: a skilled designer can break a convention for good reason, as long as the data is still shown truthfully.
