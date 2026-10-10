@@ -7,7 +7,7 @@ nav_order: 8
 
 This guide is written to be copied. Most of it applies to any organisation as it is: the principles, chart limits, map rules and the brief. A few parts depend on your brand and tools. This page lists those parts and how to approach each one.
 
-The source is on [GitHub](https://github.com/RenRMT/style_guide). Fork it, or take the structure and write your own.
+The source is on [GitHub](https://github.com/RenRMT/style-guide). Fork it, or take the structure and write your own.
 
 ## What to keep and what to change
 

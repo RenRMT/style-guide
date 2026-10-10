@@ -4,14 +4,14 @@ title: Data visualisation style guide
 description: Practical rules for charts, maps and colour, with the theory behind them and a template for building your own guide.
 theme: just-the-docs
 color_scheme: ren
-baseurl: "/styleguide"
+baseurl: "/style-guide"
 url: "https://rendata.nl"
-repository: RenRMT/style_guide
+repository: RenRMT/style-guide
 permalink: pretty # docs/colour/sequential.md -> /docs/colour/sequential/
 aux_links:
   Colour picker: https://rendata.nl/color-picker/
   rendata.nl: https://rendata.nl
-  GitHub: https://github.com/RenRMT/style_guide
+  GitHub: https://github.com/RenRMT/style-guide
 
 # paths to logo & favicon
 #logo: "/path/to/logo.png"

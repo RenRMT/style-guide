@@ -1,6 +1,6 @@
 # Style guide
 
-A data visualisation style guide: practical rules first, theory in a separate Background section, and notes throughout on adapting it into your own guide. Built with Jekyll and the just-the-docs theme, hosted on GitHub Pages at [rendata.nl/style_guide](https://rendata.nl/style_guide/).
+A data visualisation style guide: practical rules first, theory in a separate Background section, and notes throughout on adapting it into your own guide. Built with Jekyll and the just-the-docs theme, hosted on GitHub Pages at [rendata.nl/style-guide](https://rendata.nl/style-guide/).
 
 The colours also live in the [interactive colour picker](https://rendata.nl/color-picker/).
 
