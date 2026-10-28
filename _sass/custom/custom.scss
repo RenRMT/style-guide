@@ -1,31 +1,118 @@
-// Accents borrowed from the Getij theme on rendata.nl: coral markers, teal brand.
+// REN Data design system: coral is the single accent, teal is the brand, 3px is the largest radius, no shadows.
 $accent: #ff9779;
+$accent-hover: #ffac94;
 $accent-ink: #191919;
 $muted: #5c6b68;
 $line-strong: #adcfc9;
+$highlight: #ffd5c9;
+$serif-font-family: "Newsreader", georgia, "Times New Roman", serif;
+
+body { font-variant-numeric: tabular-nums; }
 
 ::selection { background: $accent; color: $accent-ink; }
 
-a:not([class]) { text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:not([class]) { text-underline-offset: 3px; text-decoration-thickness: 1px; transition: text-decoration-color 0.15s, text-decoration-thickness 0.15s; }
 a:not([class]):hover { text-decoration-color: $accent; text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
 
-.site-title { color: $link-color; font-weight: 700; letter-spacing: -0.01em; }
+mark { background: linear-gradient(transparent 58%, $highlight 58%); color: inherit; padding: 0 0.1em; }
 
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+.site-title { font-family: $serif-font-family; font-weight: 600; color: $link-color; letter-spacing: -0.01em; }
+
+// Type: Newsreader for h1/h2, Plex Sans semibold for h3, so levels differ in kind, not just size.
+// just-the-docs sets heading sizes with !important, so these need it too.
 .main-content {
-  h1 { letter-spacing: -0.02em; }
-  h2 { display: flex; align-items: center; gap: 0.6rem; }
-  h2::before { content: ""; width: 10px; height: 10px; border-radius: 2px; background: $accent; flex: none; }
+  h1, h2 { font-family: $serif-font-family; font-weight: 500; letter-spacing: -0.015em; line-height: 1.2; text-wrap: balance; }
+  h1 { font-size: clamp(32px, 4vw, 42px) !important; }
+  h1.fs-9 { font-size: clamp(40px, 5.5vw, 60px) !important; line-height: 1.05; }
+  h2 { font-size: 24px !important; display: flex; align-items: center; gap: 0.75rem; }
+  h2::before { content: ""; width: 10px; height: 10px; background: $accent; flex: none; }
+  h3 { font-size: 18px !important; font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
+  p { text-wrap: pretty; }
   ul li::marker { color: $link-color; }
-  .lead { font-size: 1.125rem; color: $muted; }
+  .lead { font-size: 1.125rem; color: $muted; max-width: 66ch; }
   th { color: $body-heading-color; }
-  img { border-radius: 6px; }
+  img { border-radius: 3px; }
+  :not(pre) > code { color: $body-heading-color; }
 }
 
 .nav-list .nav-list-item .nav-list-link.active {
   font-weight: 600;
   color: $link-color;
   box-shadow: inset 3px 0 0 $accent;
+}
+
+// Buttons: square, flat. Primary is coral; the rest are teal outlines that thicken on hover and never fill.
+.btn {
+  border-radius: 0;
+  box-shadow: inset 0 0 0 1.5px $link-color;
+  background: transparent;
+  background-image: none;
+  color: $link-color;
+  font-weight: 600;
+  transition: background-color 0.15s, box-shadow 0.15s;
+
+  &:hover, &.zeroclipboard-is-hover, &:focus, &.zeroclipboard-is-active, &:active, &.selected {
+    box-shadow: inset 0 0 0 2px $link-color;
+    background: transparent;
+    background-image: none;
+    color: $link-color;
+  }
+}
+.btn.btn-primary {
+  background: $accent;
+  color: $accent-ink;
+  box-shadow: none;
+
+  &:hover, &.zeroclipboard-is-hover, &:focus, &.zeroclipboard-is-active, &:active, &.selected {
+    background: $accent-hover;
+    color: $accent-ink;
+    box-shadow: none;
+  }
+}
+
+// No drop shadows anywhere: hairlines instead.
+.table-wrapper { box-shadow: none; border: 1px solid $border-color; }
+.search-results { box-shadow: none; border: 1px solid $border-color; }
+
+// Callouts ({: .rule } etc.): a ruled line with a mono key and a coloured square, not a tinted box.
+$callouts: (rule: #338877, avoid: #bc3c4c, adapt: #ccb15f, why: #2b5b9b); // Teal 6, Cherry 6, Jasmine 7, Baltic 6
+@each $name, $colour in $callouts {
+  .main-content p.#{$name}, .main-content blockquote.#{$name} {
+    position: relative;
+    max-width: 66ch;
+    margin: 1rem 0;
+    padding: 0.75rem 0;
+    background: none;
+    border: 0;
+    border-top: 1px solid $line-strong;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 15px;
+    line-height: 1.6;
+    color: $body-text-color;
+
+    &::before {
+      display: block;
+      margin-bottom: 0.25rem;
+      padding: 0 0 0 16px;
+      background: linear-gradient($colour, $colour) left center / 8px 8px no-repeat;
+      color: $body-text-color;
+      font: 12px/1.9 $mono-font-family;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @include mq(md) {
+      padding-left: 88px;
+      &::before { position: absolute; top: 0.75rem; left: 0; margin: 0; }
+    }
+  }
 }
 
 // Colour swatches (see _includes/swatches.html, ramp.html, diverging.html)
@@ -37,33 +124,48 @@ a:not([class]):hover { text-decoration-color: $accent; text-decoration-thickness
 }
 .swatches--ramp { grid-template-columns: repeat(auto-fit, minmax(4.5rem, 1fr)); gap: 0; }
 .swatches--ramp .swatch { border-radius: 0; }
-.swatches--ramp .swatch:first-child { border-radius: 6px 0 0 6px; }
-.swatches--ramp .swatch:last-child { border-radius: 0 6px 6px 0; }
+.swatches--ramp .swatch:first-child { border-radius: 3px 0 0 3px; }
+.swatches--ramp .swatch:last-child { border-radius: 0 3px 3px 0; }
 .swatch {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   min-height: 4.5rem;
   padding: 0.5rem;
-  border-radius: 6px;
+  border-radius: 3px;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
   font-size: 0.75rem;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 .swatch__name { font-weight: 600; }
-.swatch__hex { background: none !important; color: inherit !important; padding: 0 !important; font-size: 0.7rem; }
+.swatch__hex { background: none !important; color: inherit !important; padding: 0 !important; font-family: $mono-font-family; font-size: 11px; }
 .swatch--centre { box-shadow: inset 0 0 0 1px $border-color; }
 
-// "Do / avoid" pairs
+// Paired lists: ruled lines, not cards. In .rules--do-avoid the second column is keyed cherry.
 .rules {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 1rem;
+  gap: 1.25rem 2.5rem;
   margin: 1rem 0 1.5rem;
+  padding: 1.125rem 0;
+  border-top: 1px solid $line-strong;
+  border-bottom: 1px solid $border-color;
 }
-.rules > div { background: #fff; border: 1px solid $border-color; border-radius: 6px; padding: 0.75rem 1rem; }
-.rules h4 { margin-top: 0 !important; }
-.rules ul { margin-bottom: 0; }
+.rules > div { min-width: 0; }
+.main-content .rules h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $body-heading-color;
+}
+.rules h4::before { content: ""; width: 8px; height: 8px; background: #338877; flex: none; }
+.rules--do-avoid > div:nth-child(2) h4::before { background: #bc3c4c; }
+.rules ul { margin-bottom: 0; font-size: 14px; line-height: 1.55; }
 
 // Big number example
 .ban {
@@ -76,12 +178,12 @@ a:not([class]):hover { text-decoration-color: $accent; text-decoration-thickness
   background: #fff;
   border: 1px solid $border-color;
   border-top: 4px solid $link-color;
-  border-radius: 6px;
+  border-radius: 3px;
   vertical-align: top;
 }
 .ban__label { font-size: 0.875rem; color: $muted; }
-.ban__value { font-size: 2.5rem; font-weight: 700; line-height: 1.1; color: $body-heading-color; font-variant-numeric: tabular-nums; }
+.ban__value { font-size: 44px; font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; color: $body-heading-color; font-variant-numeric: tabular-nums; }
 .ban__context { font-size: 0.875rem; }
 
-.figure { background: #fff; border: 1px solid $border-color; border-radius: 6px; padding: 1rem; margin: 1rem 0 1.5rem; }
+.figure { background: #fff; border: 1px solid $border-color; border-radius: 3px; padding: 1rem; margin: 1rem 0 1.5rem; }
 .figure img { margin: 0 auto; }

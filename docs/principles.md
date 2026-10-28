@@ -23,7 +23,7 @@ A visual must make a point that matters to the reader and that isn't obvious wit
 {: .rule }
 State the main message in the title. Every other element supports that message.
 
-<div class="rules" markdown="1">
+<div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">
 #### Do
 - Write titles as a takeaway: "Access improved in all districts but one".
@@ -47,7 +47,7 @@ The data is represented accurately. Axes, scales, transformations and values are
 {: .rule }
 Bars and areas start at zero. Keep units consistent, and base every trend line and error bar on real calculations.
 
-<div class="rules" markdown="1">
+<div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">
 #### Do
 - Choose conventional forms: bars for comparison, lines for trends, scatter plots for relationships.
@@ -73,7 +73,7 @@ The reader quickly understands the visual's structure, relationships and meaning
 {: .rule }
 Remove everything that doesn't help understanding. Guide the eye to the point, and don't make the reader work it out.
 
-<div class="rules" markdown="1">
+<div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">
 #### Do
 - Label data directly, and keep legends close to the data when you need them.
@@ -100,7 +100,7 @@ Design choices help the reader understand the message instead of distracting fro
 {: .rule }
 Use the house [colours](../colour/) and [typeface](../typography/), and the [chart](../charts/layout/) and [map](../maps/layout/) templates.
 
-<div class="rules" markdown="1">
+<div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">
 #### Do
 - Use legible colours, strong contrast and one clean typeface.
