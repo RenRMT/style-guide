@@ -1,10 +1,12 @@
-// Ren: teal & coral, matching the Getij theme on rendata.nl (assets/css/getij.css, light mode).
+// Ren: teal & coral, following the REN Data design system (tokens/colors.css, light theme).
 // Imported after color_schemes/light, so plain assignments override its !default values.
 
 $color-scheme: light;
 
 $body-font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", roboto, arial, sans-serif;
 $mono-font-family: "IBM Plex Mono", ui-monospace, menlo, consolas, monospace;
+$content-line-height: 1.65;
+$border-radius: 3px; // 3px is the maximum anywhere
 
 // Page
 $body-background-color: #f9f9f9;
@@ -16,7 +18,7 @@ $link-color: #1c6758;
 $nav-child-link-color: #5c6b68;
 $search-result-preview-color: #5c6b68;
 $base-button-color: #eef4f2;
-$btn-primary-color: #1c6758;
+$btn-primary-color: #ff9779; // Coral: the single accent
 $code-background-color: #ebf3f1;
 $table-background-color: #ffffff;
 $search-background-color: #ffffff;
@@ -31,10 +33,10 @@ $blue-000: #809dc3;   // Baltic 4
 $blue-100: #2b5b9b;
 $blue-200: #22497c;
 $blue-300: #1a375d;
-$yellow-000: #ffac94; // Coral 5
-$yellow-100: #ff9779;
-$yellow-200: #cc7961;
-$yellow-300: #995b49;
+$yellow-000: #ffebad; // Jasmine 4
+$yellow-100: #ffdd77;
+$yellow-200: #ccb15f;
+$yellow-300: #998547;
 $red-000: #d78a94;    // Cherry 4
 $red-100: #bc3c4c;
 $red-200: #96303d;
