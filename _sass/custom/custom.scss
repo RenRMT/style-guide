@@ -40,10 +40,40 @@ mark { background: linear-gradient(transparent 58%, $highlight 58%); color: inhe
   :not(pre) > code { color: $body-heading-color; }
 }
 
-.nav-list .nav-list-item .nav-list-link.active {
-  font-weight: 600;
-  color: $link-color;
-  box-shadow: inset 3px 0 0 $accent;
+// Sidebar: matches .sidebar__nav on rendata.nl. Muted links turn teal on hover; the current page gets an 8px coral square, no background.
+$sidebar-line: #e0ecea;
+.side-bar { @include mq(md) { border-right-color: $sidebar-line; } }
+.site-header { @include mq(md) { border-bottom-color: $sidebar-line; } }
+.site-title:hover, .site-button:hover { background-image: none; }
+
+.nav-list .nav-list-item {
+  @include mq(md) { font-size: 15px !important; }
+
+  .nav-list-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: $muted;
+
+    &::before { content: ""; width: 8px; height: 8px; background: transparent; flex: none; }
+  }
+
+  // .site-nav lifts these above just-the-docs' child-link colour rule
+  .site-nav & .nav-list-link {
+    &:hover, &.active { color: $link-color; background-image: none; }
+    &.active { font-weight: 700; }
+    &.active::before { background: $accent; }
+  }
+
+  .nav-list-expander:hover { background-image: none; color: $body-heading-color; }
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px !important;
+  a { color: $link-color; text-decoration-color: $line-strong; }
 }
 
 // Buttons: square, flat. Primary is coral; the rest are teal outlines that thicken on hover and never fill.
