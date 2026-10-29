@@ -10,30 +10,57 @@ Use a chart to show a comparison, trend, composition, distribution or relationsh
 
 ## Choosing a chart type
 
-| You want to show… | And the data is… | Use |
-|:--|:--|:--|
-| **Change over time** | continuous (daily, weekly) | [Line chart](time/#line-chart) |
-| | continuous, and the totals matter | [Area chart](time/#area-chart-and-stacked-area-chart) |
-| | continuous, with changing composition | [Stacked area chart](time/#area-chart-and-stacked-area-chart) |
-| | discrete (years, quarters) | [Column chart](comparison/#column-chart) |
-| | two points in time, several categories | [Slope chart](relationship/#slope-chart) |
-| | discrete, with changing composition | [Stacked column chart](composition/#stacked-bar-and-column-chart) |
-| **Comparison** between categories | unordered | [Horizontal bar chart](comparison/#horizontal-bar-chart) (the default) |
-| | ordered (age groups, months) | [Column chart](comparison/#column-chart) |
-| | across two dimensions | [Clustered bar or column chart](comparison/#clustered-bar-chart) |
-| | values close together | [Lollipop or dot chart](comparison/#lollipop-and-dot-chart) |
-| | many series that would overlap | Small multiples |
-| **Composition** (part-to-whole) | 2–5 parts | [Pie or donut chart](composition/#pie-and-donut-chart) |
-| | more parts, or compared across categories | [Stacked bar chart](composition/#stacked-bar-and-column-chart) |
-| | hierarchical | [Treemap](composition/#treemap) |
-| **Distribution** | frequency | [Histogram](distribution/) |
-| | spread, median, outliers | [Box plot](distribution/) |
-| | shape | [Density or violin plot](distribution/) |
-| **Relationship** | two numeric variables | [Scatter plot](relationship/) |
-| | three numeric variables | [Bubble chart](relationship/) |
-| | categorical × numeric | Heatmap |
-| **Flow** | quantities moving between stages | Sankey diagram |
-| **A single number** | | [Big number](../big-numbers/) |
+Find what you want to show, then answer the questions about your data.
+
+<details markdown="1">
+<summary>Showing change over time? Usually a <a href="time/#line-chart">line chart</a></summary>
+
+- Is the data continuous (daily, weekly)? → [Line chart](time/#line-chart)
+  - Do the totals matter? → [Area chart](time/#area-chart-and-stacked-area-chart)
+  - Is the composition changing? → [Stacked area chart](time/#area-chart-and-stacked-area-chart)
+- Is the data discrete (years, quarters)? → [Column chart](comparison/#column-chart)
+  - Is the composition changing? → [Stacked column chart](composition/#stacked-bar-and-column-chart)
+- Only two points in time, several categories? → [Slope chart](relationship/#slope-chart)
+
+</details>
+
+<details markdown="1">
+<summary>Comparing categories? Usually a <a href="comparison/#horizontal-bar-chart">horizontal bar chart</a></summary>
+
+- Are the categories unordered? → [Horizontal bar chart](comparison/#horizontal-bar-chart) (the default)
+- Do they have a natural order (age groups, months)? → [Column chart](comparison/#column-chart)
+- Are you comparing across two dimensions? → [Clustered bar or column chart](comparison/#clustered-bar-chart)
+- Are the values close together? → [Lollipop or dot chart](comparison/#lollipop-and-dot-chart)
+- Are there many series that would overlap? → Small multiples
+
+</details>
+
+<details markdown="1">
+<summary>Showing parts of a whole? A <a href="composition/#pie-and-donut-chart">pie</a> for a few parts, otherwise a <a href="composition/#stacked-bar-and-column-chart">stacked bar</a></summary>
+
+- Are there only 2–5 parts? → [Pie or donut chart](composition/#pie-and-donut-chart)
+- Are there more parts, or are you comparing across categories? → [Stacked bar chart](composition/#stacked-bar-and-column-chart)
+- Are the parts hierarchical? → [Treemap](composition/#treemap)
+
+</details>
+
+<details markdown="1">
+<summary>Showing a distribution? Depends on what matters most</summary>
+
+- Is it the frequency of values? → [Histogram](distribution/)
+- Is it the spread, median and outliers? → [Box plot](distribution/)
+- Is it the overall shape? → [Density or violin plot](distribution/)
+
+</details>
+
+<details markdown="1">
+<summary>Showing a relationship? Usually a <a href="relationship/">scatter plot</a></summary>
+
+- Two numeric variables? → [Scatter plot](relationship/)
+- Three numeric variables? → [Bubble chart](relationship/)
+- A categorical and a numeric variable? → Heatmap
+
+</details>
 
 {: .rule }
 When in doubt, use a horizontal bar chart. It handles long labels, reads naturally from top to bottom, and shows values as position along a common baseline, which people read most accurately.
