@@ -35,15 +35,6 @@ Use one primary variable. Use colour *or* size for meaning, and use other variab
 - If events at nearby locations share a dot, say so in a note: "Events within 2 km share a dot."
 - For *dot density* maps, where each dot is a fixed amount placed at random within an area, state clearly that dots aren't exact locations.
 
-## Circles by colour
-
-**Up to 4 categories, plus "Other".** Each circle is one event, coloured by type: actor, kind of incident.
-
-- **Avoid** with too many points, or when amount matters more than type.
-- Use the [map colour order](../basemap/#colour-on-maps): Teal, Baltic, Cherry, Violet, with Steel for "Other".
-- Separate overlapping points with the white stroke, not with transparency.
-- A second variable, such as type of site, can use [shape](../basemap/#point-symbols). Use three shapes at most.
-
 ## Proportional circles
 
 **No fixed maximum.** Circle size shows an amount at a location. This is how to show counts where points overlap: group them into one circle.
@@ -56,14 +47,6 @@ Use one primary variable. Use colour *or* size for meaning, and use other variab
 - **Scale by area, not radius.** Make the smallest circle at least 4 px.
 - Always include a size key with round values, because readers judge sizes poorly.
 - Draw the larger circles first, so that smaller ones sit on top, and separate them with a 1 px white stroke.
-
-## Circles by size and colour
-
-**At most 6 key entries.** Use it when type and amount are equally important, and no simpler map (or pair of maps) works.
-
-- Works best when comparing two categories, such as two actors.
-- **Avoid** if the key would need more than 6 entries, or if the map also needs roads, lakes and areas of control.
-- Make sure the size steps are clearly different.
 
 ## Annotated map
 
