@@ -1,10 +1,12 @@
 {%- comment -%}
 Fixed swatch row from _data/palette.json.
   group: key in palette.groups, e.g. "contrasting-order"
+  source: optional data file to read instead of palette, e.g. "maps"
   limit: optional, show only the first n colours
   numbered: optional, any value prefixes each name with its position
 {%- endcomment -%}
-{%- assign colours = site.data.palette.groups[include.group] -%}
+{%- assign data = site.data[include.source] | default: site.data.palette -%}
+{%- assign colours = data.groups[include.group] -%}
 {%- if include.limit -%}{%- assign colours = colours | slice: 0, include.limit -%}{%- endif -%}
 <div class="swatches">
 {%- for c in colours -%}

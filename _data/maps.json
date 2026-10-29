@@ -1,0 +1,135 @@
+{
+  "groups": {
+    "location": [
+      {
+        "name": "Water",
+        "hex": "#DCE7EA",
+        "ink": "#191919"
+      },
+      {
+        "name": "Land, focus",
+        "hex": "#F8F5EF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Land, context",
+        "hex": "#EAE6DD",
+        "ink": "#191919"
+      },
+      {
+        "name": "Coastline",
+        "hex": "#FFFFFF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Border",
+        "hex": "#C9C0AE",
+        "ink": "#191919"
+      },
+      {
+        "name": "Regional border",
+        "hex": "#DCD5C6",
+        "ink": "#191919"
+      },
+      {
+        "name": "River",
+        "hex": "#BBD0D6",
+        "ink": "#191919"
+      },
+      {
+        "name": "Ink",
+        "hex": "#2E3A3D",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Land text",
+        "hex": "#665E4F",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Water text",
+        "hex": "#43646D",
+        "ink": "#FFFFFF"
+      }
+    ],
+    "data-led": [
+      {
+        "name": "Water",
+        "hex": "#E6F1EF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Land, focus",
+        "hex": "#FFFFFF",
+        "ink": "#191919"
+      },
+      {
+        "name": "Land, context",
+        "hex": "#DEDED9",
+        "ink": "#191919"
+      },
+      {
+        "name": "Border",
+        "hex": "#B9C2C0",
+        "ink": "#191919"
+      },
+      {
+        "name": "Regional border",
+        "hex": "#D3DCDA",
+        "ink": "#191919"
+      },
+      {
+        "name": "River",
+        "hex": "#B9D2CD",
+        "ink": "#191919"
+      },
+      {
+        "name": "Ink",
+        "hex": "#191919",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Land text",
+        "hex": "#5C6B68",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Water text",
+        "hex": "#3F6D65",
+        "ink": "#FFFFFF"
+      }
+    ],
+    "map-order": [
+      {
+        "name": "1. Teal",
+        "hex": "#338877",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "2. Baltic",
+        "hex": "#2B5B9B",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "3. Cherry",
+        "hex": "#BC3C4C",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "4. Violet",
+        "hex": "#8833AA",
+        "ink": "#FFFFFF"
+      },
+      {
+        "name": "Look here: Coral",
+        "hex": "#FF9779",
+        "ink": "#191919"
+      },
+      {
+        "name": "Area outline",
+        "hex": "#1F5247",
+        "ink": "#FFFFFF"
+      }
+    ]
+  }
+}

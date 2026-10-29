@@ -1,7 +1,7 @@
 ---
 title: Area maps
 parent: Maps
-nav_order: 3
+nav_order: 4
 ---
 
 # Area maps
@@ -10,11 +10,31 @@ nav_order: 3
 
 **At most 25 areas. 4–5 classes, plus "no data".** Use it to colour areas by a *relative* value, such as a rate, percentage, density or change.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-choropleth.svg' | relative_url }}" alt="Dutch provinces shaded in four teal classes by share of people in need, with Groningen labelled 46%">
+</div>
+
 - **The data must be normalised.** Show incidents per 100,000 people, not incident counts. Counts make large areas look important regardless of the actual values.
 - **Avoid** for raw counts of events (use a [point map](../point/)), when there are very few or very many areas, and when you'd need to put other data on top.
-- Use a [sequential ramp](../../colour/sequential/) for ordered values, and a [diverging ramp](../../colour/diverging/) for values around a meaningful midpoint, such as an average or zero.
-- Make "no data" clearly different from the lowest class. Use white or Platinum with a hatch, never the lightest ramp step.
+- Draw the borders between filled areas in white, so the fills stay clean. Neighbouring countries keep the context land tone.
+- Label the area the title talks about with its value.
 - When admin areas vary greatly in size, or don't match the pattern, use a [hexbin map](#hexbin-map).
+
+### Colour scales
+
+Use the Teal ramp for ordered values. It starts at Teal 3, so the lightest class never reads as sea or empty land.
+
+{% include ramp.html colour="Teal" steps="3,5,6,8,10" %}
+
+Use a diverging ramp only when the data has a meaningful midpoint, such as change from last year. On maps, use the Baltic–Cherry pair from step 3, for the same reason.
+
+{% include diverging.html left="Baltic" right="Cherry" steps="3,7" %}
+
+**No data:** use a hatch of `#EAE6DD` on `#F8F5EF` at 135°, the same pattern used everywhere else. Never use the lightest ramp step.
+
+<div class="swatches"><div class="swatch" style="background:repeating-linear-gradient(135deg,#EAE6DD 0 2px,#F8F5EF 2px 6px);color:#191919"><span class="swatch__name">No data</span><code class="swatch__hex">#EAE6DD on #F8F5EF</code></div></div>
+
+See [Sequential](../../colour/sequential/) and [Diverging](../../colour/diverging/) for how the ramps are built.
 
 ### Choosing classes
 
@@ -33,7 +53,7 @@ Look at the histogram of your values first.
 - Don't tune the breaks to make the map say what you want.
 
 {: .rule }
-Use 4–5 classes by default and never more than 7. Beyond that, readers can't match shades to the legend.
+Use 4–5 classes by default and never more than 7. Beyond that, readers can't match shades to the key.
 
 ## Hexbin map
 
@@ -45,9 +65,11 @@ A choropleth on a grid of equal hexagons instead of admin areas. Use it when the
 
 ## Chorochromatic and areas of control maps
 
-Use these to colour areas by **type**, not amount: who controls an area, access conditions, land use. Use [categorical colours](../../colour/categorical/), which carry no order. Never use a ramp.
+Use these to colour areas by **type**, not amount: who controls an area, access conditions, land use. Use the [map colour order](../basemap/#colour-on-maps), which carries no order of value. Never use a ramp.
 
-- Keep the number of categories small, and make sure they don't overlap. If they do overlap, show it with a pattern or a separate colour.
-- **Areas of control:** use custom polygons drawn to the real extent, not admin areas, unless control really follows admin boundaries. Use about 50% transparency so the basemap shows through.
+- Keep the number of categories small, at most four, and make sure they don't overlap. If they do overlap, show it with a hatch or a separate colour.
+- **Areas of control:** use custom polygons drawn to the real extent, not admin areas, unless control really follows admin boundaries. Fill them with a light step (2 or 3) of each category's ramp, rather than a transparent fill, so the colours stay exact and the basemap lines still show through on top.
 - You may use colours already assigned to actors, as long as they stay distinguishable.
 - Avoid putting other data on top.
+
+To point out an area without classifying it, use a [highlight area](../other/#highlight-areas) instead.
