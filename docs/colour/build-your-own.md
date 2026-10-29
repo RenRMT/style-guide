@@ -41,7 +41,7 @@ Move each colour a little in hue, saturation or lightness until the set feels li
 - **Swap out the weakest colour.** If one colour contrasts poorly with the rest, or clashes with your brand, replace it. This may cost a little colour-blind safety, so test the result (step 5).
 - **Keep data colours distinct from brand colours.** Make your main data colour a slightly different shade from your primary brand colour, so readers can tell data from branding.
 
-This guide's palette was made this way. The table shows roughly where each colour came from:
+I made this guide's palette this way. The table shows roughly where each colour came from:
 
 | Okabe–Ito | | This guide |
 |:--|:-:|:--|
@@ -55,10 +55,7 @@ This guide's palette was made this way. The table shows roughly where each colou
 
 ## 3. Fix an order
 
-Decide the order in which colours are added, so two-colour charts always look the same and the first few colours have the most contrast. Offer at most two orders:
-
-- **Contrasting**, which maximises the difference between each colour and the ones before it. This is the default.
-- **Gradient (rainbow)**, which puts neighbouring hues next to each other, for a calmer look.
+Decide the order in which colours are added, so two-colour charts always look the same. Make each colour contrast as much as possible with the ones before it, so the first few colours are the most distinct. Offer one order only.
 
 ## 4. Derive ramps
 
@@ -78,7 +75,7 @@ Check each ramp's lightness. A ramp whose base colour is already light, such as 
 
 ## 6. Document and publish
 
-Give every colour a short, memorable name (not "Data 3"), its hex code, its role, and its place in each order. Then publish the palette where people work:
+Give every colour a short, memorable name (not "Data 3"), its hex code, its role, and its place in the order. Then publish the palette where people work:
 
 - in the style guide, as this site does
 - as Office theme colours or a chart template

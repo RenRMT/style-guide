@@ -119,12 +119,12 @@ Most maps need one data colour: **Teal**. Coral marks the single thing you want 
 {% include swatches.html source="maps" group="map-order" %}
 
 {: .adapt }
-The chart [contrasting order](../../colour/categorical/#two-orders) is Teal, Jasmine, Baltic, Coral. On maps, Jasmine disappears into the warm land and Coral is kept for emphasis, so the map order skips both. Everything else follows the chart rules.
+The chart [colour order](../../colour/categorical/#colour-order) is Teal, Jasmine, Baltic, Coral. On maps, Jasmine disappears into the warm land and Coral is kept for emphasis, so the map order skips both. Everything else follows the chart rules: Baltic and Violet are hard to tell apart with deuteranopia, so when all four colours are used, label directly or add shapes.
 
 For choropleth ramps and the "no data" pattern, see [Area maps](../area/#colour-scales).
 
 {: .avoid }
-Transparency, gradients, glows and hillshade. Separate overlapping symbols with a white stroke, not by making them see-through.
+Transparency, gradients, glows, and hillshade unless terrain is the message. Separate overlapping symbols with a white stroke, not by making them see-through.
 
 {: .why }
 Visual variables (position, size, colour, shape and so on) each suit different kinds of data. See [Visual variables](../../background/visual-variables/).

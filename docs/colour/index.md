@@ -48,7 +48,7 @@ Use as few colours as possible. Start with one colour, plus Steel for everything
 Never rely on colour alone. Label directly, or add position, shape or line style, so that the visual still works in greyscale, in black-and-white print and for colour-blind readers. Roughly 1 in 12 men has some form of colour-vision deficiency.
 
 {: .rule }
-Be consistent within a product. The same category always gets the same colour, and the same choice of [colour order](categorical/#two-orders) applies throughout.
+Be consistent within a product. The same category always gets the same colour, and colours are always added in the [colour order](categorical/#colour-order).
 
 {: .avoid }
 Don't use red and green as the only positive/negative signal. If you have to, use them sparingly (an up or down arrow on a [big number](../big-numbers/), say) and always pair them with a + or − sign.

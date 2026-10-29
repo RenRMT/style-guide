@@ -91,7 +91,7 @@ Remove everything that doesn't help understanding. Guide the eye to the point, a
 </div>
 
 {: .why }
-These rules follow from how perception groups and ranks what we see, and from the limits of working memory. See [Perception](../background/perception/) and [Fluency and cognitive load](../background/fluency/).
+These rules follow from how perception groups and ranks what people see, and from the limits of working memory. See [Perception](../background/perception/) and [Fluency and cognitive load](../background/fluency/).
 
 ## Style
 
@@ -103,7 +103,7 @@ Use the house [colours](../colour/) and [typeface](../typography/), and the [cha
 <div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">
 #### Do
-- Use legible colours, strong contrast and one clean typeface.
+- Use legible colours, strong contrast and one sans-serif typeface.
 - Match the tone to the message: a sombre topic gets a sober treatment.
 - Use plain, pronounceable labels and terms.
 </div>

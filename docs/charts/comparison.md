@@ -17,7 +17,7 @@ nav_order: 3
 - **Avoid** when categories have a fixed order such as dates (use a column chart), or when the values are continuous rather than categorical (use a histogram or line chart).
 - Sort bars meaningfully: high to low, or with the key category on top.
 - **Always start the value axis at zero.**
-- Use one colour for all bars. To highlight one bar, make it Teal and the rest Steel.
+- Use one colour for all bars, or [highlight one](../../colour/categorical/#how-many-colours).
 
 ## Column chart
 
@@ -41,13 +41,13 @@ nav_order: 3
 
 ## Lollipop and dot chart
 
-**Up to 15 categories.** A lighter alternative to bars, for many categories or when values sit close together, such as when everything is between 80% and 90%. Because the dot marks the value rather than a bar's length, the axis may start above zero.
+**Up to 15 categories.** A lighter alternative to bars, for when values sit close together, such as when everything is between 80% and 90%. In a dot or dumbbell chart, the dot marks the value, so the axis may start above zero. A lollipop's stem encodes length like a bar, so its axis starts at zero.
 
 <div class="figure">
 <img src="{{ '/assets/examples/lollipop.svg' | relative_url }}" alt="Dumbbell chart of access to clean water in five districts, 2024 and 2025, with an axis starting at 60%">
 </div>
 
-- **Avoid** when you can't label points directly, because dots make comparison less precise.
+- **Avoid** when you can't label points directly: a dot far from its axis label is hard to read off.
 - Keep the stems thin and Steel, so the dots are the focus.
 - A dumbbell chart (two dots joined by a line) shows before and after, or two groups, per category.
 

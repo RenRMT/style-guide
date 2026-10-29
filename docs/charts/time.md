@@ -36,4 +36,4 @@ For discrete periods, such as years or quarters, where each period is a separate
 - Put the most stable or most important series at the bottom.
 
 {: .why }
-Whether a line chart must start at zero is a long-running debate. See [Axes and baselines](../../background/axes/).
+Lines encode position, not length, which is why their axis may start above zero. See [Axes and baselines](../../background/axes/).

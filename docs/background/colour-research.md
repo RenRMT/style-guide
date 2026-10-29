@@ -8,7 +8,7 @@ nav_order: 4
 
 ## Criteria
 
-The data palette was designed against three criteria, in order of importance:
+I designed the data palette against three criteria, in order of importance:
 
 1. **Clear visual language.** The colours form clearly identifiable categories, the ramp steps are easy to tell apart, and there are enough colours for most needs.
 2. **Accessibility.** The palette works with common colour-vision deficiencies, the colours contrast enough with each other and with the background, they stay distinguishable in greyscale, and they work in print and on screen.
@@ -16,18 +16,13 @@ The data palette was designed against three criteria, in order of importance:
 
 ## Starting point
 
-Three palettes designed for colour-blind readers were compared: IBM, Okabe–Ito and Paul Tol's. The IBM palette has too few colours for common chart needs. Tol's colours are already dark and desaturated, which makes it hard to derive light ramps from them. Okabe–Ito was the most flexible. Many published style guides (UNHCR, the WHO, the Urban Institute and the CFPB among them) also follow it to some degree.
+I compared three palettes designed for colour-blind readers: IBM, Okabe–Ito and Paul Tol's. IBM has too few colours, and Tol's are too dark to derive light ramps from. Okabe–Ito was the most flexible. Many published style guides (UNHCR, the WHO, the Urban Institute and the CFPB among them) also follow it to some degree.
 
-Two adjustments came from design practice:
+I then desaturated the colours for print, replaced black with a neutral grey, and added a purple, Violet. Violet costs a little colour-blind safety next to Baltic, but gives a fourth dark colour for lines. See [Build your own palette](../../colour/build-your-own/#shift-towards-your-brand) for how each colour was derived.
 
-- **Highly saturated colours print poorly.** Lower the saturation, or move towards pastel (more white).
-- **Black is too heavy for data.** Replace it with a neutral grey, which matches the lightness of the other colours and doubles as the "de-emphasise" colour.
+## Why a fixed order
 
-One Okabe–Ito colour was replaced with a purple. This costs a little colour-blind safety, but swaps a poorly contrasting colour for a better one. See [Build your own palette](../../colour/build-your-own/#shift-towards-your-brand) for how each colour was derived.
-
-## Why two orders
-
-You can't make a palette in which every colour contrasts strongly with every other. Style guides solve this either by prescribing fixed combinations for each number of colours, or by fixing the order in which colours are added. A fixed order is simpler, and it keeps visuals consistent because two-colour charts always use the same two colours. This guide offers two orders: contrasting, which maximises difference, and rainbow, a calmer gradient.
+No palette lets every colour contrast strongly with every other. Style guides solve this either by prescribing fixed combinations for each number of colours, or by fixing the order in which colours are added. A fixed order is simpler, and keeps visuals consistent: two-colour charts always use the same two colours. This guide's order maximises the difference between each colour and the ones before it.
 
 ## How many colours and steps
 
@@ -37,7 +32,7 @@ You can't make a palette in which every colour contrasts strongly with every oth
 
 ## Palette test results
 
-The palette was checked with simulated protanopia, deuteranopia and tritanopia (Machado et al., 2009). The colour difference (ΔE, CIELAB) was measured between every pair of base colours:
+I checked the palette with simulated protanopia, deuteranopia and tritanopia (Machado et al., 2009), and measured the colour difference (ΔE, CIELAB) between every pair of base colours:
 
 | Colours used | Worst pair | Result |
 |:--|:--|:--|

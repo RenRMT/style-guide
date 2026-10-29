@@ -32,7 +32,7 @@ Text is horizontal. Rotated text is a last resort, after you've tried a horizont
 
 ## Choosing a typeface
 
-If you need to choose a typeface for your own guide, it must have the following three properties:
+A typeface for your own guide needs three properties:
 
 1. **Available:** installed on, or easy to install on, every device and tool your team uses.
 2. **Legible:** clear at small sizes, on screen and in print. Sans-serif is the safe choice.
@@ -52,4 +52,4 @@ Of the common Windows sans-serifs (Aptos, Arial, Calibri, Segoe UI and Verdana),
 If your brand already has a typeface, check it against these criteria before adopting it for charts. Many display typefaces have old-style or proportional figures, which make tables and axis labels look ragged.
 
 {: .why }
-Is serif or sans-serif more legible? What do the tests show? See [Typography research](../background/typography-research/).
+Sans-serif is the safe choice: it is generally more legible at small sizes and on screen, and there is little evidence that serifs read better in print. See [Typography research](../background/typography-research/).

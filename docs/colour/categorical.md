@@ -8,19 +8,13 @@ nav_order: 1
 
 Use categorical colours for categories with no inherent order, such as actor type, incident type or region. Use [sequential](../sequential/) or [diverging](../diverging/) colours when the categories *are* ordered, for example "low – medium – high".
 
-## Two orders
+## Colour order
 
-There are eight data colours. Add them in one of two fixed orders: take as many as you need, from left to right, and stick to one order per product.
-
-**Contrasting order.** The default. Each new colour contrasts as much as possible with the colours before it.
+There are eight data colours. Add them in this fixed order, taking as many as you need from left to right. Each new colour contrasts as much as possible with the colours before it.
 
 {% include swatches.html group="contrasting-order" numbered="yes" %}
 
-**Rainbow order.** Neighbouring colours blend into a smooth gradient, which some designs find calmer. Use it when that look matters more than maximum contrast.
-
-{% include swatches.html group="rainbow-order" numbered="yes" %}
-
-Steel (`#B8B8B8`) can be added to either order, for "Other", "Unknown" or context data.
+Add Steel (`#B8B8B8`) for "Other", "Unknown" or context data.
 
 ## How many colours
 
@@ -32,14 +26,14 @@ Steel (`#B8B8B8`) can be added to either order, for "Other", "Unknown" or contex
 | More than 8 | Don't. Group the smallest categories into "Other", split into small multiples, or highlight one category against Steel. |
 
 {: .rule }
-Use the highlight pattern. To make one category the story, colour it Teal and everything else Steel. This is the most effective use of colour in this guide.
+Use the highlight pattern. To make one category the story, colour it Teal and everything else Steel. One colour against grey draws the eye faster than any combination of colours.
 
 ## Lines and small marks
 
 Jasmine, Coral, Sky and Blush are light. They work well as fills for bars, areas and map polygons, but lines, small dots and text in these colours almost disappear on a white background. Their contrast with white is between 1.3:1 and 2.1:1.
 
 {: .rule }
-For lines, small points and coloured text, use the dark colours first: Teal, Baltic and Cherry. Use Violet only when Baltic isn't also on the chart.
+For lines, small points and coloured text, use the dark colours: Teal, Baltic, Cherry and Violet. Baltic and Violet are hard to tell apart with deuteranopia, so when both are on a chart, label them directly.
 
 {: .why }
 For how the palette was derived and tested, see [Colour research](../../background/colour-research/).

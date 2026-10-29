@@ -7,7 +7,7 @@ has_children: true
 # Maps
 
 {: .rule }
-Map only when geography matters. Ask whether location matters to the story, or whether it's just available. Differences between areas, trends over time and relationships between variables are often clearer as a [chart](../charts/). A good map takes a lot of effort, so make sure it's worth it.
+Map only when geography matters. Differences between areas, trends and relationships are often clearer as a chart. See [Before you make a map](../planning/format/#before-you-make-a-map).
 
 A map answers one question about a place. Everything on it either helps answer that question or comes off. The house style starts from news-graphics cartography: light land, quiet water, few labels and one highlight colour.
 
@@ -47,7 +47,7 @@ A map answers one question about a place. Everything on it either helps answer t
 - Filled boxes over the land
 - Keys and insets placed on top of data
 - Labelling every town
-- Shadows, glows, relief shading and transparency
+- Shadows, glows and transparency, and relief shading unless terrain is the message
 </div>
 </div>
 
@@ -78,5 +78,3 @@ One event colour, the capital and one annotation. The key sits in one row above 
 Seven colours, fifteen labels, filled boxes hiding the land, and a key box sitting on the map. The title names the topic, not the finding.
 </div>
 </div>
-
-Principles can bend: a skilled designer can break a convention for good reason, as long as the data is still shown truthfully.
