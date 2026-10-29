@@ -24,11 +24,7 @@ The guide's rules (bars and areas from zero, lines optionally not) come straight
 
 ## How people read scatter plots
 
-Rensink and Baldridge (2010) measured how accurately and precisely people perceive correlation in scatter plots:
-
-- Both the ability to tell correlations apart and the estimate of how strong a correlation is follow simple laws, described by two parameters.
-- People systematically underestimate moderate correlations. A correlation of 0.5 looks much weaker than "half".
-- With those two parameters, any scatter plot design (dot size, density and so on) can be measured and compared objectively.
+Rensink and Baldridge (2010) measured how accurately people perceive correlation in scatter plots. People systematically underestimate moderate correlations: a correlation of 0.5 looks much weaker than "half".
 
 **In practice:** don't expect readers to see a moderate correlation unaided. If the relationship is the message, state it in the title and add a trend line based on a real calculation.
 

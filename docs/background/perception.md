@@ -6,12 +6,12 @@ nav_order: 1
 
 # Perception
 
-Perception isn't neutral: we actively build what we see. Gestalt psychology describes how we group visual elements into wholes, and our minds look for order and simplicity. Each principle below comes with what it means for design.
+Perception isn't neutral: people actively build what they see. Gestalt psychology describes how people group visual elements into wholes, looking for order and simplicity. Each principle below comes with what it means for design.
 
 ## Gestalt principles
 
 ### Proximity: space signals structure
-We group elements that are close together. Even small differences in spacing create strong perceived structure.
+People group elements that are close together. Even small differences in spacing create strong perceived structure.
 - Group related rows or columns in a table with tighter spacing, and separate groups with white space instead of lines.
 - Cluster related KPIs on a dashboard.
 
@@ -25,18 +25,18 @@ Objects with the same colour, shape, size or orientation look related.
 *Example:* to feature one region out of twelve, make all bars grey and the featured region Teal.
 
 ### Enclosure: boundaries create groups
-We treat everything inside a boundary as a group.
+People treat everything inside a boundary as a group.
 - Light shading can separate forecast from actual values.
 - Use enclosure strategically, not as a box around every chart.
 
-### Closure: we complete shapes ourselves
-We complete shapes mentally, so frames and borders are unnecessary.
+### Closure: readers complete shapes themselves
+People complete shapes mentally, so frames and borders are unnecessary.
 - Remove chart borders, heavy gridlines and background shading. A bar chart without a frame still reads as a whole.
 
 ### Continuity: the eye follows smooth paths
-We follow the smoothest path, and see continuity even where there is none.
+The eye follows the smoothest path, and sees continuity even where there is none.
 - Align labels so the eye moves naturally.
-- Drop the y-axis line: equal spacing already implies the baseline.
+- Drop the y-axis line: aligned tick labels or gridlines already imply it.
 
 ### Connection: the strongest grouping cue
 Connected elements look like they belong together, and connection beats similarity.
@@ -49,7 +49,7 @@ Perception depends on relative brightness and local contrast.
 
 ## Pre-attentive attributes
 
-We spot some features almost instantly, before conscious attention: colour, size, orientation and shape.
+People spot some features almost instantly, before conscious attention: colour, size, orientation and shape.
 
 - Use **one** pre-attentive feature (colour *or* size) to highlight one insight.
 - Combine channels only when the data structure really calls for it, which is rare.

@@ -14,7 +14,7 @@ nav_order: 6
 <img src="{{ '/assets/examples/scatter.svg' | relative_url }}" alt="Scatter plot of health workers against child mortality, with a trend line and an annotated outlier">
 </div>
 
-- **Use** to find correlations, clusters, patterns and outliers, including in large datasets.
+- **Use** to show correlations, clusters, patterns and outliers, including in large datasets.
 - **Avoid** with categorical data or only a few points, and for totals, rankings or part-to-whole data, which are better as bars, lines or pies.
 - **Avoid bubble charts** when the third variable barely varies, or when bubbles would overlap heavily.
 - Keep axis scales consistent across panels, because changing the scale changes how strong a correlation looks.
@@ -25,7 +25,7 @@ nav_order: 6
 
 ## Slope chart
 
-A slope chart shows the change between two points in time for several categories, with one line per category.
+**Up to 10 lines, at most 4 highlighted.** A slope chart shows the change between two points in time for several categories, with one line per category.
 
 <div class="figure">
 <img src="{{ '/assets/examples/slope.svg' | relative_url }}" alt="Slope chart of vaccination coverage in six regions, with one rising and one falling region highlighted">
@@ -35,4 +35,4 @@ A slope chart shows the change between two points in time for several categories
 - Label both ends of each line directly, and highlight the lines that matter.
 
 {: .why }
-People judge correlation in scatter plots systematically, and they underestimate moderate correlations. See [Axes and baselines](../../background/axes/#how-people-read-scatter-plots).
+People underestimate moderate correlations in scatter plots. See [Axes and baselines](../../background/axes/#how-people-read-scatter-plots).

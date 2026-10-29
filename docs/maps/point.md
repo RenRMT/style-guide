@@ -62,15 +62,15 @@ Use one primary variable. Use colour *or* size for meaning, and use other variab
 **At most 6 key entries.** Use it when type and amount are equally important, and no simpler map (or pair of maps) works.
 
 - Works best when comparing two categories, such as two actors.
-- **Avoid** if the key would need more than about 6–8 entries, or if the map also needs roads, lakes and areas of control.
+- **Avoid** if the key would need more than 6 entries, or if the map also needs roads, lakes and areas of control.
 - Make sure the size steps are clearly different.
 
 ## Annotated map
 
-**Up to 7 annotations, of at most 40 words each.** Short text gives context for selected points. Use it when readers need to know why particular points matter.
+**Up to 7 annotations, of at most two lines each.** Short text gives context for selected points. Use it when readers need to know why particular points matter.
 
 - **Avoid** with many annotations or a complicated key.
-- Write in headline style: short, and with the most important words first. Keep each annotation to two lines on the map. Longer text goes beside the map.
+- Write in headline style: short, and with the most important words first. Longer text goes beside the map.
 - Set annotations in [label style](../labels/): regular 11 px Ink with a halo, and a short straight leader line of 0.75 px. Don't put them in boxes.
 
 ## Overplotting

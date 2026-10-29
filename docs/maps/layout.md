@@ -61,7 +61,8 @@ Use this table with the [3 / 30 / 300 rule](../../planning/audience/).
 | Key | ✘ | ✔ | ✔ |
 | Locator map or insets | ✘ | optional | optional |
 | Scale bar, north arrow | ✘ | optional | optional |
-| Source and credits | ✘ | optional | ✔ |
+| Source | ✔ | ✔ | ✔ |
+| Full credits (map layers, partners) | ✘ | optional | ✔ |
 | Neatline (frame) | ✘ | ✘ | optional |
 | Additional graphics (charts, photos) | ✘ | ✘ | optional |
 
@@ -97,13 +98,13 @@ A small map that shows where the main map is. Use either a **country locator** (
 ## North arrow and scale bar
 
 - **North arrow:** only when north isn't at the top. Readers assume it is, and an arrow on a north-up map is one more thing to look past. Leave it out when the projection has no single north.
-- **Scale bar:** only when distances matter to the message. Draw one line with end ticks and a round distance in IBM Plex Mono, 9–11 px. Leave it out of world and continent maps, where the scale varies across the map.
+- **Scale bar:** only when distances matter to the message. Draw one line with end ticks and a round distance in IBM Plex Sans, 9–11 px. Leave it out of world and continent maps, where the scale varies across the map.
 - Place them in a free bottom corner, on whichever of land or sea is emptier.
 
 ## Projection
 
 {: .rule }
-Use a conic projection suited to the country for country maps, and Equal Earth for world maps. Never use Web Mercator for anything that compares areas.
+Use a projection suited to the country for country maps: conic for mid-latitudes, transverse Mercator (UTM) near the equator. Use Equal Earth for world maps. Choropleths and anything else that compares areas need an equal-area projection, so never use Web Mercator for them.
 
 {: .adapt }
 Build your map template once in your GIS tool (an ArcGIS Pro layout or QGIS print layout) with every element in place. Delete what a map doesn't need, rather than adding elements one by one.

@@ -22,7 +22,7 @@ nav_order: 4
 
 ### Colour scales
 
-Use the Teal ramp for ordered values. It starts at Teal 3, so the lightest class never reads as sea or empty land.
+Use the Teal ramp for ordered values. Maps use their own fixed step sets instead of the [chart steps](../../colour/sequential/#which-steps). They start at Teal 3, so the lightest class never reads as sea or empty land, and run to Teal 10, so neighbouring areas still differ: 3, 6, 8, 10 for four classes and 3, 5, 6, 8, 10 for five.
 
 {% include ramp.html colour="Teal" steps="3,5,6,8,10" %}
 
@@ -47,7 +47,7 @@ Look at the histogram of your values first.
 | Evenly spread, or a fixed scale such as 0–100% | **Equal interval** | Intuitive, round class ranges. |
 | Bell-shaped | **Standard deviation** | Shows deviation from the average, and outliers. |
 
-- **Comparing several maps?** Use the same breaks on all of them, either quantiles or manual breaks.
+- **Comparing several maps?** Use the same breaks on all of them: set them by hand, or calculate them once from all the maps' values together.
 - **Extreme outliers?** Avoid equal interval. Use natural breaks or quantiles.
 - Round the class boundaries to readable numbers.
 - Don't tune the breaks to make the map say what you want.
@@ -57,7 +57,7 @@ Use 4–5 classes by default and never more than 7. Beyond that, readers can't m
 
 ## Hexbin map
 
-A choropleth on a grid of equal hexagons instead of admin areas. Use it when the whole area is evenly relevant, there are many overlapping points, and the exact locations don't matter. It's a good replacement for a heatmap.
+A choropleth on a grid of equal hexagons instead of admin areas. Use it when the whole area is evenly relevant, there are many overlapping points, and the exact locations don't matter. It's a good replacement for a smoothed density heatmap.
 
 - Choose a hexagon size that suits the map scale and the density of the data, and state it in the subtitle or a note: "Hexagons of 50 km²".
 - Follow the choropleth rules: at most 4–5 classes plus "no data", and a distinct "no data" or "no incidents" style.

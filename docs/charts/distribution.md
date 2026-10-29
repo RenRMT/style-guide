@@ -6,7 +6,7 @@ nav_order: 7
 
 # Distribution charts
 
-Distribution charts show how values are spread, grouped and distributed, rather than just totals or averages.
+Distribution charts show how the values of a continuous numeric variable are spread and where they cluster, rather than only totals or averages.
 
 | Chart | Shows | Best for |
 |:--|:--|:--|
@@ -26,5 +26,4 @@ Distribution charts show how values are spread, grouped and distributed, rather 
 - **Avoid** for audiences unfamiliar with statistical charts (for them, describe the distribution in words or use a simple histogram), for very small datasets, and when exact values matter more than patterns.
 - **Bin sizes:** with too many bins, a histogram shows noise. With too few, it hides patterns. Try several sizes, and pick round-number bin edges.
 - **Outliers:** decide deliberately whether to explain, transform or show them separately. Don't just let the axis stretch.
-- These charts work only with continuous numeric data.
 - A histogram is also the quickest way to choose [map classes](../../maps/area/#choosing-classes).

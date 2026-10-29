@@ -29,10 +29,13 @@ The guide puts what to do first and why second.
 | [Make your own](docs/your-own/) | Adapt this guide to another brand or organisation. |
 | [Background](docs/background/) | Read the research behind the rules: perception, cognitive load, colour science and typography. Optional. |
 
-Three kinds of notes recur throughout:
+Four kinds of notes recur throughout:
 
 {: .rule }
 A firm rule. Break it only when you can explain why.
+
+{: .avoid }
+A common mistake, and what to do instead.
 
 {: .adapt }
 What to change, and where to start, if you are building a guide for your own brand.

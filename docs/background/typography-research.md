@@ -12,11 +12,11 @@ Sans-serif typefaces are generally considered more legible at small sizes and on
 
 ## Comparing the Windows sans-serifs
 
-Five sans-serif typefaces are installed on most Windows machines: Aptos, Arial, Calibri, Segoe UI and Verdana. All of them meet the availability and legibility criteria. Only Aptos and Calibri meet all three criteria for numbers (lining, tabular and multiplexed figures).
+Of the five sans-serifs on most Windows machines, all meet the availability and legibility criteria, but only Aptos and Calibri also meet the [number criteria](../../typography/#choosing-a-typeface).
 
 | | Aptos | Calibri |
 |:--|:--|:--|
-| Weights | Light, regular, semibold, bold and more | Light and regular. Bold is applied with Ctrl+B. |
+| Weights | Light, regular, semibold, bold and more | Light, regular and bold |
 | Width | Wider | Narrower, so more text fits without shrinking it |
 | Office default | Current default | Default until 2023 |
 

@@ -18,20 +18,21 @@ Every chart uses the same template. Elements marked **required** always appear. 
 | 2 | **Title** | required | The main message, stated as a takeaway. One line if possible. |
 | 3 | **Subtitle** | required | What is shown: measure, units, categories, period and place. |
 | 4 | Legend | if needed | Only when the categories can't be labelled directly. Place it above the plot, left-aligned, in data order. |
-| 5 | Axis title | if needed | Only when the units aren't in the subtitle. Put the y-axis title horizontally above the axis, or vertically to its left only if it's long. Centre the x-axis title below the axis. |
+| 5 | Y-axis title | if needed | Only when the units aren't in the subtitle. Put it horizontally above the axis. If it's too long, move it into the subtitle. |
 | 6 | Gridlines | optional | Light (Platinum) and horizontal only. They help when values aren't labelled directly. |
 | 7 | Data labels and annotations | preferred | Label the data instead of the axis. Put labels outside the bars where they fit. Use annotations or shading to point out key values and events. |
 | 8 | Axis values | if needed | Only when the data isn't labelled directly. Use no axis line on the value axis, and a Steel baseline at zero. |
-| 9 | X-axis title | if needed | Only when the units aren't in the title or subtitle. |
+| 9 | X-axis title | if needed | Only when the units aren't in the subtitle. Centre it below the axis. |
 | 10 | **Source** | required | Always. Give the organisation and dataset, then the year. |
 | 11 | Note | optional | Explain choices and data limitations, such as "Excludes unverified reports." |
 | 12 | **Logo** | required for published visuals | Bottom right. Follow the brand guidelines: don't stretch or recolour it. |
 
 ## Text
 
-- Use sentence case and left alignment for the title, subtitle, source and note.
 - Write titles in plain words. Don't use acronyms unless every reader knows them.
-- For sizes and weights, see [Typography](../../typography/#sizes-and-weights).
+- Round numbers in labels to the precision the message needs, usually two or three significant figures, and use the same number of decimals throughout a chart.
+- On the web, give every chart and map alt text that states the message and the key numbers, and link to the data where you can.
+- For case, alignment, sizes and weights, see [Typography](../../typography/#sizes-and-weights).
 
 ## Spacing
 
