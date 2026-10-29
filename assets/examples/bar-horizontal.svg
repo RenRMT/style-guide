@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 392" width="660" height="392" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Horizontal bar chart</title>
+  <desc id="d">Eight regions sorted from most to fewest incidents. Region D is highlighted in Teal; the others are Steel. Every bar is labelled directly, so there is no value axis.</desc>
+  <rect width="660" height="392" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Region D reports the most incidents</text>
+  <text x="48" y="64" font-size="15" fill="#191919">Recorded security incidents by region, 2025</text>
+
+  <!-- bars: sorted high to low, 3.0 px per incident; one Teal highlight, the rest Steel -->
+  <text x="48" y="107.2" font-size="13" font-weight="600" fill="#191919">Region D</text>
+  <rect x="130" y="92" width="426" height="21.4" fill="#338877"/>
+  <text x="562" y="107.2" font-size="13" font-weight="600" fill="#191919">142</text>
+  <text x="48" y="139.2" font-size="13" fill="#191919">Region B</text>
+  <rect x="130" y="124" width="354" height="21.4" fill="#B8B8B8"/>
+  <text x="490" y="139.2" font-size="13" fill="#191919">118</text>
+  <text x="48" y="171.2" font-size="13" fill="#191919">Region F</text>
+  <rect x="130" y="156" width="291" height="21.4" fill="#B8B8B8"/>
+  <text x="427" y="171.2" font-size="13" fill="#191919">97</text>
+  <text x="48" y="203.2" font-size="13" fill="#191919">Region A</text>
+  <rect x="130" y="188" width="255" height="21.4" fill="#B8B8B8"/>
+  <text x="391" y="203.2" font-size="13" fill="#191919">85</text>
+  <text x="48" y="235.2" font-size="13" fill="#191919">Region H</text>
+  <rect x="130" y="220" width="213" height="21.4" fill="#B8B8B8"/>
+  <text x="349" y="235.2" font-size="13" fill="#191919">71</text>
+  <text x="48" y="267.2" font-size="13" fill="#191919">Region C</text>
+  <rect x="130" y="252" width="192" height="21.4" fill="#B8B8B8"/>
+  <text x="328" y="267.2" font-size="13" fill="#191919">64</text>
+  <text x="48" y="299.2" font-size="13" fill="#191919">Region E</text>
+  <rect x="130" y="284" width="156" height="21.4" fill="#B8B8B8"/>
+  <text x="292" y="299.2" font-size="13" fill="#191919">52</text>
+  <text x="48" y="331.2" font-size="13" fill="#191919">Region G</text>
+  <rect x="130" y="316" width="114" height="21.4" fill="#B8B8B8"/>
+  <text x="250" y="331.2" font-size="13" fill="#191919">38</text>
+
+  <!-- source and note -->
+  <text x="48" y="368" font-size="11" fill="#191919">Source: Example incident database, 2025</text>
+</svg>

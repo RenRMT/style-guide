@@ -10,6 +10,10 @@ nav_order: 6
 
 **Up to 4 colour categories.** A scatter plot shows the relationship between two numeric variables, with one point per observation. A bubble chart adds a third numeric variable as point size.
 
+<div class="figure">
+<img src="{{ '/assets/examples/scatter.svg' | relative_url }}" alt="Scatter plot of health workers against child mortality, with a trend line and an annotated outlier">
+</div>
+
 - **Use** to find correlations, clusters, patterns and outliers, including in large datasets.
 - **Avoid** with categorical data or only a few points, and for totals, rankings or part-to-whole data, which are better as bars, lines or pies.
 - **Avoid bubble charts** when the third variable barely varies, or when bubbles would overlap heavily.
@@ -22,6 +26,10 @@ nav_order: 6
 ## Slope chart
 
 A slope chart shows the change between two points in time for several categories, with one line per category.
+
+<div class="figure">
+<img src="{{ '/assets/examples/slope.svg' | relative_url }}" alt="Slope chart of vaccination coverage in six regions, with one rising and one falling region highlighted">
+</div>
 
 - Use it when the story is "who went up and who went down".
 - Label both ends of each line directly, and highlight the lines that matter.

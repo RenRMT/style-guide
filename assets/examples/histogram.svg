@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 418" width="660" height="418" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Histogram</title>
+  <desc id="d">A histogram of 696 households by distance to the nearest health facility, in 2 km bins from 0 to 20 km. Most households are within 6 km; the counts fall off steadily after that.</desc>
+  <rect width="660" height="418" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Two in three households live within 6 km of care</text>
+  <text x="48" y="64" font-size="15" fill="#191919">Households by distance to the nearest health facility, 2025</text>
+
+  <text x="48" y="100" font-size="13" fill="#191919">Households</text>
+
+  <!-- gridlines and axis values -->
+  <g stroke="#ECECEC" stroke-width="1">
+    <line x1="80" y1="270" x2="610" y2="270"/>
+    <line x1="80" y1="220" x2="610" y2="220"/>
+    <line x1="80" y1="170" x2="610" y2="170"/>
+    <line x1="80" y1="120" x2="610" y2="120"/>
+  </g>
+  <line x1="80" y1="320" x2="610" y2="320" stroke="#B8B8B8" stroke-width="1"/>
+  <g font-size="13" fill="#191919" text-anchor="end">
+    <text x="70" y="324">0</text>
+    <text x="70" y="274">50</text>
+    <text x="70" y="224">100</text>
+    <text x="70" y="174">150</text>
+    <text x="70" y="124">200</text>
+  </g>
+
+  <!-- bins: 2 km wide, round-number edges; bars nearly touch -->
+  <g>
+    <rect x="80.5" y="200" width="52" height="120" fill="#338877"/>
+    <rect x="133.5" y="140" width="52" height="180" fill="#338877"/>
+    <rect x="186.5" y="170" width="52" height="150" fill="#338877"/>
+    <rect x="239.5" y="225" width="52" height="95" fill="#338877"/>
+    <rect x="292.5" y="260" width="52" height="60" fill="#338877"/>
+    <rect x="345.5" y="282" width="52" height="38" fill="#338877"/>
+    <rect x="398.5" y="296" width="52" height="24" fill="#338877"/>
+    <rect x="451.5" y="305" width="52" height="15" fill="#338877"/>
+    <rect x="504.5" y="311" width="52" height="9" fill="#338877"/>
+    <rect x="557.5" y="315" width="52" height="5" fill="#338877"/>
+  </g>
+
+  <!-- x-axis values at the bin edges, and axis title -->
+  <g font-size="13" fill="#191919" text-anchor="middle">
+    <text x="80" y="340">0</text>
+    <text x="133" y="340">2</text>
+    <text x="186" y="340">4</text>
+    <text x="239" y="340">6</text>
+    <text x="292" y="340">8</text>
+    <text x="345" y="340">10</text>
+    <text x="398" y="340">12</text>
+    <text x="451" y="340">14</text>
+    <text x="504" y="340">16</text>
+    <text x="557" y="340">18</text>
+    <text x="610" y="340">20</text>
+    <text x="345" y="366">Distance to nearest health facility (km)</text>
+  </g>
+
+  <!-- source and note -->
+  <text x="48" y="394" font-size="11" fill="#191919">Source: Example household survey, 2025 (n = 696)</text>
+</svg>
