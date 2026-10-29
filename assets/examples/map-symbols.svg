@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Map point symbols</title>
+  <desc id="d">Eight point symbols: a square for the capital, a small dot for a city, a teal event circle, a larger coral highlighted event, a teal diamond and triangle for other site types, an unfilled ring for at-risk sites, and a large proportional circle.</desc>
+  <rect width="320" height="320" fill="#ffffff"/>
+  <rect x="16" y="16" width="44" height="32" rx="3" fill="#F8F5EF"/><rect x="35" y="29" width="6" height="6" fill="#2E3A3D"/><text x="80" y="37" font-size="14" fill="#191919">Capital</text>
+  <rect x="16" y="54" width="44" height="32" rx="3" fill="#F8F5EF"/><circle cx="38" cy="70" r="2.5" fill="#2E3A3D"/><text x="80" y="75" font-size="14" fill="#191919">City or town</text>
+  <rect x="16" y="92" width="44" height="32" rx="3" fill="#F8F5EF"/><circle cx="38" cy="108" r="3.5" fill="#338877" stroke="#FFFFFF" stroke-width="0.75"/><text x="80" y="113" font-size="14" fill="#191919">Event</text>
+  <rect x="16" y="130" width="44" height="32" rx="3" fill="#F8F5EF"/><circle cx="38" cy="146" r="5" fill="#FF9779" stroke="#FFFFFF" stroke-width="0.75"/><text x="80" y="151" font-size="14" fill="#191919">Highlighted event</text>
+  <rect x="16" y="168" width="44" height="32" rx="3" fill="#F8F5EF"/><path d="M38,179 L43,184 L38,189 L33,184 Z" fill="#338877" stroke="#FFFFFF" stroke-width="0.75"/><text x="80" y="189" font-size="14" fill="#191919">Second site type</text>
+  <rect x="16" y="206" width="44" height="32" rx="3" fill="#F8F5EF"/><path d="M38,216.5 L43.5,226 L32.5,226 Z" fill="#338877" stroke="#FFFFFF" stroke-width="0.75"/><text x="80" y="227" font-size="14" fill="#191919">Third site type</text>
+  <rect x="16" y="244" width="44" height="32" rx="3" fill="#F8F5EF"/><circle cx="38" cy="260" r="4.5" fill="none" stroke="#338877" stroke-width="1.5"/><text x="80" y="265" font-size="14" fill="#191919">At risk or unconfirmed</text>
+  <rect x="16" y="282" width="44" height="32" rx="3" fill="#F8F5EF"/><circle cx="38" cy="298" r="12" fill="#338877" stroke="#FFFFFF" stroke-width="1"/><text x="80" y="303" font-size="14" fill="#191919">Proportional circle</text>
+</svg>

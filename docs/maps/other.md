@@ -1,25 +1,50 @@
 ---
 title: Other maps
 parent: Maps
-nav_order: 5
+nav_order: 6
 ---
 
 # Other map types
 
-## Reference map
+## Reference and locator maps
 
-A reference map shows no data, only geography: coverage area, admin areas, towns, borders, roads. Use it to orient readers or to show a route or border crossing.
+A reference map shows no data, only geography: coverage area, admin areas, towns, borders, roads. A locator map is the simplest kind: it shows where one place is. Use them to orient readers, or to show a route or border crossing.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-locator.svg' | relative_url }}" alt="Location basemap of the Netherlands with Amsterdam and a coral dot on Groningen, and a small locator in the top-left corner">
+</div>
+
+- Use the [location basemap](../basemap/#basemap-colours).
+- Show the minimum: the capital, the place in the story and nothing else, usually at one admin level.
+- Mark the place in Coral. Add a [locator](../layout/#locator-map) to put the country in its region.
 - **Avoid** when you need to show variable data such as incidents. Use a thematic map instead.
-- Show the minimum, usually one admin level.
-- Highlight areas in Primary Teal.
 
-## Flow map
+## Highlight areas
 
-A flow map shows movement between places: displacement, supply routes, trade. Line width shows volume, and arrows show direction.
+An outlined box with a label tab names an area without hiding what is under it. Use it to point out where something happened or changed.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-highlight-areas.svg' | relative_url }}" alt="Location basemap with a solid outlined box labelled Patrols increased, and a dashed box labelled Possible new route">
+</div>
+
+- Draw the outline at 1.5 px in `#1F5247`. Use a solid line for confirmed and a dashed line for possible.
+- Put the label in a tab on top of the box: white on `#1F5247` when confirmed, `#1F5247` on white when possible.
+- Use two boxes per map at most, and no fills.
+
+## Routes and flow maps
+
+A routes map shows *where* things move: supply routes, migration paths, trafficking routes. A flow map also shows *how much*, with line width.
+
+<div class="figure">
+<img src="{{ '/assets/examples/map-routes.svg' | relative_url }}" alt="Freight routes from Rotterdam: solid blue sea routes, a dashed suspected sea route, and a teal land route, each with a small arrowhead">
+</div>
+
+- Draw routes at 2 px, with a small solid arrowhead.
+- Use colour for the mode, such as maritime or land, and at most three modes. Use dashes for uncertainty: a dashed route is suspected.
+- Draw smooth or straight lines. Don't trace every bend in the road.
+- Give destinations off the map a short label at the arrow: "To Germany".
+- **Flows:** scale line width to the volume, and include a width key.
 - The main risk is clutter. When lines cross too often, simplify the routes, merge flows or show only the largest ones.
-- Scale line width to the volume, and include a width legend.
 
 ## Isoline map
 

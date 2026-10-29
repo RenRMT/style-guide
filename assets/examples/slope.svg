@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 450" width="660" height="450" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Slope chart</title>
+  <desc id="d">A slope chart of vaccination coverage in six regions, 2020 and 2025. Region B rises most, from 58% to 75%, in Teal. Region D is the only one to fall, from 70% to 52%, in Cherry. The other regions are Steel.</desc>
+  <rect width="660" height="450" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Region B gained most; Region D was the only one to fall</text>
+  <text x="48" y="64" font-size="15" fill="#191919">Children fully vaccinated (%), 2020 and 2025</text>
+
+  <!-- column headers -->
+  <text x="230" y="98" font-size="13" font-weight="600" fill="#191919" text-anchor="middle">2020</text>
+  <text x="430" y="98" font-size="13" font-weight="600" fill="#191919" text-anchor="middle">2025</text>
+
+  <!-- context lines in Steel first, so the highlighted lines sit on top -->
+  <line x1="230" y1="230.3" x2="430" y2="175.2" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="230" cy="230.3" r="4" fill="#B8B8B8"/>
+  <circle cx="430" cy="175.2" r="4" fill="#B8B8B8"/>
+  <text x="218" y="234.8" font-size="13" fill="#191919" text-anchor="end">Region A  64%</text>
+  <text x="442" y="179.7" font-size="13" fill="#191919">71%  Region A</text>
+  <line x1="230" y1="246.1" x2="430" y2="214.5" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="230" cy="246.1" r="4" fill="#B8B8B8"/>
+  <circle cx="430" cy="214.5" r="4" fill="#B8B8B8"/>
+  <text x="218" y="250.6" font-size="13" fill="#191919" text-anchor="end">Region F  62%</text>
+  <text x="442" y="219" font-size="13" fill="#191919">66%  Region F</text>
+  <line x1="230" y1="301.2" x2="430" y2="261.8" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="230" cy="301.2" r="4" fill="#B8B8B8"/>
+  <circle cx="430" cy="261.8" r="4" fill="#B8B8B8"/>
+  <text x="218" y="305.7" font-size="13" fill="#191919" text-anchor="end">Region C  55%</text>
+  <text x="442" y="266.3" font-size="13" fill="#191919">60%  Region C</text>
+  <line x1="230" y1="356.4" x2="430" y2="309.1" stroke="#B8B8B8" stroke-width="2"/>
+  <circle cx="230" cy="356.4" r="4" fill="#B8B8B8"/>
+  <circle cx="430" cy="309.1" r="4" fill="#B8B8B8"/>
+  <text x="218" y="360.9" font-size="13" fill="#191919" text-anchor="end">Region E  48%</text>
+  <text x="442" y="313.6" font-size="13" fill="#191919">54%  Region E</text>
+
+  <!-- highlight: Region B -->
+  <line x1="230" y1="277.6" x2="430" y2="143.6" stroke="#338877" stroke-width="3"/>
+  <circle cx="230" cy="277.6" r="4" fill="#338877"/>
+  <circle cx="430" cy="143.6" r="4" fill="#338877"/>
+  <text x="218" y="282.1" font-size="13" font-weight="600" fill="#191919" text-anchor="end">Region B  58%</text>
+  <text x="442" y="148.1" font-size="13" font-weight="600" fill="#191919">75%  Region B</text>
+
+  <!-- highlight: Region D -->
+  <line x1="230" y1="183" x2="430" y2="324.8" stroke="#BC3C4C" stroke-width="3"/>
+  <circle cx="230" cy="183" r="4" fill="#BC3C4C"/>
+  <circle cx="430" cy="324.8" r="4" fill="#BC3C4C"/>
+  <text x="218" y="187.5" font-size="13" font-weight="600" fill="#191919" text-anchor="end">Region D  70%</text>
+  <text x="442" y="329.3" font-size="13" font-weight="600" fill="#191919">52%  Region D</text>
+
+  <!-- source and note -->
+  <text x="48" y="426" font-size="11" fill="#191919">Source: Example immunisation records, 2020–2025</text>
+</svg>

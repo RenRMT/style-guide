@@ -24,6 +24,7 @@ The guide puts what to do first and why second.
 | [Principles](docs/principles/) | Check if a visual is ready to publish. |
 | [Planning](docs/planning/) | Write a brief, size up your audience and pick a format: a number, a chart, a map or a table. |
 | [Colour](docs/colour/) and [Typography](docs/typography/) | Pick colours and type. |
+| [Big numbers](docs/big-numbers/) | Show one key number at a glance. |
 | [Charts](docs/charts/) and [Maps](docs/maps/) | Lay out a chart or map, choose a type and keep within its limits. |
 | [Make your own](docs/your-own/) | Adapt this guide to another brand or organisation. |
 | [Background](docs/background/) | Read the research behind the rules: perception, cognitive load, colour science and typography. Optional. |

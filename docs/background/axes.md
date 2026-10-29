@@ -10,6 +10,10 @@ nav_order: 6
 
 Readers often complain when a chart's y-axis doesn't start at zero. Whether it should depends on the chart type, the data and the story (Yanofsky, 2015).
 
+<div class="figure">
+<img src="{{ '/assets/examples/axis-baseline.svg' | relative_url }}" alt="The same two bars drawn with an axis starting at 50 and with an axis starting at zero">
+</div>
+
 - **Bars and areas: always zero.** These encode values as length or area. If the axis is truncated, the bar lengths are no longer proportional to the values, and the chart misleads.
 - **Lines and dots: it depends.** These encode values as position. A truncated axis can reveal a meaningful change that a zero baseline would flatten, as long as the axis is labelled clearly.
 - **Use a truncated axis when zero is irrelevant or impossible.** Body temperature or labour-force participation will never be zero, so including zero wastes space and hides the movement.

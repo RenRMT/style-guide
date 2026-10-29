@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" width="660" height="430" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Treemap</title>
+  <desc id="d">Seven rectangles sized by share of funding. Food (32%), Health (18%) and Shelter (16%) are Teal; Water, Education, Protection and Other are Steel.</desc>
+  <rect width="660" height="430" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Three sectors receive two thirds of funding</text>
+  <text x="48" y="64" font-size="15" fill="#191919">Humanitarian funding by sector (%), 2025</text>
+
+  <!-- rectangles: squarified layout, area proportional to share; top three in Teal, the rest Steel -->
+  <rect x="48" y="90" width="178.5" height="288" fill="#338877"/>
+  <text x="58" y="112" font-size="13" font-weight="600" fill="#ffffff">Food</text>
+  <text x="58" y="130" font-size="13" fill="#ffffff">32%</text>
+  <rect x="228.5" y="90" width="189.8" height="151.5" fill="#338877"/>
+  <text x="238.5" y="112" font-size="13" font-weight="600" fill="#ffffff">Health</text>
+  <text x="238.5" y="130" font-size="13" fill="#ffffff">18%</text>
+  <rect x="228.5" y="243.5" width="189.8" height="134.5" fill="#338877"/>
+  <text x="238.5" y="265.5" font-size="13" font-weight="600" fill="#ffffff">Shelter</text>
+  <text x="238.5" y="283.5" font-size="13" fill="#ffffff">16%</text>
+  <rect x="420.2" y="90" width="189.8" height="100.4" fill="#B8B8B8"/>
+  <text x="430.2" y="112" font-size="13" font-weight="600" fill="#191919">Water</text>
+  <text x="430.2" y="130" font-size="13" fill="#191919">12%</text>
+  <rect x="420.2" y="192.4" width="146.2" height="97.3" fill="#B8B8B8"/>
+  <text x="430.2" y="214.4" font-size="13" font-weight="600" fill="#191919">Education</text>
+  <text x="430.2" y="232.4" font-size="13" fill="#191919">9%</text>
+  <rect x="420.2" y="291.7" width="146.2" height="86.3" fill="#B8B8B8"/>
+  <text x="430.2" y="313.7" font-size="13" font-weight="600" fill="#191919">Protection</text>
+  <text x="430.2" y="331.7" font-size="13" fill="#191919">8%</text>
+  <rect x="568.4" y="192.4" width="41.6" height="185.6" fill="#B8B8B8"/>
+  <text x="574.4" y="214.4" font-size="11" font-weight="600" fill="#191919">Other</text>
+  <text x="574.4" y="232.4" font-size="11" fill="#191919">5%</text>
+
+  <!-- source and note -->
+  <text x="48" y="406" font-size="11" fill="#191919">Source: Example funding tracker, 2025</text>
+</svg>

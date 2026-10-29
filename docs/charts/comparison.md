@@ -10,6 +10,10 @@ nav_order: 3
 
 **Up to 15 bars.** The default chart. Use it to compare values across categories and to show rankings. It has room for long labels and reads from top to bottom.
 
+<div class="figure">
+<img src="{{ '/assets/examples/bar-horizontal.svg' | relative_url }}" alt="Horizontal bar chart of incidents by region, sorted high to low, with one bar highlighted">
+</div>
+
 - **Avoid** when categories have a fixed order such as dates (use a column chart), or when the values are continuous rather than categorical (use a histogram or line chart).
 - Sort bars meaningfully: high to low, or with the key category on top.
 - **Always start the value axis at zero.**
@@ -18,6 +22,10 @@ nav_order: 3
 ## Column chart
 
 **Up to 24 columns.** A vertical bar chart. Use it when categories have a natural order, especially time: months, years, age groups.
+
+<div class="figure">
+<img src="{{ '/assets/examples/column.svg' | relative_url }}" alt="Column chart of incidents per month, peaking in July">
+</div>
 
 - **Avoid** with long category labels or for rankings. Use horizontal bars instead.
 - Always start the value axis at zero.
@@ -34,6 +42,10 @@ nav_order: 3
 ## Lollipop and dot chart
 
 **Up to 15 categories.** A lighter alternative to bars, for many categories or when values sit close together, such as when everything is between 80% and 90%. Because the dot marks the value rather than a bar's length, the axis may start above zero.
+
+<div class="figure">
+<img src="{{ '/assets/examples/lollipop.svg' | relative_url }}" alt="Dumbbell chart of access to clean water in five districts, 2024 and 2025, with an axis starting at 60%">
+</div>
 
 - **Avoid** when you can't label points directly, because dots make comparison less precise.
 - Keep the stems thin and Steel, so the dots are the focus.

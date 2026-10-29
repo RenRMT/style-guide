@@ -1,6 +1,6 @@
 ---
 title: Make your own
-nav_order: 8
+nav_order: 9
 ---
 
 # Make your own style guide

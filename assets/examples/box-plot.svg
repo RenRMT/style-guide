@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Box plot</title>
+  <desc id="d">Box plots of clinic waiting times for four regions, sorted by median. East has the highest median (28 minutes) and the widest spread; South has the lowest median (14 minutes).</desc>
+  <rect width="660" height="400" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Waiting times are longest and least predictable in the East</text>
+  <text x="48" y="64" font-size="15" fill="#191919">Clinic waiting time (minutes) by region, 2025</text>
+
+  <!-- boxes: sorted by median; whiskers Steel, outliers as open dots -->
+  <text x="48" y="117.5" font-size="13" font-weight="600" fill="#191919">East</text>
+  <line x1="153.5" y1="113" x2="218.1" y2="113" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="400.2" y1="113" x2="570.6" y2="113" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="153.5" y1="106" x2="153.5" y2="120" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="570.6" y1="106" x2="570.6" y2="120" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="218.1" y="100" width="182.1" height="26" fill="#338877"/>
+  <line x1="294.5" y1="100" x2="294.5" y2="126" stroke="#ffffff" stroke-width="2.5"/>
+  <text x="48" y="167.5" font-size="13" fill="#191919">West</text>
+  <line x1="177" y1="163" x2="212.2" y2="163" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="306.2" y1="163" x2="388.5" y2="163" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="177" y1="156" x2="177" y2="170" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="388.5" y1="156" x2="388.5" y2="170" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="212.2" y="150" width="94" height="26" fill="#338877"/>
+  <line x1="253.4" y1="150" x2="253.4" y2="176" stroke="#ffffff" stroke-width="2.5"/>
+  <circle cx="482.5" cy="163" r="4.5" fill="#ffffff" stroke="#338877" stroke-width="2"/>
+  <text x="48" y="217.5" font-size="13" fill="#191919">North</text>
+  <line x1="159.4" y1="213" x2="200.5" y2="213" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="276.9" y1="213" x2="353.2" y2="213" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="159.4" y1="206" x2="159.4" y2="220" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="353.2" y1="206" x2="353.2" y2="220" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="200.5" y="200" width="76.4" height="26" fill="#338877"/>
+  <line x1="235.8" y1="200" x2="235.8" y2="226" stroke="#ffffff" stroke-width="2.5"/>
+  <circle cx="435.5" cy="213" r="4.5" fill="#ffffff" stroke="#338877" stroke-width="2"/>
+  <text x="48" y="267.5" font-size="13" fill="#191919">South</text>
+  <line x1="165.2" y1="263" x2="188.8" y2="263" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="241.6" y1="263" x2="294.5" y2="263" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="165.2" y1="256" x2="165.2" y2="270" stroke="#B8B8B8" stroke-width="1.5"/>
+  <line x1="294.5" y1="256" x2="294.5" y2="270" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="188.8" y="250" width="52.9" height="26" fill="#338877"/>
+  <line x1="212.2" y1="250" x2="212.2" y2="276" stroke="#ffffff" stroke-width="2.5"/>
+  <circle cx="370.9" cy="263" r="4.5" fill="#ffffff" stroke="#338877" stroke-width="2"/>
+  <circle cx="394.4" cy="263" r="4.5" fill="#ffffff" stroke="#338877" stroke-width="2"/>
+
+  <!-- annotation -->
+  <text x="294.5" y="92" font-size="12" font-weight="600" fill="#191919" text-anchor="middle">Median 28 min</text>
+
+  <!-- value axis -->
+  <g font-size="13" fill="#191919" text-anchor="middle">
+    <text x="130" y="310">0</text>
+    <text x="247.5" y="310">20</text>
+    <text x="365" y="310">40</text>
+    <text x="482.5" y="310">60</text>
+    <text x="600" y="310">80</text>
+    <text x="365" y="336">Waiting time (minutes)</text>
+  </g>
+
+  <!-- source and note -->
+  <text x="48" y="358" font-size="11" fill="#191919">Source: Example clinic records, 2025</text>
+  <text x="48" y="376" font-size="11" fill="#191919">Note: Boxes show the middle 50% of visits; the white line is the median. Dots are outliers.</text>
+</svg>

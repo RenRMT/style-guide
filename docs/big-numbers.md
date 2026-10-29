@@ -1,7 +1,6 @@
 ---
 title: Big numbers (BANs)
-parent: Charts
-nav_order: 2
+nav_order: 6
 ---
 
 # Big numbers (BANs)
@@ -43,7 +42,7 @@ Readers understand a number better when it's related to something they know:
 
 - Show the value in bold and large, in Black or Dark Teal, with tabular figures.
 - The label and context line are regular weight and smaller.
-- Use brand colours for the number and any accent. Up and down arrows may use the [data colours](../../colour/categorical/), but always together with a + or − sign.
+- Use brand colours for the number and any accent. Up and down arrows may use the [data colours](../colour/categorical/), but always together with a + or − sign.
 
 {: .why }
-Barrio, Goldstein and Hofman (2016) found that "perspective" sentences like those above make numbers in the news easier to understand and remember. See [references](../../background/references/).
+Barrio, Goldstein and Hofman (2016) found that "perspective" sentences like those above make numbers in the news easier to understand and remember. See [references](../background/references/).
