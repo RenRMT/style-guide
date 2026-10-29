@@ -5,9 +5,9 @@ nav_order: 2
 
 # Principles
 
-Match the effort a visual asks of the reader to how much its message is worth. Make every visual as easy to read as possible, but don't simplify it so far that it loses meaning. A complex message can justify a complex visual, as long as everything that doesn't help is removed. A simple message gets a simple visual.
+Data visualization turns numbers into shapes that a reader can compare at a glance. It makes patterns, differences and outliers stand out in a way they don’t in a table. That only works when the visual makes a point worth making, shows the data honestly, and is easy to read. A complex message can justify a complex visual, but nothing in it should be there without a reason, and nothing should distract from what it’s trying to say.
 
-Every published visual meets four principles. When a visual isn't working, they help you find out why.
+Every published visual meets these four principles. When a visual isn't working, they help you find out why.
 
 | Principle | The question it answers |
 |:--|:--|
