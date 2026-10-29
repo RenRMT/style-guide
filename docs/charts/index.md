@@ -1,6 +1,6 @@
 ---
 title: Charts
-nav_order: 6
+nav_order: 7
 has_children: true
 ---
 
@@ -32,7 +32,7 @@ Use a chart when you need to show the relationship between two or more variables
 | | three numeric variables | [Bubble chart](relationship/) |
 | | categorical × numeric | Heatmap |
 | **Flow** | quantities moving between stages | Sankey diagram |
-| **A single number** | | [Big number](big-numbers/) |
+| **A single number** | | [Big number](../big-numbers/) |
 
 {: .rule }
 When in doubt, use a horizontal bar chart. It handles long labels, reads naturally from top to bottom, and is the chart type people misread least.

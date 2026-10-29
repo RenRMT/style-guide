@@ -10,7 +10,7 @@ Choose the simplest format that still makes your point.
 
 | Your message is… | Use | Go to |
 |:--|:--|:--|
-| One number or fact, an outcome rather than a relationship | A **big number** (BAN), optionally with a sparkline | [Big numbers](../../charts/big-numbers/) |
+| One number or fact, an outcome rather than a relationship | A **big number** (BAN), optionally with a sparkline | [Big numbers](../../big-numbers/) |
 | A comparison, trend, composition, distribution or relationship between two or more variables | A **chart** | [Charts](../../charts/) |
 | A pattern in which *location itself* matters | A **map** | [Maps](../../maps/) |
 | Exact values the reader needs to look up | A **table** | |

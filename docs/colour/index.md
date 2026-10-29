@@ -51,7 +51,7 @@ Never rely on colour alone. Label directly, or add position, shape or line style
 Be consistent within a product. The same category always gets the same colour, and the same choice of [colour order](categorical/#two-orders) applies throughout.
 
 {: .avoid }
-Don't use red and green as the only positive/negative signal. If you have to, use them sparingly (an up or down arrow on a [big number](../charts/big-numbers/), say) and always pair them with a + or − sign.
+Don't use red and green as the only positive/negative signal. If you have to, use them sparingly (an up or down arrow on a [big number](../big-numbers/), say) and always pair them with a + or − sign.
 
 {: .adapt }
 Building your own palette? See [Build your own palette](build-your-own/). It starts from the colour-blind-safe Okabe–Ito palette, which you then shift towards your brand.
