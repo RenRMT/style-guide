@@ -51,13 +51,11 @@ If you read nothing else:
 1. **One visual, one message.** Write the message as the title: "Incidents fell by a third after the ceasefire", not "Incidents per month".
 2. **Put what, where and when in the subtitle:** units, categories, period and place.
 3. **Pick the simplest form that shows the message.** Use a big number for one fact, a horizontal bar chart for comparing categories, and a line chart for a trend. Use a map only when location is the point.
-4. **Bars start at zero.** So do areas. Lines may start elsewhere if the axis says so clearly.
-5. **Label directly.** Put labels on the data, not in a legend, wherever they fit.
-6. **Use colour on purpose.** Use one colour, plus grey for everything that isn't the story. Add more colours only for real categories, and no more than five where possible.
-7. **Never use colour alone.** Add labels, position, shape or line style, so the visual still works in greyscale and for colour-blind readers.
-8. **Remove what doesn't help.** No borders, 3D, shadows or heavy gridlines.
-9. **Always name the source.**
-10. **Check it at the size people will see it,** on screen and in print.
+4. **Label directly.** Put labels on the data, not in a legend, wherever they fit.
+5. **Use colour on purpose.** Use one colour, plus grey for everything that isn't the story. Add more colours only for real categories.
+6. **Never use colour alone.** Add labels, position, shape or line style.
+7. **Remove what doesn't help.** No borders, 3D, shadows or heavy gridlines.
+8. **Check it at the size people will see it,** on screen and in print.
 
 ## Pre-publish checklist
 
