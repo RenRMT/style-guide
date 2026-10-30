@@ -65,23 +65,6 @@ Find what you want to show, then answer the questions about your data.
 {: .rule }
 When in doubt, use a horizontal bar chart. It handles long labels, reads naturally from top to bottom, and shows values as position along a common baseline, which people read most accurately.
 
-## Limits at a glance
-
-| Chart | Maximum |
-|:--|:--|
-| Horizontal bar | 15 bars |
-| Column | 24 columns |
-| Clustered bar or column | 18 bars in total |
-| Stacked bar or column | 7 bars, each with at most 5 segments |
-| Lollipop or dot | 15 categories |
-| Line, area | 4 lines or series |
-| Slope | 10 lines, at most 4 highlighted |
-| Pie, donut | 6 slices (2–5 is better) |
-| Treemap | 10 rectangles |
-| Scatter, bubble | 4 colour categories |
-
-If you go over a limit, group categories into "Other", use small multiples, or switch to another chart type.
-
 ## Rules for every chart
 
 {: .rule }
@@ -101,6 +84,10 @@ One value axis per chart. Dual y-axes let the maker set the apparent relationshi
 
 {: .rule }
 Show uncertainty where it changes the message: error bars or ranges on estimates, and a dashed or shaded line for forecasts. Explain the measure in a note, such as "95% confidence interval".
+
+{: .rule }
+Group categories into "Other", use small multiples, or switch to another chart type if you visual is too crowded to be legible.
+
 
 ---
 
