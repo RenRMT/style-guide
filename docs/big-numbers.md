@@ -24,7 +24,7 @@ A big aggregated number (BAN) is one value that delivers the key insight at a gl
 Every big number has a label (what it is, including units and period) and a line of context.
 
 {: .rule }
-Use them sparingly. Pick only the numbers that sum up the core message. A page full of big numbers is a table with bad formatting. The exception is the KPI row of a [dashboard](../dashboards/data-and-colour/#kpis-and-status), which can hold three to five, each with a comparison.
+Use them sparingly. Pick only the numbers that sum up the core message. A page full of big numbers is a table with bad formatting. The exception is the KPI row of a [dashboard](../dashboards/numbers-and-colour/#kpis-and-status), which can hold three to five, each with a comparison.
 
 {: .rule }
 Put them where the narrative needs them, usually at the start of a section or in the margin.

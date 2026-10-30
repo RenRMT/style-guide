@@ -1,7 +1,7 @@
 ---
 title: Build and maintain
 parent: Dashboards
-nav_order: 3
+nav_order: 5
 ---
 
 # Build and maintain
@@ -13,9 +13,9 @@ How to turn these rules into a theme and starter report in your BI tool, keep a 
 For a dashboard, the closest thing to a design system is a theme and a starter file in the tool you build in. Build them once, so nobody has to apply the rules by hand. Every new dashboard then becomes a matter of filling in a template instead of designing a report.
 
 - **Theme file:** a Power BI theme (JSON), a Tableau custom palette and template workbook, or a Looker Studio theme. It sets fonts, text sizes, background, tiles, gridlines, tables, buttons, the data colours in order, and the status colours.
-- **Category colour table:** the fixed mapping from [colour that survives filtering](../data-and-colour/#colour-that-survives-filtering).
+- **Category colour table:** the fixed mapping from [colour that survives filtering](../numbers-and-colour/#colour-that-survives-filtering).
 - **Starter report:** the [grid](../plan-and-layout/#the-grid), with the header, filter rail, KPI row, bands and footer already in place, and a detail page with its subject bar.
-- **Data-state wording:** the sentences from the [data states](../data-and-colour/#data-states) tables, so that every tile says it the same way.
+- **Data-state wording:** the sentences from the [data states](../data-states/#data-states) tables, so that every tile says it the same way.
 - **Metric glossary:** a definition, calculation, owner and refresh schedule for each measure. Where you can, build every report on one shared, documented data model, so that the same measure means the same thing everywhere.
 
 The [REN Data design system](https://rendata.nl/design-system/site/dashboards.html) has a worked example: a Power BI theme in this guide's colours and type, the parts of a dashboard page, and what a theme can and can't set.

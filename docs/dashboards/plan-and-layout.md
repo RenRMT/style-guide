@@ -6,7 +6,7 @@ nav_order: 1
 
 # Plan and layout
 
-How to decide what a dashboard is for, lay it out on one grid, title tiles whose data keeps changing, move between pages, and keep filters and other interaction predictable.
+How to decide what a dashboard is for, lay it out on one grid, and title tiles whose data keeps changing.
 
 ## Plan it
 
@@ -36,7 +36,7 @@ One dashboard, one audience. If strategic and operational readers both need the 
 | 2 | **Scope and last updated** | required | Period, selection and the date and time the data was last refreshed, filled in from the data. |
 | 3 | Filters | if needed | In one place, showing the current selection: in the header for one or two filters, in a rail on the left for three. |
 | 4 | **KPI row** | required | Four [big numbers](../../big-numbers/), all built the same way, each with a comparison. |
-| 5 | Status signal | if needed | Shows whether a measure is on target: a square with a sign, and a word. See [status colours](../data-and-colour/#status-colours). |
+| 5 | Status signal | if needed | Shows whether a measure is on target: a square with a sign, and a word. See [status colours](../numbers-and-colour/#status-colours). |
 | 6 | Trend | preferred | How the headline measures have moved over time. |
 | 7 | Breakdown | preferred | The same measures split by region, team or category. |
 | 8 | Partial period | if needed | Mark incomplete periods, such as the current week, with a dashed line or lighter fill. |
@@ -79,38 +79,3 @@ Don't type anything that moves with the data. No typed numbers, dates or period 
 A note about an outlier still belongs with that outlier, but on a dashboard the chart will soon show another period. So the note has to exist as data: a table of notes by item and period, which the dashboard filters along with everything else. That takes more work than a text box. It's the difference between a note that is correct and a note that once was.
 
 This is the one exception to the [takeaway-title principle](../../principles/#purpose). A snapshot of a dashboard pasted into a report is a normal chart again, and gets a takeaway title.
-
-## Pages and navigation
-
-A dashboard with more than one page has two kinds of navigation. Keep them on separate controls, or the dashboard works in one direction and gets stuck in the other.
-
-| | Which view | Which item |
-|:--|:--|:--|
-| **Example** | Overview, Finance, Results | One programme out of thirty |
-| **Control** | Page tabs in the header | A subject bar at the top of each detail page, with a picker |
-| **Behaviour** | Always visible | The chosen item stays when the reader changes page |
-
-- **Overview pages** filter a *population*: which programmes, which period. They have the filter rail.
-- **Detail pages** show *one item*. They have a subject bar instead of a rail, with the item's name, its status, its position ("4 of 12") and a picker. A detail page that doesn't say which item it shows can't be fixed once it's a screenshot.
-
-The picker depends on how long the list is:
-
-| Items | Picker |
-|:--|:--|
-| Up to about 25 | A dropdown, everything visible |
-| 25 to 500 | A dropdown with search. Filter on the overview first |
-| More than 500 | No dropdown. Show the name and position, and let readers click through from a filtered table |
-
-## Interaction
-
-{: .rule }
-The default view is the report. Most readers never touch a filter: they open the page, look for ten seconds and move on. The page as it opens must answer the main question on its own, and filters are for the few who dig further.
-
-{: .rule }
-Interaction is a cost, not a feature. Each filter hands a decision to the reader. Three filters is a choice about what to hand over; ten is refusing to choose. Ask which question each interaction answers, and whether readers actually have that question.
-
-- Put filters in one place and always show the current selection. Use at most three, with an Apply and a Clear button when there are more than one.
-- Use tooltips for extra detail, such as exact values or definitions. Never put information a reader needs only in a tooltip, because it is invisible on touch screens and in screenshots.
-- Decide for each pair of tiles whether clicking one filters the other. Most tools turn this on everywhere by default, which confuses more often than it helps. Make it work the same way everywhere, and give readers an obvious way to reset.
-- Say which tiles a filter affects. If one tile ignores the region filter, its subtitle says so ("All regions").
-- Where the tool allows it, keep the filter selection in the link, so readers can share exactly the view they're looking at.

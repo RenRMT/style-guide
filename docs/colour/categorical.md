@@ -16,7 +16,7 @@ There are eight data colours. Add them in this fixed order, taking as many as yo
 
 Add Steel (`#B8B8B8`) for "Other", "Unknown" or context data.
 
-On a dashboard, where filters change which categories are shown, assign the colours once and tie each one to its category. See [Colour that survives filtering](../../dashboards/data-and-colour/#colour-that-survives-filtering).
+On a dashboard, where filters change which categories are shown, assign the colours once and tie each one to its category. See [Colour that survives filtering](../../dashboards/numbers-and-colour/#colour-that-survives-filtering).
 
 ## How many colours
 

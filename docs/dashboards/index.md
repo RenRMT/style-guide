@@ -40,8 +40,10 @@ The pages in this section cover what a dashboard needs on top of both:
 
 | Page | Covers |
 |:--|:--|
-| [Plan and layout](plan-and-layout/) | Purpose, the grid, titles on live data, pages and navigation, interaction |
-| [Data and colour](data-and-colour/) | Comparisons and status colours, consistency across tiles, colour that survives filtering, data states, testing |
+| [Plan and layout](plan-and-layout/) | Purpose, one question per visual, the grid, titles on live data |
+| [Navigation and interaction](navigation-and-interaction/) | Pages and items, pickers, filters, cross-filtering, the default view |
+| [Numbers and colour](numbers-and-colour/) | Comparisons, status colours, consistency across tiles, colour that survives filtering |
+| [Data states and testing](data-states/) | Empty, missing, partial and stale data, labels and scales that hold up, the states to test |
 | [Build and maintain](build-and-maintain/) | A theme and starter report in your BI tool, type in BI tools, trust and upkeep, deviations, measuring the payoff |
 
 {: .why }
