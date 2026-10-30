@@ -35,7 +35,7 @@ Use five or six steps at most. Seven is the practical ceiling: beyond that, read
 
 ## Which ramps
 
-Use the ramps of the four dark data colours: **Teal** (default), **Baltic**, **Cherry** and **Violet**. Their base colours sit in the middle of the lightness range, so their steps spread evenly from light to dark.
+Use the ramps of the four dark data colours: Teal (default), Baltic, Cherry and Violet. Their base colours sit in the middle of the lightness range, so their steps spread evenly from light to dark.
 
 {% include ramp.html colour="Baltic" steps="2,3,4,5,6" %}
 {% include ramp.html colour="Cherry" steps="2,3,4,5,6" %}

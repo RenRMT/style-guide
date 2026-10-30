@@ -13,16 +13,23 @@ How to give every number context, use status colours, and keep colour consistent
 {: .rule }
 Every number on the page carries a comparison. "€42.6 million" says nothing; "€42.6 million, 61% of budget" does. Four comparisons work:
 
-- **Against a target:** is it on course?
-- **Against the previous period:** is it moving the right way?
-- **Against the baseline:** have we achieved anything since we started?
-- **Against the rest:** is this a lot or a little, compared with the other programmes, regions or teams?
+Against a target
+: Is it on course?
+
+Against the previous period
+: Is it moving the right way?
+
+Against the baseline
+: What has changed since the start?
+
+Against the rest
+: Is this a lot or a little, compared with the other programmes, regions or teams?
 
 Which one to use is a decision about content, not formatting. Say what a percentage is measured against. Progress against this quarter's target and progress against the final goal give different answers, and mixing them up makes a programme that's ahead of schedule look behind.
 
-- Show the comparison as a number with a sign (+6%) or as a short phrase ("On target (85)"), not with an arrow alone.
+- Show the comparison as a number with a sign and an arrow (▲ +6%) or as a short phrase ("On target (85 of 90 sites)"), not with an arrow alone.
 - Add a sparkline when the trend matters as much as the value.
-- Use a **bullet chart** or a progress bar to show progress towards a target. Fix its ends at zero and the target. A bar that scales automatically always ends up somewhere between empty and full, and says nothing.
+- Use a bullet chart or a progress bar to show progress towards a target. Fix its ends at zero and the target. A bar that scales automatically always ends up somewhere between empty and full, and says nothing.
 
 {: .avoid }
 Don't use gauges, speedometers or dials. They take a lot of room to show one number, and readers judge angles poorly. Use a big number with a comparison, or a bullet chart.
@@ -33,9 +40,9 @@ Status colours are kept for one job: showing where a measure stands. Never use t
 
 | Status | Colour | Sign | Word, for example |
 |:--|:--|:-:|:--|
-| On track | Baltic `#2B5B9B` | ✓ | "On track", "On target (85)" |
+| On track | Baltic `#2B5B9B` | ✓ | "On track", "On target (85 of 90 sites)" |
 | Watch | Jasmine `#FFDD77` | ! | "Watch", "Close to target" |
-| Off track | Cherry `#BC3C4C` | ✕ | "Off track", "Above target (20%)" |
+| Off track | Cherry `#BC3C4C` | ✕ | "Off track", "Above target (24% dropout, target 20%)" |
 | Completed | Sky `#88CCFF` | ◍ | "Completed", "Closed" |
 | No data, or no target | Steel `#B8B8B8` | – | "No data" |
 
@@ -53,12 +60,23 @@ Every status has a colour, a sign and a word. Show it as a small square in the s
 
 Readers compare tiles to each other, so differences between tiles read as differences in the data.
 
-- **Colour:** a category keeps the same colour on every tile. If "Denied or delayed" is Coral in the trend, it is Coral in the breakdown too.
-- **Scales:** tiles that readers will compare share the same axis range.
-- **Numbers:** use the same units, rounding and number format everywhere.
-- **Periods:** every tile covers the period shown in the header, unless its subtitle says otherwise.
-- **Order:** sort categories by value, not alphabetically. Alphabetical order chooses to give no information. When the categories have their own order, such as periods, levels or statuses, follow it.
-- **Labels or axis:** label the data or show a value axis, not both. Labels suit a few points; an axis suits many.
+Colour
+: A category keeps the same colour on every tile. If "Denied or delayed" is Coral in the trend, it is Coral in the breakdown too.
+
+Scales
+: Tiles that readers will compare share the same axis range.
+
+Numbers
+: Use the same units, rounding and number format everywhere.
+
+Periods
+: Every tile covers the period shown in the header, unless its subtitle says otherwise.
+
+Order
+: Sort categories by value, not alphabetically. Alphabetical order chooses to give no information. When the categories have their own order, such as periods, levels or statuses, follow it.
+
+Labels or axis
+: Label the data or show a value axis, not both. Labels suit a few points; an axis suits many.
 
 ## Colour that survives filtering
 

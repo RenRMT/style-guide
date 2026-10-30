@@ -10,7 +10,7 @@ Your brand colours will almost never work as data colours. A brand palette usual
 
 ## 1. Start from a colour-blind-safe palette
 
-Don't start from your brand colours. Start from a palette that was designed and tested for colour-vision deficiencies. The best general-purpose starting point is the **Okabe–Ito** palette:
+Don't start from your brand colours. Start from a palette that was designed and tested for colour-vision deficiencies. The best general-purpose starting point is the Okabe–Ito palette:
 
 <div class="swatches">
 <div class="swatch" style="background:#E69F00;color:#191919"><span class="swatch__name">Orange</span><code class="swatch__hex">#E69F00</code></div>
@@ -36,10 +36,10 @@ It has eight colours, works for the common forms of colour blindness, and has a 
 
 Move each colour a little in hue, saturation or lightness until the set feels like it belongs to your brand. Keep the overall structure: a spread of hues, a spread of lightness, and no two colours that are nearly identical.
 
-- **Replace black with a neutral grey.** Black is far darker than the other colours. A mid grey sits better beside them and doubles as the "de-emphasised" colour.
-- **Reduce saturation for print.** Highly saturated colours print poorly and feel loud on screen. Desaturate them slightly, or move them towards pastel by adding white.
-- **Swap out the weakest colour.** If one colour contrasts poorly with the rest, or clashes with your brand, replace it. This may cost a little colour-blind safety, so test the result (step 5).
-- **Keep data colours distinct from brand colours.** Make your main data colour a slightly different shade from your primary brand colour, so readers can tell data from branding.
+- Replace black with a neutral grey. Black is far darker than the other colours. A mid grey sits better beside them and doubles as the "de-emphasised" colour.
+- Reduce saturation for print. Highly saturated colours print poorly and feel loud on screen. Desaturate them slightly, or move them towards pastel by adding white.
+- Swap out the weakest colour. If one colour contrasts poorly with the rest, or clashes with your brand, replace it. This may cost a little colour-blind safety, so test the result (step 5).
+- Keep data colours distinct from brand colours. Make your main data colour a slightly different shade from your primary brand colour, so readers can tell data from branding.
 
 I made this guide's palette this way. The table shows roughly where each colour came from:
 

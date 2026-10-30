@@ -10,10 +10,17 @@ Visual variables are the basic ways a symbol can vary to carry information. Jacq
 
 A variable can be:
 
-- **selective:** it lets you tell categories apart
-- **associative:** symbols that share it are seen as belonging together
-- **ordered:** it shows a sequence, from low to high
-- **quantitative:** it lets you estimate the size of a difference, not just its direction
+Selective
+: Lets you tell categories apart.
+
+Associative
+: Symbols that share it are seen as belonging together.
+
+Ordered
+: Shows a sequence, from low to high.
+
+Quantitative
+: Lets you estimate the size of a difference, not just its direction.
 
 | Variable | Selective | Associative | Ordered | Quantitative | Typical use |
 |:--|:-:|:-:|:-:|:-:|:--|
@@ -30,10 +37,10 @@ A variable can be:
 
 ## What this means in practice
 
-- Use **position** for whatever matters most. That's why bar and dot charts beat pies and bubbles.
-- Use **lightness**, not hue, for quantities. A rainbow ramp has no natural order.
-- Use **hue** for categories, never for amounts.
-- Use **size** for amounts at locations, and always with a size legend.
+- Use position for whatever matters most. That's why bar and dot charts beat pies and bubbles.
+- Use lightness, not hue, for quantities. A rainbow ramp has no natural order.
+- Use hue for categories, never for amounts.
+- Use size for amounts at locations, and always with a size legend.
 
 ---
 

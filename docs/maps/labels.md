@@ -36,12 +36,23 @@ The colours come from the [basemap palettes](../basemap/#basemap-colours). Locat
 
 ## Placement
 
-- **Halo:** a label that crosses a line gets a 3 px halo in the colour underneath, so that it stays readable without a box.
-- **Points:** put the label to the right of its symbol where it fits, otherwise to the left. Keep it close and on the same baseline.
-- **Areas:** centre the label in the area, and track capitals out to span it.
-- **Water:** curve or angle the label to follow the water body.
-- **Annotations:** keep leader lines short and straight, horizontal or vertical. Write in headline style: short, with the most important words first.
-- **Values:** label the area or point the title talks about with its value, such as "Groningen 46%", rather than making readers look it up in the key.
+Halo
+: A label that crosses a line gets a 3 px halo in the colour underneath, so that it stays readable without a box.
+
+Points
+: Put the label to the right of its symbol where it fits, otherwise to the left. Keep it close and on the same baseline.
+
+Areas
+: Centre the label in the area, and track capitals out to span it.
+
+Water
+: Curve or angle the label to follow the water body.
+
+Annotations
+: Keep leader lines short and straight, horizontal or vertical. Write in headline style: short, with the most important words first.
+
+Values
+: Label the area or point the title talks about with its value, such as "Groningen 46%", rather than making readers look it up in the key.
 
 {: .avoid }
 Labels in boxes, labels that cover data, rotated labels on land, and a second typeface for hierarchy.

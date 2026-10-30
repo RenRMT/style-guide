@@ -25,16 +25,16 @@ The source is on [GitHub](https://github.com/RenRMT/style-guide). Fork it, or ta
 
 ## Order of work
 
-1. **Data palette.** Start from Okabe–Ito, shift it towards your brand, fix an order, derive ramps and test. This is the biggest job and affects everything else. See [Build your own palette](../colour/build-your-own/).
-2. **Typeface.** Check your brand font against the [number criteria](../typography/#choosing-a-typeface). If it fails, pick a chart typeface that matches its character.
-3. **Colour roles.** Decide which brand colour is used for titles, which grey for gridlines, and which for de-emphasised data. One table, like the one in [Colour](../colour/#which-colour-for-which-element).
-4. **Templates.** Build chart and map templates in the tools your team actually uses: Excel or PowerPoint chart templates, a ggplot or matplotlib theme, a Datawrapper theme, a GIS layout. A guide without templates gets ignored.
-5. **Examples.** Make one good example of each common chart type with your own data. Examples convince people more than rules do.
-6. **Request process.** Publish [the brief](../planning/brief/), so requests arrive with a message, an audience and data.
+1. Build the data palette: start from Okabe–Ito, shift it towards your brand, fix an order, derive ramps and test. This is the biggest job and affects everything else. See [Build your own palette](../colour/build-your-own/).
+2. Check your brand font against the [number criteria](../typography/#choosing-a-typeface). If it fails, pick a chart typeface that matches its character.
+3. Decide the colour roles: which brand colour is used for titles, which grey for gridlines, and which for de-emphasised data. One table, like the one in [Colour](../colour/#which-colour-for-which-element).
+4. Build chart and map templates in the tools your team actually uses: Excel or PowerPoint chart templates, a ggplot or matplotlib theme, a Datawrapper theme, a GIS layout. A guide without templates gets ignored.
+5. Make one good example of each common chart type with your own data. Examples convince people more than rules do.
+6. Publish [the brief](../planning/brief/), so requests arrive with a message, an audience and data.
 
 ## Make the rules stick
 
-- **Keep the core short.** People read the rules but skip the theory, which is why this guide keeps the research on [separate pages](../background/).
-- **Say why.** A rule with a one-line reason is followed. A rule without one gets argued about.
-- **Make the right choice the default.** If your template has no chart border, nobody has to remember the "no borders" rule.
-- **Review against the [principles](../principles/)** and the [checklist](../../#pre-publish-checklist), not against taste.
+- Keep the core short. People read the rules but skip the theory, which is why this guide keeps the research on [separate pages](../background/).
+- Say why. A rule with a one-line reason is followed. A rule without one gets argued about.
+- Make the right choice the default. If your template has no chart border, nobody has to remember the "no borders" rule.
+- Review against the [principles](../principles/) and the [checklist](../../#pre-publish-checklist), not against taste.

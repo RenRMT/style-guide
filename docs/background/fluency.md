@@ -10,14 +10,14 @@ nav_order: 3
 
 How a visual looks affects what people think of its content. When something is easy to read, people are more likely to trust it and accept its message without question. This cuts both ways: a smooth, familiar design can make readers overlook mistakes or misleading elements.
 
-**What the research suggests:**
+The research suggests:
 
-- **Readability supports accurate interpretation.** Legible colours, clear contrast and a plain, legible typeface make information easier to process, and more trusted.
-- **Ease biases judgements of truth.** People read the feeling of ease as a sign that something is true or familiar (Reber & Schwarz, 1999). So reserve a polished finish for content you are sure of.
-- **Disfluency can trigger scrutiny.** Text that is harder to read can prompt more careful thinking and help readers notice inconsistencies (Song & Schwarz, 2008). Later replications of disfluency effects have been mixed, and making visuals hard to read on purpose is rarely a good idea.
-- **Style sets the tone first.** Typeface and colour convey emotional tone before the content is read (Hazlett et al., 2013). A playful style on a serious topic sends mixed signals.
-- **Hard-to-pronounce feels risky.** Unfamiliar or hard-to-pronounce labels are judged as riskier and less familiar (Song & Schwarz, 2009). Choose plain terms for legends, categories and metrics.
-- **Small differences do little.** Subtle differences between similar fonts or colours rarely have an effect. Make emphasis deliberate and clear.
+- Readability supports accurate interpretation. Legible colours, clear contrast and a plain, legible typeface make information easier to process, and more trusted.
+- Ease biases judgements of truth. People read the feeling of ease as a sign that something is true or familiar (Reber & Schwarz, 1999). So reserve a polished finish for content you are sure of.
+- Disfluency can trigger scrutiny. Text that is harder to read can prompt more careful thinking and help readers notice inconsistencies (Song & Schwarz, 2008). Later replications of disfluency effects have been mixed, and making visuals hard to read on purpose is rarely a good idea.
+- Style sets the tone first. Typeface and colour convey emotional tone before the content is read (Hazlett et al., 2013). A playful style on a serious topic sends mixed signals.
+- Hard-to-pronounce feels risky. Unfamiliar or hard-to-pronounce labels are judged as riskier and less familiar (Song & Schwarz, 2009). Choose plain terms for legends, categories and metrics.
+- Small differences do little. Subtle differences between similar fonts or colours rarely have an effect. Make emphasis deliberate and clear.
 
 ## Cognitive load
 
@@ -29,7 +29,7 @@ Readers spend mental effort interpreting legends, axes, scales, colour schemes a
 
 What counts as extraneous depends on the reader. Novices need explanation and simplification, while the same explanation slows experts down (the expertise reversal effect).
 
-**Consequences for design:**
+What this means for design:
 
 - Design for the audience, not the analyst. Explanatory charts must guide readers who don't know the data.
 - Guide the eye. Use titles, annotations, thresholds and hierarchy to state the takeaway, rather than leaving the reader to find it.

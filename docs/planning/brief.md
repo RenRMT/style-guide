@@ -6,16 +6,17 @@ nav_order: 1
 
 # Write a brief
 
-Before you make a visual, or ask someone else to make one, answer the **five Ws and one H**. Rough answers are fine, but missing answers mean more revisions later.
+Before you make a visual, or ask someone else to make one, answer the five Ws and one H. Rough answers are fine, but missing answers mean more revisions later.
 
 | Question | Answer it with | Example |
 |:--|:--|:--|
-| **Who** is it for? | The primary audience and what they already know. | Country directors, who don't know the district names |
-| **Why** is it needed? | The single most important message or question. | Show that road incidents doubled since the rainy season began |
-| **What** does it show? | The data, and whether it's a comparison, a trend or context. A draft title. | Monthly road incidents, 2025–2026, compared with the previous year |
-| **When** does the data apply? | The period, and whether it's a snapshot or change over time. | January 2025 – March 2026 |
-| **Where** does it apply? | The geographic scope, admin level and any must-have places, routes or labels. | Two provinces, admin level 2; label the main supply route |
-| **How** should it be read? | Check that you can explain the data and message simply yourself. | "Since October, a road incident every other day" |
+| Who is it for? | The primary audience and what they already know. | Country directors, who don't know the district names |
+| Why is it needed? | The single most important message or question. | Show that road incidents doubled since the rainy season began |
+| What does it show? | The data, and whether it's a comparison, a trend or context. A draft title. | Monthly road incidents, 2025–2026, compared with the previous year |
+| When does the data apply? | The period, and whether it's a snapshot or change over time. | January 2025 – March 2026 |
+| Where does it apply? | The geographic scope, admin level and any must-have places, routes or labels. | Two provinces, admin level 2; label the main supply route |
+| How should it be read? | Check that you can explain the data and message simply yourself. | "Since October, a road incident every other day" |
+{: .row-heads }
 
 ## Checklist
 

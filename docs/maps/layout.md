@@ -11,7 +11,7 @@ nav_order: 1
 <div class="rules" markdown="1">
 <div markdown="1">
 #### Integrated map
-Placed in a report, slide or dashboard. Makes **one point, as simply as possible.**
+Placed in a report, slide or dashboard. Makes one point, as simply as possible.
 - Simplest possible basemap and symbols
 - Clear title and subtitle
 - Direct labels in preference to a key
@@ -19,7 +19,7 @@ Placed in a report, slide or dashboard. Makes **one point, as simply as possible
 </div>
 <div markdown="1">
 #### Standalone map
-A map sheet in its own right. Treat it as an **infographic**, which can be more complex.
+A map sheet in its own right. Treat it as an infographic, which can be more complex.
 - One or several maps, plus charts, annotations and descriptive text
 - Source credits, disclaimer, acronyms and partner logos
 - A-series paper size (A4, A3), portrait or landscape
@@ -37,17 +37,17 @@ Every published map has the same frame as a [chart](../../charts/layout/). The t
 | # | Element | | Guidance |
 |:-:|:--|:--|:--|
 | 1 | Figure number | optional | Use when the text refers to the map. |
-| 2 | **Title** | required | *Why* you're showing the map: the finding, in two lines at most. |
-| 3 | **Subtitle** | required | *What* the map shows: what is counted, where, when, and the unit. |
+| 2 | Title | required | *Why* you're showing the map: the finding, in two lines at most. |
+| 3 | Subtitle | required | *What* the map shows: what is counted, where, when, and the unit. |
 | 4 | Key | if needed | One row between the subtitle and the map, with no box. See [Key](#key). |
-| 5 | **Map area** | required | Full width, no frame. Build it at 800 px wide and export at 2×. |
+| 5 | Map area | required | Full width, no frame. Build it at 800 px wide and export at 2×. |
 | 6 | Locator map | optional | Shows where the map area is. See [Locator map](#locator-map). |
 | 7 | Inset (zoomed area) | optional | Shows a crowded or distant area at a larger scale. |
 | 8 | North arrow | if needed | Only when north isn't at the top. |
 | 9 | Scale bar | if needed | Only when distances matter to the message. |
-| 10 | **Source** | required | Credit both the data and the map layers: "Source: [dataset], accessed [date] · Map: [organisation]". |
+| 10 | Source | required | Credit both the data and the map layers: "Source: [dataset], accessed [date] · Map: [organisation]". |
 | 11 | Note | optional | Method notes in one short paragraph, such as "Events within 2 km share a dot." Anything longer goes in the accompanying text. |
-| 12 | **Logo** | required for published maps | Bottom right. Integrated maps use the symbol logo, and standalone maps use the full logo. |
+| 12 | Logo | required for published maps | Bottom right. Integrated maps use the symbol logo, and standalone maps use the full logo. |
 
 The title, subtitle, source and note follow the chart [type sizes](../../typography/#sizes-and-weights). For text on the map itself, see [Labels](../labels/).
 
@@ -97,8 +97,8 @@ A small map that shows where the main map is. Use either a **country locator** (
 
 ## North arrow and scale bar
 
-- **North arrow:** only when north isn't at the top. Readers assume it is, and an arrow on a north-up map is one more thing to look past. Leave it out when the projection has no single north.
-- **Scale bar:** only when distances matter to the message. Draw one line with end ticks and a round distance in IBM Plex Sans, 9–11 px. Leave it out of world and continent maps, where the scale varies across the map.
+- Add a north arrow only when north isn't at the top. Readers assume it is, and an arrow on a north-up map is one more thing to look past. Leave it out when the projection has no single north.
+- Add a scale bar only when distances matter to the message. Draw one line with end ticks and a round distance in IBM Plex Sans, 9–11 px. Leave it out of world and continent maps, where the scale varies across the map.
 - Place them in a free bottom corner, on whichever of land or sea is emptier.
 
 ## Projection
