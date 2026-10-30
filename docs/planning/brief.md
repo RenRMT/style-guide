@@ -42,7 +42,7 @@ When one person asks and another makes the visual, split the work like this.
 No visual without data. Build every chart or map from the underlying data, never by tracing, redrawing or restyling someone else's graphic. You can then check it, update it, choose your own framing and avoid copyright problems.
 
 {: .adapt }
-Rename the roles to fit your team, such as "analyst and designer" or "programme and IM". Keep the split itself: requesters who choose the chart type end up with the wrong chart.
+Rename the roles to fit your team, but keep the split itself. If someone starts requesting the chart type before knowing their key message, they will end up with a wrong chart.
 
 ---
 

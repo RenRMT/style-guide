@@ -14,6 +14,10 @@ nav_order: 6
 <img src="{{ '/assets/examples/scatter.svg' | relative_url }}" alt="Scatter plot of health workers against child mortality, with a trend line and an annotated outlier">
 </div>
 
+<div class="figure">
+<img src="{{ '/assets/examples/bubble.svg' | relative_url }}" alt="Bubble chart of twelve provinces, health workers against child mortality, with bubble area showing population and a size key">
+</div>
+
 - **Use** to show correlations, clusters, patterns and outliers, including in large datasets.
 - **Avoid** with categorical data or only a few points, and for totals, rankings or part-to-whole data, which are better as bars, lines or pies.
 - **Avoid bubble charts** when the third variable barely varies, or when bubbles would overlap heavily.

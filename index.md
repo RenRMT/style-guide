@@ -8,7 +8,7 @@ nav_order: 1
 # Data visualisation style guide
 {: .fs-9 }
 
-How I make charts and maps: the rules I follow, the colours and type I use, and why. Written so you can follow it as is, or use it as a starting point for your own guide.
+This guide covers how I make charts and maps. It sets out the rules I follow, the colours and type I use, and the reasons behind each choice. You can apply it as it stands to your own work, or take it as a starting point and adapt it into a guide of your own.
 {: .lead }
 
 [Start with the principles](docs/principles/){: .btn .btn-primary .mr-2 } [Open the colour picker](https://rendata.nl/color-picker/){: .btn }

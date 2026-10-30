@@ -59,6 +59,10 @@ Use 4–5 classes by default and never more than 7. Beyond that, readers can't m
 
 A choropleth on a grid of equal hexagons instead of admin areas. Use it when the whole area is evenly relevant, there are many overlapping points, and the exact locations don't matter. It's a good replacement for a smoothed density heatmap.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-hexbin.svg' | relative_url }}" alt="Hexagon grid over the Netherlands shaded in four teal classes by number of incidents, darkest around Amsterdam and Rotterdam, with empty hexagons outlined in grey">
+</div>
+
 - Choose a hexagon size that suits the map scale and the density of the data, and state it in the subtitle or a note: "Hexagons of 50 km²".
 - Follow the choropleth rules: at most 4–5 classes plus "no data", and a distinct "no data" or "no incidents" style.
 - If admin areas tell the story, use a choropleth instead.
@@ -67,9 +71,13 @@ A choropleth on a grid of equal hexagons instead of admin areas. Use it when the
 
 Use these to colour areas by **type**, not amount: who controls an area, access conditions, land use. Use the [map colour order](../basemap/#colour-on-maps), which carries no order of value. Never use a ramp.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-control.svg' | relative_url }}" alt="Areas of control: Group A in light teal across the north, Group B in light blue across the south, and a contested band hatched in both colours, with borders and rivers drawn on top">
+</div>
+
 - Keep the number of categories small, at most four, and make sure they don't overlap. If they do overlap, show it with a hatch or a separate colour.
 - **Areas of control:** use custom polygons drawn to the real extent, not admin areas, unless control really follows admin boundaries. Fill them with a light step (2 or 3) of each category's ramp, rather than a transparent fill, so the colours stay exact and the basemap lines still show through on top.
-- You may use colours already assigned to actors, as long as they stay distinguishable.
+- You may use colours already associated with specific actors, as long as they stay distinguishable.
 - Avoid putting other data on top.
 
 To point out an area without classifying it, use a [highlight area](../other/#highlight-areas) instead.
