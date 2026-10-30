@@ -9,8 +9,8 @@ nav_order: 5
 
 | Where | Typeface | Notes |
 |:--|:--|:--|
-| Office (Excel, PowerPoint, Word) and BI tools (Power BI) | **Calibri**, or **Aptos** to match the Office default | Both are installed on every Windows machine and have the right figures for numbers (see below). Calibri is narrower, so more text fits without shrinking it. BI services show only fonts installed on the reader's machine, so use Calibri there too. |
-| Web and code (D3, Plotly, ggplot, matplotlib) | **IBM Plex Sans** | Open source, with many weights. Turn on tabular figures (`font-variant-numeric: tabular-nums` in CSS). |
+| Office (Excel, PowerPoint, Word) and BI tools (Power BI) | Calibri, or Aptos to match the Office default | Both are installed on every Windows machine and have the right figures for numbers (see below). Calibri is narrower, so more text fits without shrinking it. BI services show only fonts installed on the reader's machine, so use Calibri there too. |
+| Web and code (D3, Plotly, ggplot, matplotlib) | IBM Plex Sans | Open source, with many weights. Turn on tabular figures (`font-variant-numeric: tabular-nums` in CSS). |
 
 Use one typeface per visual. Create hierarchy with weight and size, not with a second font.
 
@@ -34,9 +34,14 @@ Text is horizontal. Rotated text is a last resort, after you've tried a horizont
 
 A typeface for your own guide needs three properties:
 
-1. **Available:** installed on, or easy to install on, every device and tool your team uses.
-2. **Legible:** clear at small sizes, on screen and in print. Sans-serif is the safe choice.
-3. **Several weights:** at least regular and bold, ideally light and semibold too, so you can emphasise the message and de-emphasise supporting text.
+Available
+: Installed on, or easy to install on, every device and tool your team uses.
+
+Legible
+: Clear at small sizes, on screen and in print. Sans-serif is the safe choice.
+
+Several weights
+: At least regular and bold, ideally light and semibold too, so you can emphasise the message and de-emphasise supporting text.
 
 And it needs these properties for numbers:
 

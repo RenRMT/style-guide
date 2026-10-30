@@ -16,9 +16,9 @@ Choose the simplest, least detailed basemap that still supports the message. To 
 
 | Basemap | Use when | Notes |
 |:--|:--|:--|
-| **Country outline** (shapefile or polygons) | No context outside the country is needed. This suits most integrated maps. | Show admin divisions only if the message needs them, and only at the level of the data: admin-1 data gets admin-1 boundaries. |
-| **Region outline** (focus country plus neighbours) | The country needs geographic context, but the map needs no detail. | Add rivers and lakes only if the message needs them. |
-| **Light grey vector basemap** (for example, ArcGIS Light Gray Canvas) | Readers need place names and roads for orientation. | The first choice among tiled basemaps: enough detail, without drawing attention. |
+| Country outline (shapefile or polygons) | No context outside the country is needed. This suits most integrated maps. | Show admin divisions only if the message needs them, and only at the level of the data: admin-1 data gets admin-1 boundaries. |
+| Region outline (focus country plus neighbours) | The country needs geographic context, but the map needs no detail. | Add rivers and lakes only if the message needs them. |
+| Light grey vector basemap (for example, ArcGIS Light Gray Canvas) | Readers need place names and roads for orientation. | The first choice among tiled basemaps: enough detail, without drawing attention. |
 | Streets or topographic | The purpose requires detailed location or navigation context. | Use with care, as it competes with the data. |
 | Terrain or hillshade | Terrain is part of the message. | The only case for relief shading. |
 | Imagery | The data is remote sensing or environmental. | Raster imagery blurs when zoomed in. |
@@ -93,7 +93,7 @@ Reference lines stay under 1 px, so that data lines at 2 px read clearly above t
 
 ## Point symbols
 
-Colour carries the category, and shape carries the type of place. Pictograms of planes, boats and oil drops look helpful in the key but turn into noise at map scale, so use plain geometric shapes and name them in the key. **Use three shapes at most.**
+Colour carries the category, and shape carries the type of place. Pictograms of planes, boats and oil drops look helpful in the key but turn into noise at map scale, so use plain geometric shapes and name them in the key. Use three shapes at most.
 
 <div class="figure">
 <img src="{{ '/assets/examples/map-symbols.svg' | relative_url }}" alt="Samples of the eight map point symbols">
@@ -114,7 +114,7 @@ Use an icon only when it's the clearest way to show something, such as an ✕ fo
 
 ## Colour on maps
 
-Most maps need one data colour: **Teal**. Coral marks the single thing you want read first, such as the largest event or the place in the title. When categories are unavoidable, take colours in the map order below and stop at four.
+Most maps need one data colour: Teal. Coral marks the single thing you want read first, such as the largest event or the place in the title. When categories are unavoidable, take colours in the map order below and stop at four.
 
 {% include swatches.html source="maps" group="map-order" %}
 

@@ -17,7 +17,7 @@ A reference map shows no data, only geography: coverage area, admin areas, towns
 - Use the [location basemap](../basemap/#basemap-colours).
 - Show the minimum: the capital, the place in the story and nothing else, usually at one admin level.
 - Mark the place in Coral. Add a [locator](../layout/#locator-map) to put the country in its region.
-- **Avoid** when you need to show variable data such as incidents. Use a thematic map instead.
+- Avoid them when you need to show variable data such as incidents. Use a thematic map instead.
 
 ## Highlight areas
 
@@ -43,7 +43,7 @@ A routes map shows *where* things move: supply routes, migration paths, traffick
 - Use colour for the mode, such as maritime or land, and at most three modes. Use dashes for uncertainty: a dashed route is suspected.
 - Draw smooth or straight lines. Don't trace every bend in the road.
 - Give destinations off the map a short label at the arrow: "To Germany".
-- **Flows:** scale line width to the volume, and include a width key.
+- Scale flow lines to the volume, and include a width key.
 - The main risk is clutter. When lines cross too often, simplify the routes, merge flows or show only the largest ones.
 
 ## Isoline map

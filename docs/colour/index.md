@@ -8,8 +8,8 @@ has_children: true
 
 The guide uses two separate sets of colours:
 
-- **Brand colours** for text, titles and page elements. They tie a visual to the product it sits in.
-- **Data colours** for the data itself: bars, lines, areas, points and map fills. They come in three forms:
+- Brand colours for text, titles and page elements. They tie a visual to the product it sits in.
+- Data colours for the data itself: bars, lines, areas, points and map fills. They come in three forms:
   - [Categorical](categorical/), for categories without an order
   - [Sequential](sequential/), for ordered values
   - [Diverging](diverging/), for values on either side of a meaningful midpoint

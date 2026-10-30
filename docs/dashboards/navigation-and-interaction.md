@@ -14,12 +14,13 @@ A dashboard with more than one page has two kinds of navigation. Keep them on se
 
 | | Which view | Which item |
 |:--|:--|:--|
-| **Example** | Overview, Finance, Results | One programme out of thirty |
-| **Control** | Page tabs in the header | A subject bar at the top of each detail page, with a picker |
-| **Behaviour** | Always visible | The chosen item stays when the reader changes page |
+| Example | Overview, Finance, Results | One programme out of thirty |
+| Control | Page tabs in the header | A subject bar at the top of each detail page, with a picker |
+| Behaviour | Always visible | The chosen item stays when the reader changes page |
+{: .row-heads }
 
-- **Overview pages** filter a *population*: which programmes, which period. They have the filter rail.
-- **Detail pages** show *one item*. They have a subject bar instead of a rail, with the item's name, its status, its position ("4 of 12") and a picker. A detail page that doesn't say which item it shows can't be fixed once it's a screenshot.
+- Overview pages filter a *population*: which programmes, which period. They have the filter rail.
+- Detail pages show *one item*. They have a subject bar instead of a rail, with the item's name, its status, its position ("4 of 12") and a picker. A detail page that doesn't say which item it shows can't be fixed once it's a screenshot.
 
 The picker depends on how long the list is:
 
@@ -32,7 +33,7 @@ The picker depends on how long the list is:
 ## Interaction
 
 {: .rule }
-The default view is the report. Most readers never touch a filter: they open the page, look for ten seconds and move on. The page as it opens must answer the main question on its own, and filters are for the few who dig further.
+The default view is the report. Most readers never touch a filter: they open the page, look for a few seconds and move on. The page as it opens must answer the main question on its own, and filters are for the few who dig further.
 
 {: .rule }
 Interaction is a cost, not a feature. Each filter hands a decision to the reader. Three filters is a choice about what to hand over; ten is refusing to choose. Ask which question each interaction answers, and whether readers actually have that question.

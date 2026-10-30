@@ -23,15 +23,19 @@ A dashboard sits between two kinds of guidance. This guide covers each visual: w
 
 | | Style guide | Design system | What a dashboard adds |
 |:--|:--|:--|:--|
-| **Governs** | One visual with a fixed message | Components that work for any content | Many visuals on data that keeps changing |
-| **Who checks the result** | The author, before publishing | The developer, component by component | Nobody sees every filter combination |
-| **Colour** | Data colours, in a fixed order | Brand and interface colours | Colours tied to categories, and status colours |
-| **Built in** | Chart tools, Excel, R, Python | HTML, CSS, components | Power BI, Tableau, Looker Studio, or a web page |
+| Governs | One visual with a fixed message | Components that work for any content | Many visuals on data that keeps changing |
+| Who checks the result | The author, before publishing | The developer, component by component | Nobody sees every filter combination |
+| Colour | Data colours, in a fixed order | Brand and interface colours | Colours tied to categories, and status colours |
+| Built in | Chart tools, Excel, R, Python | HTML, CSS, components | Power BI, Tableau, Looker Studio, or a web page |
+{: .row-heads }
 
 Which one to follow depends on where you build the dashboard:
 
-- **For a client:** follow this guide for the visuals and the client's brand for everything else. The grid, the parts of the page and the status rules in this section still apply; swap the colours and the typeface.
-- **In your own brand:** take the interface (tiles, filters, type, spacing) from your design system, and the visuals from this guide. Don't rebuild web components in a BI tool: translate the design system's rules into a theme instead. The [REN Data design system](https://rendata.nl/design-system/site/dashboards.html) does this, with a stylesheet for web dashboards and a theme for Power BI.
+For a client
+: Follow this guide for the visuals and the client's brand for everything else. The grid, the parts of the page and the status rules in this section still apply; swap the colours and the typeface.
+
+In your own brand
+: Take the interface (tiles, filters, type, spacing) from your design system, and the visuals from this guide. Don't rebuild web components in a BI tool: translate the design system's rules into a theme instead. The [REN Data design system](https://rendata.nl/design-system/site/dashboards.html) does this, with a stylesheet for web dashboards and a theme for Power BI.
 
 {: .rule }
 When the two disagree, this guide decides how the data is shown and the design system decides everything around it. The REN Data design system takes its chart rules from this guide for that reason.

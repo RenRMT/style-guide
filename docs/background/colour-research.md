@@ -10,9 +10,9 @@ nav_order: 4
 
 I designed the data palette against three criteria, in order of importance:
 
-1. **Clear visual language.** The colours form clearly identifiable categories, the ramp steps are easy to tell apart, and there are enough colours for most needs.
-2. **Accessibility.** The palette works with common colour-vision deficiencies, the colours contrast enough with each other and with the background, they stay distinguishable in greyscale, and they work in print and on screen.
-3. **Aesthetics.** Only once the first two criteria are met: alignment with the brand, and a pleasant, professional look. These judgements are subjective.
+1. Clear visual language: the colours form clearly identifiable categories, the ramp steps are easy to tell apart, and there are enough colours for most needs.
+2. Accessibility: the palette works with common colour-vision deficiencies, the colours contrast enough with each other and with the background, they stay distinguishable in greyscale, and they work in print and on screen.
+3. Aesthetics, but only once the first two criteria are met: alignment with the brand, and a pleasant, professional look. These judgements are subjective.
 
 ## Starting point
 
@@ -26,9 +26,14 @@ No palette lets every colour contrast strongly with every other. Style guides so
 
 ## How many colours and steps
 
-- **Categorical:** people can distinguish more than eight hues in some chart types, especially bar charts (Szafir, 2018). But that many categories causes other problems: clutter, small marks and long legends. Eight is the practical maximum.
-- **Sequential:** accuracy drops beyond about seven steps, and five or six is safer (Tseng et al., 2024).
-- **Diverging:** accuracy drops beyond about nine steps (Tseng et al., 2024).
+Categorical
+: People can distinguish more than eight hues in some chart types, especially bar charts (Szafir, 2018). But that many categories causes other problems: clutter, small marks and long legends. Eight is the practical maximum.
+
+Sequential
+: Accuracy drops beyond about seven steps, and five or six is safer (Tseng et al., 2024).
+
+Diverging
+: Accuracy drops beyond about nine steps (Tseng et al., 2024).
 
 ## Palette test results
 

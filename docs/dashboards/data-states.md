@@ -18,9 +18,9 @@ There are three kinds of empty, and they mean different things. A reader who can
 
 | State | Means | Show |
 |:--|:--|:--|
-| **No data** | Nothing was measured | "No data", and why: "This programme reports twice a year. Next report due 15 January." |
-| **No results** | There is data, but the filters exclude it | "No results for these filters", and the way out: "Clear the region filter to see all regions." |
-| **Error** | Something broke | What failed and the last good refresh: "The incidents data didn't load. Last refreshed 27 October." |
+| No data | Nothing was measured | "No data", and why: "This programme reports twice a year. Next report due 15 January 2027." |
+| No results | There is data, but the filters exclude it | "No results for these filters", and the way out: "Clear the region filter to see all regions." |
+| Error | A load or calculation failed | What failed and the last good refresh: "The incidents data didn't load. Last refreshed 27 October 2026." |
 
 The other states:
 
@@ -31,7 +31,7 @@ The other states:
 | Zero | The chart, with the zero shown and labelled | A bar at 0, labelled "0" |
 | Missing values | A gap in the line, a dash in a table, or a Steel "No data" category | "No data" in the legend or a note |
 | Partial period | The value, with a dashed line or lighter fill | "Partial week" |
-| Stale | The last good data, with a warning next to the update time | "Not updated since 21 October: source delayed." |
+| Stale | The last good data, with a warning next to the update time | "Not updated since 21 October 2026: source delayed." |
 | Too few to show | Nothing, and the reason | "Fewer than 5 cases. Hidden to protect privacy." |
 
 {: .rule }
@@ -49,18 +49,18 @@ Show a refresh warning in one place: one line under the header, or in the affect
 - Fix the zoom and frame of a map, so it doesn't move with every filter. Colour areas with no data Steel on purpose: left white, they look like zero.
 - Give table columns fixed widths. Automatic widths jump with every filter change, and two screenshots of the same table can't be compared.
 
-## Test the states, not the picture
+## Testing
 
 You check a static chart by looking at it. You check a dashboard by going through the states a reader can reach and you haven't seen. Before you publish, check:
 
-- [ ] **The opening view,** with no selection. Is every number right, and does it say which period?
-- [ ] **One selection at the deepest level.** Are the totals still right?
-- [ ] **A selection with no results.** Does the no-results message appear, with a way out?
-- [ ] **The first period in the data.** A comparison with "the previous period" mustn't fall back to zero.
-- [ ] **The latest period, still running.** Does it say it's incomplete?
-- [ ] **An item that reports late.** Does it show as No data, or carry over its last value? Is that what you intended?
-- [ ] **A reader without access.** Empty with an explanation, not an error, and certainly not everything.
-- [ ] **The longest names and an outlier.** Do labels and scales hold up?
-- [ ] **A screenshot,** without the filters around it. Does it still say what it shows, for when and for whom?
+- [ ] The opening view, with no selection. Is every number right, and does it say which period?
+- [ ] One selection at the deepest level. Are the totals still right?
+- [ ] A selection with no results. Does the no-results message appear, with a way out?
+- [ ] The first period in the data. A comparison with "the previous period" mustn't fall back to zero.
+- [ ] The latest period, still running. Does it say it's incomplete?
+- [ ] An item that reports late. Does it show as No data, or carry over its last value? Is that what you intended?
+- [ ] A reader without access. Empty with an explanation, not an error, and certainly not everything.
+- [ ] The longest names and an outlier. Do labels and scales hold up?
+- [ ] A screenshot, without the filters around it. Does it still say what it shows, for when and for whom?
 
 If one of these fails, it's rarely a formatting problem. It's a calculation that's wrong at one level, or text that was typed where it should come from the data.

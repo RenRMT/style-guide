@@ -145,6 +145,31 @@ $callouts: (rule: #338877, avoid: #bc3c4c, adapt: #ccb15f, why: #2b5b9b); // Tea
   }
 }
 
+// Bold is not used for structure. Labels come from these instead:
+// {: .meta } under a chart or map heading: its limits, as mono metadata.
+.main-content p.meta {
+  margin: -0.25rem 0 0.5rem;
+  font: 12px/1.6 $mono-font-family;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $muted;
+}
+
+// Definition lists: the term in Plex Sans semibold above its text, replacing just-the-docs' two-column grid.
+.main-content dl { display: block; max-width: 66ch; margin: 0.75rem 0 1.25rem; }
+.main-content dt {
+  margin: 0.75rem 0 0.125rem;
+  font-weight: 600;
+  text-align: left;
+  color: $body-heading-color;
+  &::after { content: none; }
+  &:first-child { margin-top: 0; }
+}
+.main-content dd { margin: 0; }
+
+// {: .row-heads } after a table whose first column labels the rows.
+.main-content table.row-heads td:first-child { font-weight: 600; color: $body-heading-color; }
+
 // Colour swatches (see _includes/swatches.html, ramp.html, diverging.html)
 .swatches {
   display: grid;

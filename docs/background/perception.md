@@ -51,7 +51,7 @@ Perception depends on relative brightness and local contrast.
 
 People spot some features almost instantly, before conscious attention: colour, size, orientation and shape.
 
-- Use **one** pre-attentive feature (colour *or* size) to highlight one insight.
+- Use a single pre-attentive feature (colour *or* size) to highlight one insight.
 - Combine channels only when the data structure really calls for it, which is rare.
 - Shape stands out less than colour, especially among many points.
 
