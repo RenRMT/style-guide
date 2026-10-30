@@ -13,20 +13,41 @@ A map answers one question about a place. Everything on it either helps answer t
 
 ## Choosing a map type
 
-| You want to show… | Use | Page |
-|:--|:--|:--|
-| Where one place, area or route is, with no variable data | Reference or locator map | [Other maps](other/#reference-and-locator-maps) |
-| An area to point out, such as where something changed | Highlight areas | [Other maps](other/#highlight-areas) |
-| Rates, percentages or intensity per administrative area | Choropleth (coloured areas) | [Area maps](area/#choropleth-map) |
-| The density of many points, when exact locations matter less | Hexbin map | [Area maps](area/#hexbin-map) |
-| Types or categories per area, such as control or access | Chorochromatic / areas of control | [Area maps](area/#chorochromatic-and-areas-of-control-maps) |
-| The exact location of individual events | Event (dot) map | [Point maps](point/#event-map) |
-| Events by type | Circles by colour | [Point maps](point/#circles-by-colour) |
-| Amounts at locations, including overlapping points | Proportional circles | [Point maps](point/#proportional-circles) |
-| Both type and amount | Circles by size and colour | [Point maps](point/#circles-by-size-and-colour) |
-| Context for a few selected points | Annotated map | [Point maps](point/#annotated-map) |
-| Movement between places | Routes and flow map | [Other maps](other/#routes-and-flow-maps) |
-| A continuous surface, such as travel time or temperature | Isoline map | [Other maps](other/#isoline-map) |
+Find what you want to show, then answer the questions about your data.
+
+<details markdown="1">
+<summary>Pointing out a place, area or route? Usually a <a href="other/#reference-and-locator-maps">reference or locator map</a></summary>
+
+- Is it just where something is, with no data attached? → [Reference or locator map](other/#reference-and-locator-maps)
+- Do you need to draw attention to an area, such as where something changed? → [Highlight areas](other/#highlight-areas)
+- Do a few selected points need context or explanation? → [Annotated map](point/#annotated-map)
+
+</details>
+
+<details markdown="1">
+<summary>Showing data for areas? Usually a <a href="area/#choropleth-map">choropleth</a></summary>
+
+- Is it a rate, percentage or intensity per administrative area? → [Choropleth (coloured areas)](area/#choropleth-map)
+- Is it a type or category per area, such as control or access? → [Chorochromatic or areas of control map](area/#chorochromatic-and-areas-of-control-maps)
+
+</details>
+
+<details markdown="1">
+<summary>Showing events or locations? Usually an <a href="point/#event-map">event (dot) map</a></summary>
+
+- Does the exact location of each event matter? → [Event (dot) map](point/#event-map)
+- Are there amounts at each location, or overlapping points? → [Proportional circles](point/#proportional-circles)
+- Are there so many points that density matters more than exact location? → [Hexbin map](area/#hexbin-map)
+
+</details>
+
+<details markdown="1">
+<summary>Showing movement or a continuous surface?</summary>
+
+- Are things moving between places? → [Routes and flow map](other/#routes-and-flow-maps)
+- Does a value vary smoothly across space, such as travel time or temperature? → [Isoline map](other/#isoline-map)
+
+</details>
 
 ## Rules for every map
 
