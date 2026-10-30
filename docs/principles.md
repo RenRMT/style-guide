@@ -21,7 +21,7 @@ Every published visual meets these four principles. When a visual isn't working,
 A visual must make a point that matters to the reader and that isn't obvious without it. It should help the reader reason, interpret or decide.
 
 {: .rule }
-State the main message in the title. Every other element supports that message.
+State the main message in the title. Every other element supports that message. Dashboards with live data are the one exception: see [titles on live data](../dashboards/plan-and-layout/#titles-on-live-data).
 
 <div class="rules rules--do-avoid" markdown="1">
 <div markdown="1">

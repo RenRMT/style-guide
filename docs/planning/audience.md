@@ -14,7 +14,7 @@ Readers spend less time on your visual than you think, or hope. Decide up front 
 |:--|:--|:--|:--|
 | **Goal** | One immediate insight | One main message with a little interpretation | Deep understanding and exploration of nuance |
 | **Typical reader** | Management, executives, a skimming reader | General or partner audience | Specialists and staff, the analysts themselves |
-| **Formats** | A big number, sparkline, locator map or one annotated highlight | A titled chart or map embedded in a report | A dashboard, standalone map sheet, small multiples or detailed table |
+| **Formats** | A big number, sparkline, locator map or one annotated highlight | A titled chart or map embedded in a report | A [dashboard](../../dashboards/), standalone map sheet, small multiples or detailed table |
 | **Colours** | 1–2 | Up to 5 | As many as the data needs, still limited by the [palette](../../colour/categorical/) |
 | **Text** | Title only, or a number with a label | Title, subtitle, direct labels and source | Full legend, notes, methodology and annotations |
 | **Map elements** | Main map and source | Add a title, legend and optional locator or inset | Add a scale, north arrow, credits and supporting graphics |

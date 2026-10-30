@@ -9,21 +9,26 @@ nav_order: 7
 ## Books
 
 - Dougherty, J. & Ilyankou, I. (2021) *Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code*. O'Reilly Media.
+- Few, S. (2013) *Information Dashboard Design: Displaying Data for At-a-Glance Monitoring*. 2nd edn. Burlingame, CA: Analytics Press.
 - Healy, K. (2026) *Data Visualization: A Practical Introduction*. 2nd edn. Princeton: Princeton University Press.
 - Monmonier, M. (2018) *How to Lie with Maps*. 3rd edn. Chicago: University of Chicago Press.
 - Nussbaumer Knaflic, C. (2015) *Storytelling with Data: A Data Visualization Guide for Business Professionals*. Hoboken, NJ: Wiley.
 - Slocum, T.A., McMaster, R.B., Kessler, F.C. & Howard, H.H. (2009) *Thematic Cartography and Geovisualization*. 3rd edn. Upper Saddle River, NJ: Pearson.
 - Smiciklas, M. (2012) *The Power of Infographics: Using Pictures to Communicate and Connect with Your Audiences*. Indianapolis, IN: Que.
+- Wexler, S., Shaffer, J. & Cotgreave, A. (2017) *The Big Book of Dashboards: Visualizing Your Data Using Real-World Business Scenarios*. Hoboken, NJ: Wiley.
 - Wilke, C.O. (2019) *Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures*. O'Reilly Media.
 
 ## Research
 
+- Bach, B., Freeman, E., Abdul-Rahman, A., Turkay, C., Khan, S., Fan, Y. & Chen, M. (2023) 'Dashboard design patterns', *IEEE Transactions on Visualization and Computer Graphics*, 29(1), pp. 342–352. [doi:10.1109/TVCG.2022.3209448](https://doi.org/10.1109/TVCG.2022.3209448)
 - Barrio, P.J., Goldstein, D.G. & Hofman, J.M. (2016) 'Improving comprehension of numbers in the news', *Proceedings of CHI '16*, pp. 1–12. [doi:10.1145/2858036.2858510](https://doi.org/10.1145/2858036.2858510)
 - Brewer, C.A. (1994) 'Color use guidelines for mapping and visualization', in MacEachren, A.M. & Taylor, D.R.F. (eds) *Visualization in Modern Cartography*. Oxford: Pergamon.
 - Hazlett, R.L., Larson, K., Shaikh, A.D. & Chaparro, B.S. (2013) 'Two studies on how a typeface congruent with content can enhance onscreen communication', *Information Design Journal*, 20(3), pp. 207–219.
 - Machado, G.M., Oliveira, M.M. & Fernandes, L.A.F. (2009) 'A physiologically-based model for simulation of color vision deficiency', *IEEE Transactions on Visualization and Computer Graphics*, 15(6), pp. 1291–1298.
 - Reber, R. & Schwarz, N. (1999) 'Effects of perceptual fluency on judgments of truth', *Consciousness and Cognition*, 8, pp. 338–342.
 - Rensink, R.A. & Baldridge, G. (2010) 'The perception of correlation in scatterplots', *Computer Graphics Forum*, 29(3), pp. 1203–1210.
+- Sarikaya, A., Correll, M., Bartram, L., Tory, M. & Fisher, D. (2019) 'What do we talk about when we talk about dashboards?', *IEEE Transactions on Visualization and Computer Graphics*, 25(1), pp. 682–692. [doi:10.1109/TVCG.2018.2864903](https://doi.org/10.1109/TVCG.2018.2864903)
+- Shneiderman, B. (1996) 'The eyes have it: a task by data type taxonomy for information visualizations', *Proceedings of the IEEE Symposium on Visual Languages*, pp. 336–343. [doi:10.1109/VL.1996.545307](https://doi.org/10.1109/VL.1996.545307)
 - Song, H. & Schwarz, N. (2008) 'Fluency and the detection of misleading questions: Low processing fluency attenuates the Moses illusion', *Social Cognition*, 26(6), pp. 791–799.
 - Song, H. & Schwarz, N. (2009) 'If it's difficult to pronounce, it must be risky', *Psychological Science*, 20(2), pp. 135–138.
 - Szafir, D.A. (2018) 'Modeling color difference for visualization design', *IEEE Transactions on Visualization and Computer Graphics*, 24(1), pp. 392–401.

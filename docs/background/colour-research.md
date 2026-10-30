@@ -18,7 +18,7 @@ I designed the data palette against three criteria, in order of importance:
 
 I compared three palettes designed for colour-blind readers: IBM, Okabe–Ito and Paul Tol's. IBM has too few colours, and Tol's are too dark to derive light ramps from. Okabe–Ito was the most flexible. Many published style guides (UNHCR, the WHO, the Urban Institute and the CFPB among them) also follow it to some degree.
 
-I then desaturated the colours for print, replaced black with a neutral grey, and added a purple, Violet. Violet costs a little colour-blind safety next to Baltic, but gives a fourth dark colour for lines. See [Build your own palette](../../colour/build-your-own/#shift-towards-your-brand) for how each colour was derived.
+I then desaturated the colours for print, replaced black with a neutral grey, and added a purple, Violet. Violet costs a little colour-blind safety next to Baltic, but gives a fourth dark colour for lines. See [Build your own palette](../../colour/build-your-own/#shift-it-towards-your-brand) for how each colour was derived.
 
 ## Why a fixed order
 

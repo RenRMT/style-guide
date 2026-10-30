@@ -13,7 +13,7 @@ Perception isn't neutral: people actively build what they see. Gestalt psycholog
 ### Proximity: space signals structure
 People group elements that are close together. Even small differences in spacing create strong perceived structure.
 - Group related rows or columns in a table with tighter spacing, and separate groups with white space instead of lines.
-- Cluster related KPIs on a dashboard.
+- Cluster related KPIs on a [dashboard](../../dashboards/plan-and-layout/#layout).
 
 *Example:* in a table of monthly figures, tighter spacing within quarters and more space between them shows the quarters without any borders.
 
