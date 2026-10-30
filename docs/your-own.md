@@ -1,6 +1,6 @@
 ---
 title: Make your own
-nav_order: 9
+nav_order: 10
 ---
 
 # Make your own style guide
@@ -20,6 +20,7 @@ The source is on [GitHub](https://github.com/RenRMT/style-guide). Fork it, or ta
 | [Chart layout](../charts/layout/) | The element list | The positions, logo rules and template files. |
 | Chart types and limits | ✔ | Tighten the limits if your audience is mostly 3-second readers. |
 | [Map layout](../maps/layout/) | The element rules | The paper sizes, basemap choice and logo variants. |
+| [Dashboards](../dashboards/) | The layout and rules | The status colours, and a template in your BI tool. |
 | [Background](../background/) | ✔ | |
 
 ## Order of work

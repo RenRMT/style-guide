@@ -26,6 +26,7 @@ The guide puts what to do first and why second.
 | [Colour](docs/colour/) and [Typography](docs/typography/) | Pick colours and type. |
 | [Big numbers](docs/big-numbers/) | Show one key number at a glance. |
 | [Charts](docs/charts/) and [Maps](docs/maps/) | Lay out a chart or map, choose a type and keep within its limits. |
+| [Dashboards](docs/dashboards/) | Combine numbers, charts and maps on one screen that people check regularly. |
 | [Make your own](docs/your-own/) | Adapt this guide to another brand or organisation. |
 | [Background](docs/background/) | Read the research behind the rules: perception, cognitive load, colour science and typography. Optional. |
 

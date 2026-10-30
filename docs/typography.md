@@ -9,7 +9,7 @@ nav_order: 5
 
 | Where | Typeface | Notes |
 |:--|:--|:--|
-| Office (Excel, PowerPoint, Word) | **Calibri**, or **Aptos** to match the Office default | Both are installed on every Windows machine and have the right figures for numbers (see below). Calibri is narrower, so more text fits without shrinking it. |
+| Office (Excel, PowerPoint, Word) and BI tools (Power BI) | **Calibri**, or **Aptos** to match the Office default | Both are installed on every Windows machine and have the right figures for numbers (see below). Calibri is narrower, so more text fits without shrinking it. BI services show only fonts installed on the reader's machine, so use Calibri there too. |
 | Web and code (D3, Plotly, ggplot, matplotlib) | **IBM Plex Sans** | Open source, with many weights. Turn on tabular figures (`font-variant-numeric: tabular-nums` in CSS). |
 
 Use one typeface per visual. Create hierarchy with weight and size, not with a second font.

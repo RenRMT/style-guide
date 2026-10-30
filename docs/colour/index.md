@@ -38,6 +38,7 @@ All colours are also in the [interactive colour picker](https://rendata.nl/color
 | Data that isn't the focus ("other", context, "no data") | Steel |
 | Data | [Data colours](categorical/), starting with Teal |
 | Text on a coloured fill | Black or white, whichever the swatch shows |
+| Status: on track, watch, off track, completed | Baltic, Jasmine, Cherry and Sky, always with a sign and a word. See [status colours](../dashboards/numbers-and-colour/#status-colours) |
 
 ## Rules for every visual
 

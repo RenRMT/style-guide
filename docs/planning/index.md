@@ -13,4 +13,4 @@ Most weak visuals go wrong before anyone opens a charting tool. Settle three thi
 3. **[The format](format/).** Is a big number, a chart, a map or a table the best fit?
 
 {: .rule }
-Explanatory visuals only. Everything in this guide is about visuals that communicate a defined message to a specific audience. Exploratory charts, which you make for yourself to find patterns, can be as messy as you like.
+Explanatory visuals only. Everything in this guide is about visuals that communicate a defined message to a specific audience. Exploratory charts, which you make for yourself to find patterns, can be as messy as you like. [Dashboards](../dashboards/) sit in between: they are explanatory, but they show data that keeps changing, and their page covers what that changes.

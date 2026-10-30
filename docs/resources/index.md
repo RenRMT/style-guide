@@ -1,6 +1,6 @@
 ---
 title: Tools and resources
-nav_order: 11
+nav_order: 12
 ---
 
 # Tools and resources
@@ -8,6 +8,7 @@ nav_order: 11
 ## Made for this guide
 
 - **[Colour picker](https://rendata.nl/color-picker/).** All brand and data colours, with sequential and diverging ramps at any number of steps. Click a swatch to copy its hex code, or export the whole palette as CSS variables. It includes other palettes too, and you can add your own as a single JSON file.
+- **[Design system](https://rendata.nl/design-system/site/).** The REN Data interface components, tokens and patterns: cards, filters, big numbers and type. Use it for the interface around visuals, such as a dashboard built as a web page. It takes its chart rules from this guide.
 
 ## Checking colours
 
@@ -21,6 +22,7 @@ nav_order: 11
 - [Data Visualisation Catalogue](https://datavizcatalogue.com/): what each chart type is for.
 - [Datawrapper Academy](https://academy.datawrapper.de/): practical guides to chart types, colour and labelling.
 - [From Data to Viz](https://www.data-to-viz.com/): a chart chooser by data type, with the common mistakes for each.
+- [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/): a catalogue of layout, interaction and KPI patterns from real dashboards, with design cards.
 
 ## Other style guides
 
