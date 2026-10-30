@@ -50,5 +50,9 @@ A routes map shows *where* things move: supply routes, migration paths, traffick
 
 An isoline map draws lines of equal value across a continuous surface, such as travel time to the nearest clinic, temperature or interpolated survey results.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-isoline.svg' | relative_url }}" alt="Isolines of travel time to the nearest clinic at 30, 60 and 90 minutes, with the 90-minute line in the north-east">
+</div>
+
 - Use it only when the phenomenon really changes smoothly across space, and when there are enough measurement points.
 - With sparse or sharply varying data, an isoline map looks precise when it isn't. Use points or areas instead.

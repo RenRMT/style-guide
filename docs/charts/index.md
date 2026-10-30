@@ -31,7 +31,7 @@ Find what you want to show, then answer the questions about your data.
 - Do they have a natural order (age groups, months)? → [Column chart](comparison/#column-chart)
 - Are you comparing across two dimensions? → [Clustered bar or column chart](comparison/#clustered-bar-chart)
 - Are the values close together? → [Lollipop or dot chart](comparison/#lollipop-and-dot-chart)
-- Are there many series that would overlap? → Small multiples
+- Are there many series that would overlap? → [Small multiples](comparison/#small-multiples)
 
 </details>
 

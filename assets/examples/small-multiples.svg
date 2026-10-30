@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 456" width="660" height="456" font-family="IBM Plex Sans, Calibri, Segoe UI, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Small multiples</title>
+  <desc id="d">Six small line charts, one per region, sorted by their 2025 value and sharing the same axes. Each panel shows its region in Teal against the other regions in light grey. North rises most steeply, to 48 thousand; Coast also rises sharply; West and South decline.</desc>
+  <rect width="660" height="456" fill="#ffffff"/>
+
+  <!-- text block -->
+  <text x="48" y="40" font-size="22" font-weight="700" fill="#191919">Displacement has risen fastest in the North and on the Coast</text>
+  <text x="48" y="64" font-size="15" fill="#191919">People displaced (thousands) by region, 2016–2025</text>
+
+  <!-- panels: same scales in every panel, sorted by the 2025 value; other regions in Platinum for context -->
+  <text x="80" y="108" font-size="13" font-weight="600" fill="#191919">North <tspan font-weight="400">48</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="80" y1="170" x2="240" y2="170"/><line x1="80" y1="120" x2="240" y2="120"/></g>
+  <line x1="80" y1="220" x2="240" y2="220" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="80.0,180.0 97.8,178.0 115.6,174.0 133.3,176.0 151.1,172.0 168.9,170.0 186.7,166.0 204.4,168.0 222.2,164.0 240.0,162.0"/><polyline points="80.0,208.0 97.8,206.0 115.6,202.0 133.3,204.0 151.1,200.0 168.9,196.0 186.7,190.0 204.4,182.0 222.2,178.0 240.0,172.0"/><polyline points="80.0,202.0 97.8,200.0 115.6,200.0 133.3,198.0 151.1,194.0 168.9,192.0 186.7,192.0 204.4,190.0 222.2,186.0 240.0,184.0"/><polyline points="80.0,190.0 97.8,188.0 115.6,184.0 133.3,178.0 151.1,176.0 168.9,180.0 186.7,182.0 204.4,186.0 222.2,188.0 240.0,188.0"/><polyline points="80.0,184.0 97.8,186.0 115.6,188.0 133.3,186.0 151.1,190.0 168.9,192.0 186.7,190.0 204.4,194.0 222.2,196.0 240.0,196.0"/></g>
+  <polyline points="80.0,196.0 97.8,192.0 115.6,190.0 133.3,182.0 151.1,172.0 168.9,164.0 186.7,154.0 204.4,146.0 222.2,136.0 240.0,124.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+  <g font-size="12" fill="#191919" text-anchor="end"><text x="72" y="224">0</text><text x="72" y="174">25</text><text x="72" y="124">50</text></g>
+
+  <text x="276" y="108" font-size="13" font-weight="600" fill="#191919">East <tspan font-weight="400">29</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="276" y1="170" x2="436" y2="170"/><line x1="276" y1="120" x2="436" y2="120"/></g>
+  <line x1="276" y1="220" x2="436" y2="220" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="276.0,196.0 293.8,192.0 311.6,190.0 329.3,182.0 347.1,172.0 364.9,164.0 382.7,154.0 400.4,146.0 418.2,136.0 436.0,124.0"/><polyline points="276.0,208.0 293.8,206.0 311.6,202.0 329.3,204.0 347.1,200.0 364.9,196.0 382.7,190.0 400.4,182.0 418.2,178.0 436.0,172.0"/><polyline points="276.0,202.0 293.8,200.0 311.6,200.0 329.3,198.0 347.1,194.0 364.9,192.0 382.7,192.0 400.4,190.0 418.2,186.0 436.0,184.0"/><polyline points="276.0,190.0 293.8,188.0 311.6,184.0 329.3,178.0 347.1,176.0 364.9,180.0 382.7,182.0 400.4,186.0 418.2,188.0 436.0,188.0"/><polyline points="276.0,184.0 293.8,186.0 311.6,188.0 329.3,186.0 347.1,190.0 364.9,192.0 382.7,190.0 400.4,194.0 418.2,196.0 436.0,196.0"/></g>
+  <polyline points="276.0,180.0 293.8,178.0 311.6,174.0 329.3,176.0 347.1,172.0 364.9,170.0 382.7,166.0 400.4,168.0 418.2,164.0 436.0,162.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <text x="472" y="108" font-size="13" font-weight="600" fill="#191919">Coast <tspan font-weight="400">24</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="472" y1="170" x2="632" y2="170"/><line x1="472" y1="120" x2="632" y2="120"/></g>
+  <line x1="472" y1="220" x2="632" y2="220" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="472.0,196.0 489.8,192.0 507.6,190.0 525.3,182.0 543.1,172.0 560.9,164.0 578.7,154.0 596.4,146.0 614.2,136.0 632.0,124.0"/><polyline points="472.0,180.0 489.8,178.0 507.6,174.0 525.3,176.0 543.1,172.0 560.9,170.0 578.7,166.0 596.4,168.0 614.2,164.0 632.0,162.0"/><polyline points="472.0,202.0 489.8,200.0 507.6,200.0 525.3,198.0 543.1,194.0 560.9,192.0 578.7,192.0 596.4,190.0 614.2,186.0 632.0,184.0"/><polyline points="472.0,190.0 489.8,188.0 507.6,184.0 525.3,178.0 543.1,176.0 560.9,180.0 578.7,182.0 596.4,186.0 614.2,188.0 632.0,188.0"/><polyline points="472.0,184.0 489.8,186.0 507.6,188.0 525.3,186.0 543.1,190.0 560.9,192.0 578.7,190.0 596.4,194.0 614.2,196.0 632.0,196.0"/></g>
+  <polyline points="472.0,208.0 489.8,206.0 507.6,202.0 525.3,204.0 543.1,200.0 560.9,196.0 578.7,190.0 596.4,182.0 614.2,178.0 632.0,172.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <text x="80" y="270" font-size="13" font-weight="600" fill="#191919">Centre <tspan font-weight="400">18</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="80" y1="332" x2="240" y2="332"/><line x1="80" y1="282" x2="240" y2="282"/></g>
+  <line x1="80" y1="382" x2="240" y2="382" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="80.0,358.0 97.8,354.0 115.6,352.0 133.3,344.0 151.1,334.0 168.9,326.0 186.7,316.0 204.4,308.0 222.2,298.0 240.0,286.0"/><polyline points="80.0,342.0 97.8,340.0 115.6,336.0 133.3,338.0 151.1,334.0 168.9,332.0 186.7,328.0 204.4,330.0 222.2,326.0 240.0,324.0"/><polyline points="80.0,370.0 97.8,368.0 115.6,364.0 133.3,366.0 151.1,362.0 168.9,358.0 186.7,352.0 204.4,344.0 222.2,340.0 240.0,334.0"/><polyline points="80.0,352.0 97.8,350.0 115.6,346.0 133.3,340.0 151.1,338.0 168.9,342.0 186.7,344.0 204.4,348.0 222.2,350.0 240.0,350.0"/><polyline points="80.0,346.0 97.8,348.0 115.6,350.0 133.3,348.0 151.1,352.0 168.9,354.0 186.7,352.0 204.4,356.0 222.2,358.0 240.0,358.0"/></g>
+  <polyline points="80.0,364.0 97.8,362.0 115.6,362.0 133.3,360.0 151.1,356.0 168.9,354.0 186.7,354.0 204.4,352.0 222.2,348.0 240.0,346.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+  <g font-size="12" fill="#191919" text-anchor="end"><text x="72" y="386">0</text><text x="72" y="336">25</text><text x="72" y="286">50</text></g>
+  <g font-size="12" fill="#191919" text-anchor="middle"><text x="80" y="400">2016</text><text x="240" y="400">2025</text></g>
+
+  <text x="276" y="270" font-size="13" font-weight="600" fill="#191919">West <tspan font-weight="400">16</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="276" y1="332" x2="436" y2="332"/><line x1="276" y1="282" x2="436" y2="282"/></g>
+  <line x1="276" y1="382" x2="436" y2="382" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="276.0,358.0 293.8,354.0 311.6,352.0 329.3,344.0 347.1,334.0 364.9,326.0 382.7,316.0 400.4,308.0 418.2,298.0 436.0,286.0"/><polyline points="276.0,342.0 293.8,340.0 311.6,336.0 329.3,338.0 347.1,334.0 364.9,332.0 382.7,328.0 400.4,330.0 418.2,326.0 436.0,324.0"/><polyline points="276.0,370.0 293.8,368.0 311.6,364.0 329.3,366.0 347.1,362.0 364.9,358.0 382.7,352.0 400.4,344.0 418.2,340.0 436.0,334.0"/><polyline points="276.0,364.0 293.8,362.0 311.6,362.0 329.3,360.0 347.1,356.0 364.9,354.0 382.7,354.0 400.4,352.0 418.2,348.0 436.0,346.0"/><polyline points="276.0,346.0 293.8,348.0 311.6,350.0 329.3,348.0 347.1,352.0 364.9,354.0 382.7,352.0 400.4,356.0 418.2,358.0 436.0,358.0"/></g>
+  <polyline points="276.0,352.0 293.8,350.0 311.6,346.0 329.3,340.0 347.1,338.0 364.9,342.0 382.7,344.0 400.4,348.0 418.2,350.0 436.0,350.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+  <g font-size="12" fill="#191919" text-anchor="middle"><text x="276" y="400">2016</text><text x="436" y="400">2025</text></g>
+
+  <text x="472" y="270" font-size="13" font-weight="600" fill="#191919">South <tspan font-weight="400">12</tspan></text>
+  <g stroke="#ECECEC" stroke-width="1"><line x1="472" y1="332" x2="632" y2="332"/><line x1="472" y1="282" x2="632" y2="282"/></g>
+  <line x1="472" y1="382" x2="632" y2="382" stroke="#B8B8B8" stroke-width="1"/>
+  <g fill="none" stroke="#ECECEC" stroke-width="1.5" stroke-linejoin="round"><polyline points="472.0,358.0 489.8,354.0 507.6,352.0 525.3,344.0 543.1,334.0 560.9,326.0 578.7,316.0 596.4,308.0 614.2,298.0 632.0,286.0"/><polyline points="472.0,342.0 489.8,340.0 507.6,336.0 525.3,338.0 543.1,334.0 560.9,332.0 578.7,328.0 596.4,330.0 614.2,326.0 632.0,324.0"/><polyline points="472.0,370.0 489.8,368.0 507.6,364.0 525.3,366.0 543.1,362.0 560.9,358.0 578.7,352.0 596.4,344.0 614.2,340.0 632.0,334.0"/><polyline points="472.0,364.0 489.8,362.0 507.6,362.0 525.3,360.0 543.1,356.0 560.9,354.0 578.7,354.0 596.4,352.0 614.2,348.0 632.0,346.0"/><polyline points="472.0,352.0 489.8,350.0 507.6,346.0 525.3,340.0 543.1,338.0 560.9,342.0 578.7,344.0 596.4,348.0 614.2,350.0 632.0,350.0"/></g>
+  <polyline points="472.0,346.0 489.8,348.0 507.6,350.0 525.3,348.0 543.1,352.0 560.9,354.0 578.7,352.0 596.4,356.0 614.2,358.0 632.0,358.0" fill="none" stroke="#338877" stroke-width="2.5" stroke-linejoin="round"/>
+  <g font-size="12" fill="#191919" text-anchor="middle"><text x="472" y="400">2016</text><text x="632" y="400">2025</text></g>
+
+  <!-- source -->
+  <text x="48" y="432" font-size="11" fill="#191919">Source: Example displacement tracking, 2016–2025</text>
+</svg>

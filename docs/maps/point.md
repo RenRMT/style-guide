@@ -52,6 +52,10 @@ Use one primary variable. Use colour *or* size for meaning, and use other variab
 
 **Up to 7 annotations, of at most two lines each.** Short text gives context for selected points. Use it when readers need to know why particular points matter.
 
+<div class="figure">
+<img src="{{ '/assets/examples/map-annotated.svg' | relative_url }}" alt="Four events on the Netherlands, each a dot with a two-line annotation on a thin leader line, with the port closure as a larger coral dot">
+</div>
+
 - **Avoid** with many annotations or a complicated key.
 - Write in headline style: short, and with the most important words first. Longer text goes beside the map.
 - Set annotations in [label style](../labels/): regular 11 px Ink with a halo, and a short straight leader line of 0.75 px. Don't put them in boxes.

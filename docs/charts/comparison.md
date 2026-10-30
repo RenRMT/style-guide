@@ -35,9 +35,26 @@ nav_order: 3
 
 **Up to 18 bars in total.** Also called a grouped bar chart. Use it to compare subcategories within each category, when comparing the parts matters more than comparing the totals.
 
+<div class="figure">
+<img src="{{ '/assets/examples/bar-clustered.svg' | relative_url }}" alt="Clustered bar chart of acute malnutrition in five regions, with bars for children, adults and older people in each region">
+</div>
+
 - **Avoid** when clusters get crowded, or when the totals matter more. Use a stacked bar or small multiples instead.
 - Keep the same series order and colours in every cluster.
 - In Excel, missing category–subcategory pairs leave empty gaps. Fill them with zeros or restructure the data.
+
+## Small multiples
+
+**Up to about 12 panels.** A grid of small charts of the same type, one per category, all on the same scales. Use it when one chart would hold too many overlapping series, such as more than four lines.
+
+<div class="figure">
+<img src="{{ '/assets/examples/small-multiples.svg' | relative_url }}" alt="Six small line charts of displacement, one per region, on shared axes, each showing its region in Teal against the others in light grey">
+</div>
+
+- **Avoid** when readers need to compare exact values between panels. Put those series in one chart instead.
+- Use the same axes in every panel, and label the axes only on the outer panels.
+- Sort the panels meaningfully, such as by the latest value, not alphabetically.
+- Show the other categories in Platinum behind each panel's own line, so each panel can be read against the whole.
 
 ## Lollipop and dot chart
 
