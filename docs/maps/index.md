@@ -73,6 +73,9 @@ Find what you want to show, then answer the questions about your data.
 </div>
 
 {: .rule }
+Check the data before you map it: is it reliable, at the right level of detail, and safe to show? Maps of where people are can put them at risk. See [Check the data](../planning/data/).
+
+{: .rule }
 Choose the simplest basemap that supports the message. The basemap is context, and must never compete with the data. See [Basemaps and symbols](basemap/).
 
 {: .rule }

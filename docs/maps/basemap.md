@@ -26,6 +26,10 @@ Choose the simplest, least detailed basemap that still supports the message. To 
 {: .avoid }
 Don't use a detailed, colourful basemap by default. It's the most common reason a map looks busy.
 
+- Build the basemap one layer at a time. After each layer, check that the data still stands out, and drop the layer if it doesn't help.
+- Don't use a standard OpenStreetMap tile style. It shows everything at once, with symbols you can't define in the key. Extract only the features you need, such as main roads or settlements, and style them yourself. Check their quality first, and credit them as "© OpenStreetMap contributors".
+- Use satellite imagery only when no vector data will do, such as rural areas with no mapped roads or settlements. A land-cover layer is usually easier to read, because it is already classified.
+
 ## Basemap colours
 
 Draw your own outlines in one of two palettes. In both, the country the story is about keeps the lightest land tone.
@@ -111,6 +115,9 @@ Colour carries the category, and shape carries the type of place. Pictograms of 
 | Proportional circle | Scaled by area · at least 4 px · 1 px white stroke |
 
 Use an icon only when it's the clearest way to show something, such as an ✕ for a road blockage. Keep icons few, simple and explained.
+
+{: .adapt }
+If your field has a standard icon set that your readers already know, such as the humanitarian icon set many aid organisations use, those icons can replace part of the key. Use them only where they stay legible at map size, and fall back to plain shapes where points are small or dense. Check that an icon means the same thing in the culture of your readers.
 
 ## Colour on maps
 

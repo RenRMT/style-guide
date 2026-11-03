@@ -22,6 +22,8 @@ Use it to colour areas by a *relative* value, such as a rate, percentage, densit
 - Draw the borders between filled areas in white, so the fills stay clean. Neighbouring countries keep the context land tone.
 - Label the area the title talks about with its value.
 - When admin areas vary greatly in size, or don't match the pattern, use a [hexbin map](#hexbin-map).
+- Map at the level the data represents. If a survey is representative by province, don't shade districts.
+- Use one representation per measure. Don't show the same measure as fills for rural areas and dots for towns on one map: make two maps with the same style.
 
 ### Colour scales
 
@@ -50,13 +52,20 @@ Look at the histogram of your values first.
 | Evenly spread, or a fixed scale such as 0–100% | Equal interval | Intuitive, round class ranges. |
 | Bell-shaped | Standard deviation | Shows deviation from the average, and outliers. |
 
+Quantiles fill every class, but they can put very different values in one class and split near-identical values across two. Check the class ranges in the key before you publish. They remain a good choice for maps compared in a series, where readers found them the easiest to read (Brewer & Pickle 2002).
+
 - Comparing several maps? Use the same breaks on all of them: set them by hand, or calculate them once from all the maps' values together.
 - Extreme outliers? Avoid equal interval. Use natural breaks or quantiles.
 - Round the class boundaries to readable numbers.
-- Don't tune the breaks to make the map say what you want.
+- Don't tune the breaks to make the map say what you want. Very narrow classes, such as 83–85% and 86–88%, suggest differences the data may not support.
+- Make every class a closed range that doesn't overlap the next: "1–20%, 21–40%", not "0–30%, 30–60%" or "≤20%, ≤40%". Only the top class may be open: "More than 80%".
+- When zero is meaningful, such as "no incidents", give it its own class.
+- When there is a real gap in the values, show it: leave an empty class in the key, or split the range so that one class doesn't stretch across the gap.
+- Comparing several maps? Use the same colours for the same ranges, as well as the same breaks.
+- Classify by default. An unclassed ramp hides the differences between areas, so keep it for truly continuous fields, such as rainfall or elevation.
 
 {: .rule }
-Use 4–5 classes by default and never more than 7. Beyond that, readers can't match shades to the key.
+Use 4–5 classes by default, never more than 7 and never fewer than 3. Beyond 7, readers can't match shades to the key. With 2, random patterns start to look meaningful.
 
 ## Hexbin map
 
@@ -68,6 +77,11 @@ A choropleth on a grid of equal hexagons instead of admin areas. Use it when the
 
 - Choose a hexagon size that suits the map scale and the density of the data, and state it in the subtitle or a note: "Hexagons of 50 km²".
 - Follow the choropleth rules: at most 4–5 classes plus "no data", and a distinct "no data" or "no incidents" style.
+- Hexagons work well for counts, such as the number of camps, because every cell has the same area.
+- Be careful with rates. A cell that holds only two or three settlements, or a small sample, swings between classes on tiny differences. Use larger hexagons, or show counts instead.
+- Keep borders, towns and main roads on top, so readers can still tell where they are.
+- Make sure no cell reveals a single site or household. See [Sensitive data](../../planning/data/#sensitive-data).
+- Use hexagons, not squares. They are closer to circles, so every neighbour is about equally far away, and patterns read more clearly.
 - If admin areas tell the story, use a choropleth instead.
 
 ## Chorochromatic and areas of control maps
@@ -84,3 +98,30 @@ Use these to colour areas by *type*, not amount: who controls an area, access co
 - Avoid putting other data on top.
 
 To point out an area without classifying it, use a [highlight area](../other/#highlight-areas) instead.
+
+## Bivariate maps
+
+A bivariate choropleth colours each area by two measures at once, on a grid of colours. It is hard to read, and it suggests a relationship between the two measures whether or not there is one.
+
+{: .rule }
+Show two measures as two maps side by side, with the same breaks and style. Use a bivariate map only when the relationship between the measures is the message and the data clearly supports it.
+
+If you do use one:
+
+- Use a 3 × 3 grid at most: three classes per measure.
+- Give each measure a clearly different hue, so the grid mixes from light grey to two distinct colours. Two similar ramps, such as two reds, can't be told apart.
+- Put the grid key next to the map, with each axis named.
+- Remember that two measures rarely tell the whole story. Food insecurity, for example, depends on more than prices and access.
+
+Simpler ways to combine two measures on one map:
+
+| Combine | How |
+|:--|:--|
+| Size and colour | Proportional circles for one measure, coloured by class for the other |
+| Size and shape | Proportional symbols in two shapes, such as circles and squares |
+
+Even these need a careful key. When in doubt, use two maps.
+
+{: .why }
+In user tests, readers answered questions about two measures more accurately with combined symbols than with a colour grid. See Elmer (2013) in the [references](../../background/references/).
+

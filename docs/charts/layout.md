@@ -16,7 +16,7 @@ Every chart uses the same template. Elements marked "required" always appear. In
 |:-:|:--|:--|:--|
 | 1 | Figure number | optional | Use when the text refers to the chart. |
 | 2 | Title | required | The main message, stated as a takeaway. One line if possible. |
-| 3 | Subtitle | required | What is shown: measure, units, categories, period and place. |
+| 3 | Subtitle | required | What is shown: measure, units, categories, period and place. If the data covers only part of the population, such as displaced households, say so. |
 | 4 | Legend | if needed | Only when the categories can't be labelled directly. Place it above the plot, left-aligned, in data order. |
 | 5 | Y-axis title | if needed | Only when the units aren't in the subtitle. Put it horizontally above the axis. If it's too long, move it into the subtitle. |
 | 6 | Gridlines | optional | Light (Platinum) and horizontal only. They help when values aren't labelled directly. |
@@ -24,7 +24,7 @@ Every chart uses the same template. Elements marked "required" always appear. In
 | 8 | Axis values | if needed | Only when the data isn't labelled directly. Use no axis line on the value axis, and a Steel baseline at zero. |
 | 9 | X-axis title | if needed | Only when the units aren't in the subtitle. Centre it below the axis. |
 | 10 | Source | required | Always. Give the organisation and dataset, then the year. |
-| 11 | Note | optional | Explain choices and data limitations, such as "Excludes unverified reports." |
+| 11 | Note | optional | Explain choices and data limitations, such as "Excludes unverified reports." Define technical terms here, or in the legend: what counts as an "improved" water source differs between countries. |
 | 12 | Logo | required for published visuals | Bottom right. Follow the brand guidelines: don't stretch or recolour it. |
 
 ## Text

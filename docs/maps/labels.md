@@ -54,5 +54,11 @@ Annotations
 Values
 : Label the area or point the title talks about with its value, such as "Groningen 46%", rather than making readers look it up in the key.
 
+Dense labels
+: When labels can't fit beside their features, move them to the edge of the map and connect them with leader lines.
+
+{: .rule }
+Spell every place the same way on the map and in the text, and make sure every place the text mentions is on the map.
+
 {: .avoid }
-Labels in boxes, labels that cover data, rotated labels on land, and a second typeface for hierarchy.
+Labels in boxes, labels that cover data, rotated labels on land, underlined labels, and a second typeface for hierarchy. To make a label stand out, use weight or size.
