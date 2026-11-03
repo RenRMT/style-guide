@@ -31,6 +31,9 @@ For example, Teal with three and five steps:
 {% include ramp.html colour="Teal" steps="2,3,4,5,6" %}
 
 {: .rule }
+Dark always means more of what the title measures. Don't reverse a ramp so that the worst value is the lightest: readers read dark as more, whatever the key says. If low values are the bad news, name the measure so that more is worse ("share without access", not "share with access").
+
+{: .rule }
 Use five or six steps at most. Seven is the practical ceiling: beyond that, readers can't reliably match a shade to its legend entry.
 
 ## Which ramps

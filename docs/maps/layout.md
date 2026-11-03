@@ -21,6 +21,7 @@ Placed in a report, slide or dashboard. Makes one point, as simply as possible.
 #### Standalone map
 A map sheet in its own right. Treat it as an infographic, which can be more complex.
 - One or several maps, plus charts, annotations and descriptive text
+- A short narrative of the main findings and, for complex maps, a note on how to read it
 - Source credits, disclaimer, acronyms and partner logos
 - A-series paper size (A4, A3), portrait or landscape
 </div>
@@ -45,8 +46,8 @@ Every published map has the same frame as a [chart](../../charts/layout/). The t
 | 7 | Inset (zoomed area) | optional | Shows a crowded or distant area at a larger scale. |
 | 8 | North arrow | if needed | Only when north isn't at the top. |
 | 9 | Scale bar | if needed | Only when distances matter to the message. |
-| 10 | Source | required | Credit both the data and the map layers: "Source: [dataset], accessed [date] · Map: [organisation]". |
-| 11 | Note | optional | Method notes in one short paragraph, such as "Events within 2 km share a dot." Anything longer goes in the accompanying text. |
+| 10 | Source | required | Credit both the data and the map layers: "Source: [dataset], accessed [date] · Map: [organisation]". With several layers, credit each one with its date: "Incidents: [dataset], March 2026 · Borders: [provider] · Roads: © OpenStreetMap contributors". |
+| 11 | Note | optional | Method notes in one short paragraph, such as "Events within 2 km share a dot." Say if layers come from different dates. Anything longer goes in the accompanying text. |
 | 12 | Logo | required for published maps | Bottom right. Integrated maps use the symbol logo, and standalone maps use the full logo. |
 
 The title, subtitle, source and note follow the chart [type sizes](../../typography/#sizes-and-weights). For text on the map itself, see [Labels](../labels/).
@@ -79,6 +80,19 @@ Label first, key second. If the map shows one or two things, label them on the m
 {: .rule }
 Key labels name the thing, not the symbol: "Battles", not "Blue dots". Round the class breaks, and put the units in the key title.
 
+## Several maps together
+
+When maps appear side by side, as small multiples or on one page, readers will compare them. Make that comparison fair:
+
+- Use the same extent and scale for maps of the same area.
+- Use the same class breaks, colours and symbol sizes.
+- Use the same label and key sizes.
+- Give each key a title that names the measure, so a map can't be swapped for another by mistake.
+
+## Final size
+
+Build every map at the size it will be seen. A map designed for a full page won't survive being shrunk into a column, and a standalone map sheet should never be shrunk into a report. Check the exported file, not the view in your GIS tool: line widths, symbols and sharpness can change on export.
+
 ## Locator map
 
 A small map that shows where the main map is. Use either a **country locator** (where the country is in the world) or an **area locator** (which part of the country is shown), never both.
@@ -86,7 +100,7 @@ A small map that shows where the main map is. Use either a **country locator** (
 - Add a country locator only if most readers won't know where the country is *and* they need to know to understand the point.
 - Add an area locator when the main map is so zoomed in that the country's outline isn't recognisable.
 - Make it a rectangle, not a globe, about 12% of the map width, in a top corner over water. It must not overlap the data.
-- Draw the land in the context tone, the focus country one step darker, and the map extent as a Coral outline of 1.5 px. Leave out labels unless the region is unfamiliar.
+- Draw the land in the context tone, the focus country one step darker, and the map extent as a Coral outline of 1.5 px. When the extent matches an admin area, fill that area in Coral instead. When the main map shows a single town, mark it as a Coral dot. Leave out labels unless the region is unfamiliar.
 
 ## Inset (zoomed area)
 
@@ -105,6 +119,10 @@ A small map that shows where the main map is. Use either a **country locator** (
 
 {: .rule }
 Use a projection suited to the country for country maps: conic for mid-latitudes, transverse Mercator (UTM) near the equator. Use Equal Earth for world maps. Choropleths and anything else that compares areas need an equal-area projection, so never use Web Mercator for them.
+
+## Disclaimer
+
+Maps that show borders or place names that may be disputed need a short disclaimer on standalone sheets, outside the map area and in the note style: "Boundaries and names shown on this map do not imply official endorsement or acceptance." Check whether your funders or partners require their own wording.
 
 {: .adapt }
 Build your map template once in your GIS tool (an ArcGIS Pro layout or QGIS print layout) with every element in place. Delete what a map doesn't need, rather than adding elements one by one.

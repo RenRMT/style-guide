@@ -43,8 +43,25 @@ A routes map shows *where* things move: supply routes, migration paths, traffick
 - Use colour for the mode, such as maritime or land, and at most three modes. Use dashes for uncertainty: a dashed route is suspected.
 - Draw smooth or straight lines. Don't trace every bend in the road.
 - Give destinations off the map a short label at the arrow: "To Germany".
-- Scale flow lines to the volume, and include a width key.
-- The main risk is clutter. When lines cross too often, simplify the routes, merge flows or show only the largest ones.
+- Scale flow lines to the volume, and include a width key. Classifying the widths into three or four sizes makes them easier to compare and remember.
+- Start and end every flow at a labelled place, so readers can tell where it comes from and where it goes.
+- The main risk is clutter. When lines cross too often, simplify the routes, merge flows to a higher admin level or show only the largest ones. If that's still too many, use a Sankey diagram or a table instead.
+- Movement data can be sensitive. Check that showing where people go doesn't put them at risk. See [Sensitive data](../../planning/data/#sensitive-data).
+
+### Drawing flows
+
+Readability matters more than geometric accuracy on a flow map. Simplify the geography if that makes the flows clearer.
+
+- Curve flows gently, rather than drawing straight lines, to reduce overlaps. Curve long flows more than short ones, but avoid sharp bends.
+- Keep crossings few, and cross at wide angles.
+- Don't let a flow pass under a place it doesn't connect to.
+- Spread flows that leave the same place at different angles, rather than bundling them.
+- Draw thin flows on top of thick ones.
+- Show direction with an arrowhead scaled to the line width, enlarged a little for very thin lines. Don't use tapered lines: they make widths hard to compare.
+- If every flow goes to the same place, leave out the arrows. Mark the origins with dots, and label the destination.
+
+{: .why }
+These rules come from an analysis of 97 published flow maps and a user study. See Jenny et al. (2018) in the [references](../../background/references/).
 
 ## Isoline map
 
@@ -56,3 +73,29 @@ An isoline map draws lines of equal value across a continuous surface, such as t
 
 - Use it only when the phenomenon really changes smoothly across space, and when there are enough measurement points.
 - With sparse or sharply varying data, an isoline map looks precise when it isn't. Use points or areas instead.
+
+## Change over time
+
+To show how something changed, such as the growth of a settlement or the spread of damage:
+
+- Use a sequential ramp for the dates, from light (oldest) to dark (newest).
+- Choose dates far enough apart that the change is visible: decades rather than years if change is slow. Keep the intervals equal when readers need to see when change was fastest.
+- Don't stack layers from different dates on one map. The top layer hides what is underneath, so the overlap may not show the real change. Map the change itself, such as areas that were added or lost, or show each date as a small multiple with the same extent and style.
+
+## Charts on maps
+
+Bar charts and pie charts placed on a map are hard to read. They aren't aligned, so they can't be compared, and they cover the geography.
+
+- Don't put bar charts on maps.
+- Use pie charts only with two to four slices of very different size, and size them like [proportional circles](../point/#proportional-circles).
+- Never use 3D charts or shadows.
+
+Instead, use [small multiples](../layout/#several-maps-together): one map per measure, side by side. Or use symbols on the map and put the chart beside it, linked by place names.
+
+## Overlapping areas
+
+When layers overlap, such as flooded areas over land use, readers can't tell what they are looking at.
+
+- Best: combine the layers into joint classes, such as "high exposure, often flooded", and name each one in the key.
+- Otherwise, show one layer as a fill and the other as a hatch. With two hatched layers, set them 90° apart (vertical and horizontal, or 45° and 135°), so they still read where they cross. Use two textures at most.
+- Use hatches only for categories. Readers can't judge amounts from hatch density.

@@ -16,6 +16,7 @@ nav_order: 12
 - [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/): simulate colour blindness on any image, such as a finished chart.
 - [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/): check text and colour contrast.
 - [ColorBrewer](https://colorbrewer2.org): tested sequential and diverging schemes for maps.
+- [Color Oracle](https://colororacle.org): a free desktop app that shows your whole screen as colour-blind readers see it, so you can check a map in your GIS tool.
 
 ## Choosing and making charts
 
@@ -23,6 +24,11 @@ nav_order: 12
 - [Datawrapper Academy](https://academy.datawrapper.de/): practical guides to chart types, colour and labelling.
 - [From Data to Viz](https://www.data-to-viz.com/): a chart chooser by data type, with the common mistakes for each.
 - [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/): a catalogue of layout, interaction and KPI patterns from real dashboards, with design cards.
+
+## Making maps
+
+- [Axis Maps Cartography Guide](https://www.axismaps.com/guide): short, practical articles on classification, visual variables, labelling and map elements.
+- [Design principles for origin-destination flow maps](https://doi.org/10.1080/15230406.2016.1262280): the research behind the [flow map rules](../maps/other/#drawing-flows), with clear before-and-after figures.
 
 ## Other style guides
 

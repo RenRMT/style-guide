@@ -37,5 +37,12 @@ Jasmine, Coral, Sky and Blush are light. They work well as fills for bars, areas
 {: .rule }
 For lines, small points and coloured text, use the dark colours: Teal, Baltic, Cherry and Violet. Baltic and Violet are hard to tell apart with deuteranopia, so when both are on a chart, label them directly.
 
+## Meaning in colour
+
+Some colours come with a meaning already: blue for water, green for vegetation, red for danger or heat. Use these associations where they fit, and never work against them. A blue "drought" category makes readers work harder.
+
+{: .avoid }
+Don't use stereotyped colours, such as pink for women and blue for men. Pick a neutral pair from the colour order instead, such as Teal and Violet. See Muth (2018) in the [references](../../background/references/) for more options.
+
 {: .why }
 For how the palette was derived and tested, see [Colour research](../../background/colour-research/).

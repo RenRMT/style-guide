@@ -45,5 +45,8 @@ The same data often serves two very different audiences.
 {: .rule }
 Make it readable by anyone interested. Design for the primary audience, but don't lock out everyone else: spell out acronyms and add a line of context.
 
+{: .rule }
+Test it on someone outside the field. Specialists stop seeing their own jargon and shortcuts. Before publishing, ask a non-specialist to explain the visual back to you, and fix whatever they misread.
+
 {: .why }
 Novices need explanation and simplification, while experts handle denser detail without trouble. See [Fluency and cognitive load](../../background/fluency/).

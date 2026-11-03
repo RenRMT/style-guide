@@ -24,6 +24,8 @@ Not all data with a location should be mapped. Ask yourself:
 - Does location matter for the story, or is it just available?
 - Would a bar chart of regions compare them more clearly? Usually it would.
 - Is a map worth the extra effort? Good maps take much more work than good charts.
+- Do the values actually vary across space? If nearly every area falls in the same class, the map shows one colour. Say so in a sentence instead, unless the uniformity is the message.
+- Are there enough places? A map of three or four areas is usually weaker than a bar chart of them.
 
 If the answer is "a chart would do", use a chart.
 

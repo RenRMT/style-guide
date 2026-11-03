@@ -23,7 +23,12 @@ nav_order: 7
 - Bach, B., Freeman, E., Abdul-Rahman, A., Turkay, C., Khan, S., Fan, Y. & Chen, M. (2023) 'Dashboard design patterns', *IEEE Transactions on Visualization and Computer Graphics*, 29(1), pp. 342–352. [doi:10.1109/TVCG.2022.3209448](https://doi.org/10.1109/TVCG.2022.3209448)
 - Barrio, P.J., Goldstein, D.G. & Hofman, J.M. (2016) 'Improving comprehension of numbers in the news', *Proceedings of CHI '16*, pp. 1–12. [doi:10.1145/2858036.2858510](https://doi.org/10.1145/2858036.2858510)
 - Brewer, C.A. (1994) 'Color use guidelines for mapping and visualization', in MacEachren, A.M. & Taylor, D.R.F. (eds) *Visualization in Modern Cartography*. Oxford: Pergamon.
+- Brewer, C.A. & Pickle, L. (2002) 'Evaluation of methods for classifying epidemiological data on choropleth maps in series', *Annals of the Association of American Geographers*, 92(4), pp. 662–681.
+- Elmer, M.E. (2013) 'Symbol considerations for bivariate thematic maps', *Proceedings of the 26th International Cartographic Conference*, Dresden. [PDF](https://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/278_proceeding.pdf)
 - Hazlett, R.L., Larson, K., Shaikh, A.D. & Chaparro, B.S. (2013) 'Two studies on how a typeface congruent with content can enhance onscreen communication', *Information Design Journal*, 20(3), pp. 207–219.
+- Imhof, E. (1975) 'Positioning names on maps', *The American Cartographer*, 2(2), pp. 128–144.
+- Jenny, B. & Kelso, N.V. (2007) 'Color design for the color vision impaired', *Cartographic Perspectives*, 58, pp. 61–67.
+- Jenny, B., Stephen, D.M., Muehlenhaus, I., Marston, B.E., Sharma, R., Zhang, E. & Jenny, H. (2018) 'Design principles for origin-destination flow maps', *Cartography and Geographic Information Science*, 45(1), pp. 62–75. [doi:10.1080/15230406.2016.1262280](https://doi.org/10.1080/15230406.2016.1262280)
 - Machado, G.M., Oliveira, M.M. & Fernandes, L.A.F. (2009) 'A physiologically-based model for simulation of color vision deficiency', *IEEE Transactions on Visualization and Computer Graphics*, 15(6), pp. 1291–1298.
 - Reber, R. & Schwarz, N. (1999) 'Effects of perceptual fluency on judgments of truth', *Consciousness and Cognition*, 8, pp. 338–342.
 - Rensink, R.A. & Baldridge, G. (2010) 'The perception of correlation in scatterplots', *Computer Graphics Forum*, 29(3), pp. 1203–1210.
@@ -45,7 +50,7 @@ nav_order: 7
 ## Guides and articles
 
 - Atlassian (n.d.) *How to choose the right data visualization*. [atlassian.com](https://www.atlassian.com/data/charts/how-to-choose-data-visualization)
-- Axis Maps (n.d.) *Cartography Guide: Visual Variables*. [axismaps.com](https://www.axismaps.com/guide/visual-variables)
+- Axis Maps (n.d.) *Cartography Guide*, including *Visual Variables* and *Data Classification*. [axismaps.com](https://www.axismaps.com/guide/visual-variables)
 - Data Revelations (2017) *In Praise of BANs*. [datarevelations.com](https://www.datarevelations.com/bans/)
 - data.europa.eu (2026) *Data communication* and *Serif vs sans serif*. [data.europa.eu data visualisation guide](https://data.europa.eu/apps/data-visualisation-guide/)
 - Datawrapper (2025) *A friendly guide to choosing a chart type*. [datawrapper.de](https://www.datawrapper.de/blog/chart-types-guide)
@@ -53,6 +58,7 @@ nav_order: 7
 - Esri (n.d.) *Cartography blog*. [esri.com](https://www.esri.com/arcgis-blog/category/cartography/)
 - Evergreen, S. (n.d.) *The problem with "By the Numbers" infographics*. [stephanieevergreen.com](https://stephanieevergreen.com/by-the-numbers/)
 - Highcharts (n.d.) *Chartchooser*. [highcharts.com](https://www.highcharts.com/chartchooser/)
+- Muth, L.C. (2018) *An alternative to pink & blue: Colors for gender data*. Datawrapper. [datawrapper.de](https://www.datawrapper.de/blog/gendercolor)
 - NZZ (n.d.) *Storytelling Styleguide*. [nzzdev.github.io](https://nzzdev.github.io/Storytelling-Styleguide/#/principles)
 - Penn State (n.d.) *GEOG 486: Cartography and Visualization*. [psu.edu](https://courses.ems.psu.edu/geog486/node/893)
 - PolicyViz (2023) *The power of big aggregate numbers*. [policyviz.com](https://policyviz.com/2023/07/13/the-power-of-big-aggregate-numbers/)
